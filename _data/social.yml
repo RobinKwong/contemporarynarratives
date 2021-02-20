@@ -7,7 +7,7 @@ dribbble:
 facebook:
 flickr:
 gitlab:
-github: "sylhare"
+github: "robinkwong"
 instagram:
 keybase:
 linkedin:         # Full URL
@@ -34,7 +34,7 @@ share:
   tumblr:
   pinterest:
   pocket:
-  reddit: true
-  linkedin:
+  reddit: 
+  linkedin: true
   wordpress:
-  email: true
+  email:
