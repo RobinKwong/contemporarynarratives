@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/contemporarynarratives"
-url: "https://robinkwong.github.io"
+baseurl: ""
+url: "https://contemporarynarratives.org"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Type on Strap                                    # site's title
