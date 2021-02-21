@@ -23,12 +23,14 @@ layout: default
   {% endif %}
   </section>
 
-  <!-- Social media shares -->
+<!--
+-- Social media shares --
   {% include share_buttons.html %}
 
-   <!-- Tag list -->
+-- Tag list --
   {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
   {% include tags_list.html tags=tag_list %}
+-->
 
 </article>
 
