@@ -5,7 +5,7 @@ url: "https://contemporarynarratives.org"
 # THEME-SPECIFIC CONFIGURATION
 title: "Contemporary Narratives Lab"                                   # site's title
 description: "Bringing art and journalism together"      # used by search engines
-avatar:                          # Empty for no avatar in navbar
+avatar: assets/img/CNLlogo.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
