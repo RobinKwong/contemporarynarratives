@@ -8,7 +8,9 @@ layout: default
          style="background-image: url('{{ site.header_feature_image | relative_url }}')">
         <h1> {{ site.header_text | default: "hello world"}} </h1>
     </div>
-
+    <div class="container">
+    	{% include welcome.html %}
+	</div>
     {% include blog.html %}
 
 </div>
