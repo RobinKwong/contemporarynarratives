@@ -84,11 +84,11 @@ header {
   padding: 0;
 
   .post-link {
-    color: $feature-image-text-color;
+
   }
 
   h1.title, .post-info {
-    @extend .txt-shadow;
+    color: $feature-image-text-color;
   }
 
   header {
