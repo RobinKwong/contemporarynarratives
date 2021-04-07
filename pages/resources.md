@@ -51,6 +51,10 @@ This page gathers together useful links to projects, organisations, articles and
 
 [A Deeper Look into the Latest ECFJ-Supported Piece with the New Yorker](https://www.eyebeam.org/a-deeper-look-into-the-latest-ecfj-supported-piece-with-the-new-yorker/)
 
+[Putting news on stage: bringing journalism back to the theatre as a public space](https://www.niemanlab.org/2020/01/putting-news-on-stage-bringing-journalism-back-to-the-theater-as-a-public-space/)
+
+[Journalism through theatre: how an art form can inform](https://mediaengagement.org/research/journalism-through-theater/)
+
 [The Financial Times mixes journalism with performance to engage wider audiences](https://www.journalism.co.uk/news/the-financial-times-experiments-mixing-journalism-with-performance-to-engage-wider-audiences/s2/a724520/) 
 
 [The Financial Times to ‘experiment’ with taking its newsroom to the big stage](https://www.thedrum.com/news/2019/03/28/the-financial-times-experiment-with-taking-its-newsroom-the-big-stage) 
