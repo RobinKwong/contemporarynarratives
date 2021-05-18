@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Resources
 permalink: /resources/
 feature-img: "assets/img/pexels/lights.jpg"
