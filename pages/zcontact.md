@@ -8,7 +8,7 @@ tags: [Archive]
 
 Are you a potential collaborator, or would just like to find out more about the Contemporary Narratives Lab?
 
-Get in touch via email at xxxxxx@xxxx.com.
+Get in touch via email at contemporarynarratives[at]gmail[dot]com
 
 We are looking for:
 
