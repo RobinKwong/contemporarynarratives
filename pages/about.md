@@ -6,9 +6,42 @@ feature-img: "assets/img/pexels/snow.jpg"
 tags: [About, Archive]
 ---
 
-**The Contemporary Narratives Lab** is a collaboration between storytellers from across disciplines to explore how old and new ways of producing and communicating stories can bring together diverse communities. It seeks to tell stories based on research and investigation that address contentious social issues. The Lab is a space for artists, journalists, researchers and wider communities to share practice and collaborate on new ways of discovering information, formulating stories and engaging the wider public.
+**The Contemporary Narratives Lab** is a network of storytellers who have come from different disciplines to explore how innovative approaches to storytelling can break down complex issues, illuminate truths, and hold open spaces for civic discussion.
 
-### Founders
+We seek to tell stories based on research and reporting that address contentious social issues. The Lab is a space for artists, journalists, researchers and wider communities to share practice and collaborate on new ways of discovering information, formulating stories and engaging the wider public.
+
+### Our History
+
+The Contemporary Narratives Lab began in June 2018 with a pilot project that commissioned five groups of artists and journalists to create new pieces that emerge from the journalists' reporting notes and articles.
+
+The project was a partnership between the Financial Times, People’s Palace Projects, Queen Mary University of London, and The Battersea Arts Centre. It was funded by a research grant from Queen Mary University’s Humanities and Social Science collaboration fund.
+
+At the end of June 2018, after just four days of development and rehearsal, the five sets of artists presented their works-in-progress to a live audience of 40 people at the Battersea Arts Centre. 
+
+<div class="videowrapper">
+<iframe width="800" height="385" src="https://www.youtube.com/embed/Q6O_iX6YOEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+Each of the 10-minute pieces explored how theatre, performance and journalism can come together to spark curiosity and create meaningful experiences. The works addressed the precarity of work in the digital economy, climate change, the workings of the financial markets, behaviour in the workplace, and the politics of bereavement in the digital age.
+
+[More about the individual works](/works/)
+
+The pilot was watched by an audience of over 40 people, and covered in [an article in journalism.co.uk](https://www.journalism.co.uk/news/the-financial-times-experiments-mixing-journalism-with-performance-to-engage-wider-audiences/s2/a724520/). It also inspired similar projects elsewhere. The Open Society Foundations modelled #CreativeStorytellingSA, which funded seven full productions of new theatre, radio and visual arts projects in South Africa, after the Contemporary Narratives Lab pilot. The De Balie Arts Centre in Amsterdam embarked on a year-long Live Journalism project, in part drawing on lessons learnt from the pilot. The Financial Times further developed one of pilot projects for its 2019 Weekend FT Festival.
+
+
+### Our Beliefs
+
+* Art and Journalism can both learn from each other to further their respective practices. 
+
+* The most impactful work comes from equitable co-creation, not just between artist and journalist, but also with the community/audience.
+
+* Journalism should equip people to ask the right questions as much as it provides the right answers.
+
+* Helping people understand emotional truths is as important in journalism as reporting and helping people understand facts. i.e. empathy-as-a-service and not just facts-as-a-service
+
+* Societal information problems such as radicalisation, misinformation and polarisation are storytelling problems as much as  technology and governance problems.
+
+### Our Founders
 
 <p>
 	<img 
@@ -36,7 +69,6 @@ tags: [About, Archive]
 
 </p>
  
-
 <p>
 	<img 
 	alt="Glenda Cooper" 
