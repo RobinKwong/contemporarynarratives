@@ -1,11 +1,34 @@
 --- 
 layout: page
-title : Works 
-permalink: /works/
-subtitle: "Artistic works enabled by the Contemporary Narratives Lab" 
+title : Projects 
+permalink: /projects/
+subtitle: "Projects undertaken by the Contemporary Narratives Lab" 
 feature-img: "assets/img/pexels/nightsky.jpg"
 tags: [Archive]
 ---
+
+### 2021 The Bureau of Investigative Journalism + Coney Project
+
+In early 2021, the Contemporary Narratives Lab embarked on its second project, bringing together interactive theatre-maker [Coney](https://www.youhavefoundconey.net/) and the Health Inequality investigation team at the [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/). The project is funded by a research grant from City, University of London. 
+
+Unlike our previous pilot project, this partnership between Coney and The Bureau takes place over a longer ten-week period to create opportunities for sustained dialogue and collaboration. Both parties aim to use the opportunity to work with the public, reporting with rather than on people affected by changes in home care during the pandemic.
+
+![](/assets/img/ConeyTBIJ/homecare.png)
+
+As part of their investigations, The Bureau runs "[Open Newsrooms](https://docs.google.com/document/d/1sQRM7I715kuEZJu3N6QODgDgRnRjHhYfYZHxZnKMOwg/edit)" &mdash; regular one-hour sessions with their community of UK journalists and citizens that are designed to help members solve problems and learn new things together. For this project, Coney designed an "After-Party" experience that allowed participants to reflect on, and share with each other, what they learnt during the Open Newsroom session.
+
+![](/assets/img/ConeyTBIJ/afterparty.png)
+
+The investigation has already yielded [an exclusive story](https://www.thebureauinvestigates.com/stories/2021-05-10/revealed-thousands-of-pandemic-deaths-in-home-care) delving into the true number of home care deaths during the pandemic.
+
+To accompany and build on the reporting in the article, Coney created [a digital storytelling tool](https://www.youhavefoundconey.net/bureaulocal/) to help people document their perspective and circumstances. We hope this might form the beginning of a self-sustaining community, and for individuals and the families of those who receive assistance, who believe they’re invisible, to feel acknowledged.
+
+![](/assets/img/ConeyTBIJ/coneytool.png)
+
+_This project is ongoing._
+
+
+### 2018 Pilot Project
 
 In June 2018, The Contemporary Narratives Lab carried out a pilot project that commissioned five groups of artists and journalists to work on stories emerging from the journalists' investigations and articles.
 
