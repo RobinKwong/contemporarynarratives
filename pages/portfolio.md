@@ -15,7 +15,7 @@ Unlike our previous pilot project, this partnership between Coney and the Bureau
 
 ![](/assets/img/ConeyTBIJ/homecare.png)
 
-As part of their investigations, the Bureau runs "[Open Newsrooms](https://docs.google.com/document/d/1sQRM7I715kuEZJu3N6QODgDgRnRjHhYfYZHxZnKMOwg/edit)" &mdash; regular one-hour sessions with their community of UK journalists and citizens that are designed to help members solve problems and learn new things together. For this project, Coney designed an "After-Party" experience that allowed participants to reflect on, and share with each other, what they learnt during the _Care in a Time of Crisis_ Open Newsroom.
+As part of their investigations, the Bureau runs "[Open Newsrooms](https://docs.google.com/document/d/1sQRM7I715kuEZJu3N6QODgDgRnRjHhYfYZHxZnKMOwg/edit)" &mdash; one-hour online events that are open to the public, sometimes led by panelists, to allow everyone to delve deeper into a topic area. For this project, Coney designed an "After-Party" experience that allowed participants to reflect on, and share with each other, what they learnt during the _Care in a Time of Crisis_ Open Newsroom.
 
 ![](/assets/img/ConeyTBIJ/afterparty.png)
 
