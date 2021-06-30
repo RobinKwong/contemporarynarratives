@@ -30,6 +30,8 @@ This page gathers together useful links to projects, organisations, articles and
 
 [City University - News on Stage](https://www.city.ac.uk/news/2020/october/news-on-stage-presents-up-and-coming-stories)
 
+[City University - The News Cabaret at Wandsworth Fringe](https://www.wandsworthfringe.com/whats-on-2021//the-news-cabaret)
+
 ### Organisations
 
 [Pop-up Magazine](https://www.popupmagazine.com/)
