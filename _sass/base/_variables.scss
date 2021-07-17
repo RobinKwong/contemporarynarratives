@@ -33,13 +33,13 @@ $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 $text-color: #262626;
 $meta: #595959; //lowest gray for accessible color
 $link-color: $theme-color;
-$selection-color: #D4D4D4; // visible when highlighting text
+$selection-color: #F8ED59; // visible when highlighting text
 $blockquote-color: #EEF7FA; // $background-color;
 
 // Header
 $header-background-color: darken($theme-color, 50%); // Only used when no header image
 $header-text-color: #fff;
-$header-link-color: #383838;
+$header-link-color: white;
 $navbar-separator-opacity: 0;
 
 // Feature image for articles

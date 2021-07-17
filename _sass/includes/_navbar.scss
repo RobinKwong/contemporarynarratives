@@ -15,10 +15,11 @@
 
 .site-header {
   padding: 2% 2% 1% 2%;
-  background: $brand-color;
+  background: black;
   display: inline-block;
   float: left;
   width: 100%;
+  margin-bottom: 5px;
 
   .separator {
     user-select: none;
@@ -31,6 +32,11 @@
 
   a {
     color: $header-link-color;
+    font-weight: bolder;
+  }
+
+  a::selection {
+  background: none;
   }
 
   .avatar {
@@ -76,7 +82,7 @@ nav {
 
   a {
     &:hover {
-      color: $link-color;
+      color: $selection-color;
     }
 
     &#pull {
