@@ -6,7 +6,9 @@ layout: default
 
     <div id="main" class="call-out"
          style="background-image: url('{{ site.header_feature_image | relative_url }}')">
-        <h1> {{ site.header_text | default: "hello world"}} </h1>
+        <h1> 
+            <img alt="logo img" class="avatar" src="/assets/img/CNLlogo.png"> 
+        </h1>
     </div>
     <div class="container">
     	{% include welcome.html %}
