@@ -31,6 +31,7 @@
   }
 
   a {
+    background: black;
     color: $header-link-color;
     font-weight: bolder;
   }
@@ -108,7 +109,10 @@ nav {
 @media screen and (max-width: $break) {
   .site-header {
     img.avatar {
-      margin-top: -7px
+      height: 4.5em;
+      margin-top: -20px;
+      margin-bottom: -5px;
+      margin-left: -25px;
     }
 
     .site-title {
