@@ -2,7 +2,7 @@
 layout: page
 title : Contact
 permalink: /contact/
-feature-img: "assets/img/pexels/stars.jpg"
+feature-img: "assets/img/pexels/contact.jpg"
 tags: [Archive]
 ---
 

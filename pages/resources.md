@@ -2,7 +2,7 @@
 layout: page
 title: Resources
 permalink: /resources/
-feature-img: "assets/img/pexels/lights.jpg"
+feature-img: "assets/img/pexels/resources.jpg"
 tags: [Test, Markdown]
 ---
 This page gathers together useful links to projects, organisations, articles and practices that relate to artistic journalism. 

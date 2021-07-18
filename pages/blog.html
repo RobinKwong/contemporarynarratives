@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 permalink: /Blog/
-feature-img: "assets/img/pexels/dark.jpg"
+feature-img: "assets/img/pexels/typewriter.jpg"
 tags: [Archive]
 ---
 <article class="feature-image">
@@ -11,7 +11,7 @@ tags: [Archive]
       {% if page.hide_title %}
         <div class="feature-image-padding"></div>
       {% else %}
-        <h1 id="{{ page.title | default: "" | cgi_escape }}" class="title"> {{ page.title }}</h1>
+        <h1 id="{{ page.title | default: "" | cgi_escape }}" class="title" > {{ page.title }}</h1>
         {% if page.subtitle %}
         <h2 class="subtitle">{{ page.subtitle }}</h2>
         {% endif %}
