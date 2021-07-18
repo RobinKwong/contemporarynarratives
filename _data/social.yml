@@ -1,6 +1,6 @@
 # Icons on the footer
 rss: true
-email_address:    # Full email address, e.g. "sam@example.com"
+email_address: "contemporarynarratives@gmail.com"   # Full email address, e.g. "sam@example.com"
 behance:
 bitbucket:
 dribbble:
@@ -37,4 +37,4 @@ share:
   reddit: 
   linkedin: true
   wordpress:
-  email:
+  email: true
