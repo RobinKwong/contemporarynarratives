@@ -3,10 +3,12 @@
 }
 
 h1.title {
-
   padding: 0.5em 0;
 }
 
+h1.title::selection {
+  background: none;
+}
 
 .subtitle {
   font-weight: normal;
