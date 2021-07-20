@@ -79,4 +79,15 @@
     <meta name="twitter:card" content="{% unless page.thumbnail %}summary{% else %}summary_large_image{% endunless %}">
     <meta name="twitter:image" content="{{ '/' | absolute_url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ page.feature-img | default: site.social_image }}{% endif %}">
     <meta name="twitter:image:alt" content="{{ page.title | default: site.title }}">
+    <script>
+        window.onscroll = () => {
+            const breakpoint = 769;
+            const height = window.visualViewport.width >= breakpoint ? 420 : 370;
+            if (window.scrollY > height) {
+                document.querySelector('header').style.borderBottom = 'none';
+            } else {
+                document.querySelector('header').style.borderBottom = '5px solid white';
+            }
+        };
+    </script>
 </head>

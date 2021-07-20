@@ -31,6 +31,8 @@ body {
   font-family: $font-family-main;
   font-size: $font-size;
   word-wrap: break-word;
+  position: absolute;
+  top: 118px;
 }
 
 h1,
@@ -125,6 +127,9 @@ img[align=right] {
 }
 
 @media screen and (max-width: $sm-break) {
+  body {
+    top: 47px;
+  }
   h1 {
     font-size: 1.5em;
   }
