@@ -1,8 +1,8 @@
 ---
 layout: post
 title: When Journalism Meets Theatre
+feature-img: "assets/img/pexels/journalism-meets-theatre.jpg"  
 tags: [Blog]
-color: purple
 author: glenda
 ---
 

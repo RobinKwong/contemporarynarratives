@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Why emotional storytelling is the future of journalism
+feature-img: "assets/img/fifteenseconds/Slide20.jpeg"  
 tags: [Talks]
-color: brown
 author: robin
 excerpt_separator: <!--more-->
 ---

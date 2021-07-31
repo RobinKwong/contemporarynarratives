@@ -1,8 +1,8 @@
 ---
 layout: post
 title: News on stage&colon; journalism as performance in the online space
+feature-img: "assets/img/pexels/news-on-stage.jpg"  
 tags: [Blog]
-color: purple
 author: glenda
 ---
 _This post was [originally published](https://www.creativeacademic.uk/uploads/1/3/5/4/13542890/cam19.pdf) in the Creative Academic Magazine. Republished with permission._

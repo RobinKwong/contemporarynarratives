@@ -1,8 +1,8 @@
 ---
 layout: post
-title: What art and drama can do for journalism 
+title: What art and drama can do for journalism
+feature-img: "assets/img/pexels/art-and-journalism.jpg"  
 tags: [Talks]
-color: brown
 author: robin
 excerpt_separator: <!--more-->
 ---
