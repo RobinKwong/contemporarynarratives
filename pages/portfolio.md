@@ -2,7 +2,6 @@
 layout: page
 title : Projects 
 permalink: /projects/
-subtitle: "Projects undertaken by the Contemporary Narratives Lab" 
 feature-img: "assets/img/pexels/projects.jpg"
 tags: [Archive]
 ---
