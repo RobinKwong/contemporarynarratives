@@ -13,7 +13,7 @@ excerpt_separator: <!--more-->
 
 Toronto Rewind was created by Talk Media, a group of Toronto-based "journalists and tinkerers experimenting with non-fiction  storytelling that brings you out of the echo chamber", with editorial partners West End Phoenix, The Local, Living Hyphen and The Town.
 
-We spoke to Adam Chen, founder of Talk Media, about the project, how it came about, and lessons learned about fostering collaboration between artists and journalists.   
+We spoke to [Adam Chen](https://twitter.com/adamchenchew), founder of Talk Media, about the project, how it came about, and lessons learned about fostering collaboration between artists and journalists.   
 
 
 ## What was the project about?
