@@ -29,6 +29,26 @@ article {
     margin-bottom: 2em;
     margin-top: -1.5em;
   }
+
+  .videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    margin-bottom: 1em;
+    height: 0;
+    z-index:-1;
+  }
+
+  .videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 footer {
