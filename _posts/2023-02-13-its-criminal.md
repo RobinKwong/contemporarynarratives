@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 
 The initiative is a collaboration between [Contemporary Narratives Lab](https://contemporarynarratives.org/), [The Ferret](https://theferret.scot/) and [Greater Govanhill](https://www.greatergovanhill.com/) magazine, supported by [City University of London](https://www.city.ac.uk/)’s Higher Education Innovation Funding Knowledge Exchange. We will be working with a group of people with direct experience of the criminal justice system and with people from communities often scapegoated or blamed for crime. 
 
-Together, we will be investigating the many ways in which traditional crime reporting models can perpetuate inequality and negative perceptions of certain neighbourhoods. We'll look at relationships between the media and the police. Lastly we will also collectively imagine and bring to life different ways of thinking about reporting on justice, as well as how to create news and information that benefits everyone.
+Together, we will be investigating the many ways in which traditional crime reporting models can perpetuate inequality and negative perceptions of certain neighbourhoods and groups. We'll look at relationships between the media and the police. Lastly we will also collectively imagine and bring to life different ways of thinking about reporting on justice, as well as how to create news and information that benefits everyone.
 
 We will be running a pop-up newsletter during the process, to share interviews, ideas, resources, and keep you updated with the progress of the project and ways you can get involved. In the summer, It’s Criminal participants will put on a live collaborative journalism show presenting our findings. There will also be a special edition of Greater Govanhill magazine dedicated to exploring the issues, as well as potential for a community-led investigation to come out with The Ferret.
 
@@ -24,7 +24,7 @@ London’s Royal Court Theatre [experimented with the format](https://royalcourt
 
 It’s Criminal is also inspired by thinking about how journalism and journalists can do better in building trust and listening deeply to communities’ concerns and ideas about how crime should be reported, in a way that [draws from restorative justice practices](https://www.freepress.net/sites/default/files/2022-10/free_press_7_tips_for_journalists_final_version.pdf). 
 
-Much of the leading exploration of how to change up crime reporting for the better is [currently happening in the US](https://prismreports.org/2023/01/25/crime-reporting-journalism-initiatives/) and covers ideas from the relatively simple - such as not using people’s mugshots in newspapers as they can count against them in the future - to the more complex such as trying to make relationships between journalists and police more transparent.
+Much of the leading exploration of how to change up crime reporting for the better is [currently happening in the US](https://prismreports.org/2023/01/25/crime-reporting-journalism-initiatives/) and covers ideas from the relatively simple - such as not using people’s mugshots in newspapers as they can count against them in the future - to the more complex such as trying to shine a light on the relationships between journalists and police.
 
 We want to apply some of this thinking to Scotland, and want to share our process as we go along, as well as our learnings when we wrap things up.
 
