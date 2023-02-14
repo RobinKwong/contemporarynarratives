@@ -7,3 +7,8 @@ glenda:
   name: "Glenda Cooper"
   avatar: "/assets/img/glenda.jpg"
   url: "https://twitter.com/glendacooper"
+
+rachel:
+  name: "Rachel Hamada"
+  avatar: "/assets/img/rachel.jpg"
+  url: "https://twitter.com/rachelhamada"
