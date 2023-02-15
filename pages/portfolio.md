@@ -16,11 +16,11 @@ We will also be running a pop-up newsletter during the process, to share intervi
 
 This project is supported by [City University of London](https://www.city.ac.uk/)’s Higher Education Innovation Funding Knowledge Exchange.
 
-Read more about the project and how you can participate in [our blog post](https://contemporarynarratives.org/2023/02/13/its-criminal.html)
+Read more about the project and how you can participate in [our blog post](https://contemporarynarratives.org/2023/02/13/its-criminal.html).
 
 _This project is ongoing_
 
-### 2021 The Bureau of Investigative Journalism + Coney Project
+### 2021 HOME/CARE project with The Bureau of Investigative Journalism and Coney
 
 In early 2021, the Contemporary Narratives Lab embarked on its second project, bringing together interactive theatre-maker [Coney](https://www.youhavefoundconey.net/) and the Health Inequality team at Bureau Local, part of the [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/). The project is funded by a research grant from City, University of London. 
 
@@ -39,11 +39,11 @@ To accompany and build on the reporting in the article, Coney created [a digital
 ![](/assets/img/ConeyTBIJ/coneytool.png)
 
 
-### 2018 Pilot Project
+### 2018 pilot project with the Financial Times, People's Palace Projects and the Battersea Arts Centre
 
 In June 2018, The Contemporary Narratives Lab carried out a pilot project that commissioned five groups of artists and journalists to work on stories emerging from the journalists' investigations and articles.
 
-The project was a partnership between the Financial Times, People’s Palace Projects, Queen Mary University of London, and The Battersea Arts Centre to explore the future of storytelling through digital and performance means. It was funded by a research grant from Queen Mary University’s Humanities and Social Science collaboration fund.
+The project was a partnership between the Financial Times, People’s Palace Projects, Queen Mary University of London, and the Battersea Arts Centre to explore the future of storytelling through digital and performance means. It was funded by a research grant from Queen Mary University’s Humanities and Social Science collaboration fund.
 
 After just four days of development and rehearsal, the five sets of artists presented their works-in-progress, which all explored how theatre, performance and journalism can come together to spark curiosity and create meaningful experiences, to a live audience of 40 people at the Battersea Arts Centre. 
 
