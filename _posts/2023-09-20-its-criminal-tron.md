@@ -17,7 +17,7 @@ As words normally associated with crime reporting flashed up on screen, eight pe
 
 <!--more-->
 
-The hour-long performance depicted a day in the life of a newsroom, and featured vignettes that showed how stories can become sensationalized during the editorial process, as well as the pressures facing local journalists. In one scene, a nuanced interview with an Iraqi journalist refugee who recently relocated to Govanhill is summarised by a senior editor as "Refugee says Govanhill Crime Wave Worse than Iraq".
+The hour-long performance depicted a day in the life of a newsroom, and featured vignettes that showed how stories can become sensationalized during the editorial process, as well as the pressures facing local journalists. In one scene, a nuanced interview with an Iraqi journalist refugee who recently relocated to Govanhill is summarised by a senior editor as: "Refugee says Govanhill Crime Wave Worse than Iraq".
 
 In another, a news meeting is turned into a gameshow where reporters compete to get their story onto the front page. The losing reporter is told to "retrain to get a job in cyber, or something".
 
@@ -28,11 +28,13 @@ None of the performers are professional actors. Instaed, they are journalists, r
 
 ## Devising the Show
 
-The performance at the Tron is the culmination of a months-long participatory research project led by investigaive journalist Rachel Hamada. [The Ferret](https://theferret.scot/) and [Greater Govanhill](https://www.greatergovanhill.com/) magazine, partners in this project, helped organize a community newsroom event to explain the project and recruit local participants, who were paid for their time.
+The performance at the Tron is the culmination of a months-long participatory research project led by investigative journalist Rachel Hamada and Dr Glenda Cooper. [The Ferret](https://theferret.scot/) and [Greater Govanhill](https://www.greatergovanhill.com/) magazine, partners in this project, helped organize a community newsroom event to explain the project and recruit local participants, who were paid for their time.
+
+"Our motivation with _It’s Criminal_ is to question the extent to which current journalism serves the public, especially people from marginalised groups or with existing experience of the criminal justice system," said Dr Cooper. "We want our audiences to be able to critique journalism as equals, and to understand how journalism is not objective but a matter of perspective. Finally with _It’s Criminal_, we aim to use theatre to show how different ways of reporting can be transformative and positively change lives and neighbourhoods."
 
 ![](/assets/img/itscriminal/community.png)
 
-This was followed by three workshops where participants discussed media portrayal of crime and reviewed news articles about crime in Govanhill. Journalist participants explained the journalistic process to the group, and the group was introduced to the concepts behind the Theatre of the Oppressed. Director Liam Rees devised the show alongside the participants, who also worked with an illustrator to come up with artwork for the show.
+Across three workshops, participants discussed media portrayal of crime and reviewed news articles about crime in Govanhill. Journalist participants explained the journalistic process to the group, and the group was introduced to the concepts behind the Theatre of the Oppressed. Director Liam Rees devised the show alongside the participants, who also worked with an illustrator to come up with artwork for the show.
 
 "I think the discussions [in the workshops] were really valuable and they were a very important part [of the project]," one participant said. "The show at the end was just one part of it—the public facing thing. But I think the kind of discussions and the exercise we did on creating _It's Criminal_ and brainstorming stuff is what we all learned a lot from.”
 
@@ -61,6 +63,8 @@ One audience member said after the show that "showing how newsrooms operate is a
 ## Next steps
 
 The show was [profiled in the Greater Govanhill magazine](https://www.greatergovanhill.com/latest/its-criminal-at-the-tron-theatrenbsp), and will be presented as part of panel discussions at the [2023 International Live Journalism Festival](https://livejournalismfest.com/) in Toronto. We have ambitions to bring the show to other cities in the UK, and to use the show as a starting point for changing the way crime reporting is practiced in the UK and beyond.
+
+"We see this as the beginning of an exploration of how crime reporting affects communities. This is a conversation that urgently needs to be had, and we plan to take the _It's Criminal_ process to different cities and communities. Do get in touch with us if this is something you are interested in getting involved in," said Dr Cooper.
 
 _It's Criminal_ is a collaboration between Contemporary Narratives Lab, The Ferret and Greater Govanhill magazine, supported by City University of London’s Higher Education Innovation Funding Knowledge Exchange.
 
