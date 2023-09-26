@@ -6,6 +6,7 @@ author: robin
 excerpt_separator: <!--more-->
 ---
 ![](/assets/img/itscriminal/stage.png)
+<p class="caption">Photo/Video: Ruari Barber-Fleming</p>
 
 "Thug"
 
@@ -22,6 +23,7 @@ The hour-long performance depicted a day in the life of a newsroom, and featured
 In another, a news meeting is turned into a gameshow where reporters compete to get their story onto the front page. The losing reporter is told to "retrain to get a job in cyber, or something".
 
 ![](/assets/img/itscriminal/gameshow.png)
+<p class="caption">Photo/Video: Ruari Barber-Fleming</p>
 
 None of the performers are professional actors. Instead, they are journalists, researchers and citizens of Glasgow. Everyone has been involved in or been affected by crime reporting in some way. _It's Criminal_ draws inspiration from the historic Living Newspaper theatre model in the US, which brought journalism to life on stage by groups centred around particular issues. It is an experiment exploring how journalism and journalists can better build trust through listening deeply to communities’ concerns, in a way that draws from restorative justice practices. ([Read more about the thinking behind the project here](https://contemporarynarratives.org/2023/02/13/its-criminal.html)).
 
@@ -55,6 +57,7 @@ A key part of the show came at the end, when the performers opened the floor to 
 A lively discussion was had around questions such as: "What do you think could be done to improve on how we report on crime?" and "What would do the most to make you trust the media at the moment?" One audience member pointed out that "without long-term relationships [between journalists and the community they cover], areas get known by their worst, by an individual crime or an individual incident." Others pointed out issues with off-shore media ownership, or how journalists and news organizations can do a better job in being upfront and honest about their biases: "I think it's impossible that someone could remove themselves completely from their biases and experiences and context."
 
 ![](/assets/img/itscriminal/qna.png)
+<p class="caption">Photo/Video: Ruari Barber-Fleming</p>
 
 Both audience members and project participants thought that combining live journalism performance with audience discussion was effective. 
 
