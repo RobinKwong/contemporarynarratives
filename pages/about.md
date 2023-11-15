@@ -24,7 +24,7 @@ At the end of June 2018, after just four days of development and rehearsal, the 
 
 Each of the 10-minute pieces explored how theatre, performance and journalism can come together to spark curiosity and create meaningful experiences. The works addressed the precarity of work in the digital economy, climate change, the workings of the financial markets, behaviour in the workplace, and the politics of bereavement in the digital age.
 
-[More about the individual works](/works/)
+[More about the individual works](https://contemporarynarratives.org/portfolio/worktribes)
 
 The pilot was watched by an audience of over 40 people, and covered in [an article in journalism.co.uk](https://www.journalism.co.uk/news/the-financial-times-experiments-mixing-journalism-with-performance-to-engage-wider-audiences/s2/a724520/). It also inspired similar projects elsewhere. The Open Society Foundations modelled #CreativeStorytellingSA, which funded seven full productions of new theatre, radio and visual arts projects in South Africa, after the Contemporary Narratives Lab pilot. The De Balie Arts Centre in Amsterdam embarked on a year-long Live Journalism project, in part drawing on lessons learnt from the pilot. The Financial Times further developed one of pilot projects for its 2019 Weekend FT Festival.
 
