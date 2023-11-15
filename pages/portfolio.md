@@ -22,7 +22,7 @@ Read more about [the intention behind the project]((https://contemporarynarrativ
 
 In early 2021, the Contemporary Narratives Lab embarked on its second project, bringing together interactive theatre-maker [Coney](https://www.youhavefoundconey.net/) and the Health Inequality team at Bureau Local, part of the [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/). The project is funded by a research grant from City, University of London. 
 
-Unlike our previous pilot project, this partnership between Coney and the Bureau takes place over a longer ten-week period to create opportunities for sustained dialogue and collaboration. Both parties aim to use the opportunity to work with the public, reporting with rather than on people affected by changes to home care during the pandemic.
+Unlike our previous pilot project, this partnership between Coney and the Bureau took over a longer ten-week period to create opportunities for sustained dialogue and collaboration. Both parties aim to use the opportunity to work with the public, reporting _with_ rather than _on_ people affected by changes to home care during the pandemic.
 
 ![](/assets/img/ConeyTBIJ/homecare.png)
 
@@ -35,6 +35,8 @@ The investigation has already yielded [an exclusive story](https://www.thebureau
 To accompany and build on the reporting in the article, Coney created [a digital storytelling tool](https://www.youhavefoundconey.net/bureaulocal/) to help people document their perspective and circumstances. We hope this might form the beginning of a self-sustaining community, and for individuals and the families of those who receive assistance, who believe they’re invisible, to feel acknowledged.
 
 ![](/assets/img/ConeyTBIJ/coneytool.png)
+
+At the conclusion of the project, Dr Glenda Cooper wrote a full research report on HOME/CARE. That report is available as [a downloadable PDF here.](/assets/home_care/pdf) 
 
 
 ### 2018 pilot project with the Financial Times, People's Palace Projects and the Battersea Arts Centre
