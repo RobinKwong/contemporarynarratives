@@ -8,17 +8,15 @@ tags: [Archive]
 
 ### 2023 It's Criminal project with The Ferret and Greater Govanhill magazine
 
-In 2023, the Contemporary Narratives lab is partnering with [The Ferret](https://theferret.scot/) and [Greater Govanhill](https://www.greatergovanhill.com/) magazine to create a new Glasgow-based participatory journalism-meets-theatre project exploring how stereotypical crime reporting can negatively impact neighbourhoods and communities, and how that can be reimagined.
+In 2023, the Contemporary Narratives lab partnered with [The Ferret](https://theferret.scot/) and [Greater Govanhill](https://www.greatergovanhill.com/) magazine to create a new Glasgow-based participatory journalism-meets-theatre project exploring how stereotypical crime reporting can negatively impact neighbourhoods and communities, and how that can be reimagined.
 
-The project is led by [Rachel Hamada](https://twitter.com/rachelhamada) and will bring together a group of people with direct experience of the criminal justice system and with people from communities often scapegoated or blamed for crime. In the summer, It’s Criminal participants will put on a live collaborative journalism show presenting our findings. There will also be a special edition of Greater Govanhill magazine dedicated to exploring the issues, as well as potential for a community-led investigation to come out with The Ferret.
+The project is led by [Rachel Hamada](https://twitter.com/rachelhamada) and brought together a group of people with direct experience of the criminal justice system and with people from communities often scapegoated or blamed for crime. In the summer, It’s Criminal participants put on [a live collaborative journalism show at The Tron theatre](https://contemporarynarratives.org/2023/09/20/its-criminal-tron.html) in Glasgow to present their findings. The Greater Govanhill magazine also [ran a piece](https://www.greatergovanhill.com/latest/its-criminal-at-the-tron-theatre) exploring the issues.
 
-We will also be running a pop-up newsletter during the process, to share interviews, ideas, resources, and keep you updated with the progress of the project and ways you can get involved. [Sign up here](https://docs.google.com/forms/d/e/1FAIpQLScgz12bBVjk9BUdrhfvQKxxEMICoTqzyTfgYow_6PLxz3jpnA/viewform?usp=sf_link).
 
 This project is supported by [City University of London](https://www.city.ac.uk/)’s Higher Education Innovation Funding Knowledge Exchange.
 
-Read more about the project and how you can participate in [our blog post](https://contemporarynarratives.org/2023/02/13/its-criminal.html).
+Read more about [the intention behind the project]((https://contemporarynarratives.org/2023/02/13/its-criminal.html)), and [a summary of the performance](https://contemporarynarratives.org/2023/09/20/its-criminal-tron.html).
 
-_This project is ongoing_
 
 ### 2021 HOME/CARE project with The Bureau of Investigative Journalism and Coney
 
