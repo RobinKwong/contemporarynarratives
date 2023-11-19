@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-The live, immerseive event combines elements of journalism, live performance, and museum exhibition to provide audiences with a unique perspective on the ongoing crisis in the Uyghur Homeland. The website and research database contains testimonials from Uyghur people living in the global diaspora, reporting from reputable independent media, academic articles, and official Chinese government statements, regulations and social media posts. That wealth of material provided the factual underpinnings for the events audiences experience during a performance of _Everybody Is Gone_.
+The live, immersive event combines elements of journalism, live performance, and museum exhibition to provide audiences with a unique perspective on the ongoing crisis in the Uyghur Homeland. The website and research database contains testimonials from Uyghur people living in the global diaspora, reporting from reputable independent media, academic articles, and official Chinese government statements, regulations and social media posts. That wealth of material provided the factual underpinnings for the events audiences experience during a performance of _Everybody Is Gone_.
 
 We spoke to [Mukaddas](https://mukaddasmijit.wixsite.com/mukaddas-mijit) and [Jessica](https://jessicabatke.com/) about how the project came together, and some of the challenges invovled in doing so. 
 
