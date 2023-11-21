@@ -6,7 +6,7 @@ author: robin
 excerpt_separator: <!--more-->
 ---
 
-In early 2021, the Contemporary Narratives Lab embarked on its second project, bringing together interactive theatre-maker [Coney](https://www.youhavefoundconey.net/) and the Health Inequality team at Bureau Local, part of the [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/). 
+In early 2021, the Contemporary Narratives Lab embarked on its second project, bringing together interactive theatre-maker [Coney](http://www.coneyhq.org/) and the Health Inequality team at Bureau Local, part of the [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/). 
 
 <!--more-->
 
