@@ -16,7 +16,7 @@ We spoke to Tay Glass, executive producer at Back Pocket Media about the trials 
 
 ## What is the project about?
 
-[Philly Story Fest](http://storyfest.org was about bringing the community together to celebrate its stories - stories that embrace the city’s virtues while still acknowledging its vices. It was a multi-day festival featuring a mainstage storytelling event, a documentary film screening, a local art showcase and more.
+[Philly Story Fest](http://storyfest.org) was about bringing the community together to celebrate its stories - stories that embrace the city’s virtues while still acknowledging its vices. It was a multi-day festival featuring a mainstage storytelling event, a documentary film screening, a local art showcase and more.
 
 The festival was a collaboration between [Back Pocket Media](http://backpocket.media) and eight local newsrooms, including the Philadelphia Inquirer, Billy Penn and Philly Mag. We worked with their journalists to reimagine their work for the stage, adding elements that you wouldn’t be able to find on the printed page, things like text messages, photos, animations and even a live band. More than anything though, Story Fest was about showing the real people behind the news alongside community voices.
 
