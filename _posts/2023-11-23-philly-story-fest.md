@@ -5,14 +5,15 @@ tags: [Case Study]
 author: robin
 excerpt_separator: <!--more-->
 ---
-![](/assets/img/philly/cover.jpg)
-<p class="caption">Photo credit: Calibri Workshop</p>
 
 Back Pocket Media premiered Philly Story Fest in the Bok auditorium in Philadellphia to a sold-out crowd on October 5th, 2023. The theme for the inaugural Story Fest was “A Love Letter to Philly.” The stories were windows that allowed attendees to catch a glimpse of the city in all its complexity - through art, performance, journalism and music.
 
 <!--more-->
 
 We spoke to Tay Glass, executive producer at Back Pocket Media about the trials and triumphs of putting together a multi-day live journalism event in collaboration with eight local newsrooms. 
+
+![](/assets/img/philly/cover.jpg)
+<p class="caption">Photo credit: Calibri Workshop</p>
 
 ## What is the project about?
 
