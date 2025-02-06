@@ -73,5 +73,5 @@ In this interview, they talk about the importance of perserverence, risk taking,
 
 **M:** Always try something new. I’ve been a journalist for 20 years, and a part of me felt as if I might’ve done every format under the sun in text, audio, and video. From long form features to breaking news. Different news beats. Behind the camera and in front of the camera. But the graphic novel was completely new to me. You need challenges in your creative and professional life. Producing this book has made me braver.
 
-![](/assets/img/revolution/Badiucao2.jpg)
+![](/assets/img/revolution/badiucao2.jpg)
 <p class="caption">Badiucao. Photo credit: Benny Capp</p>
