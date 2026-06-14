@@ -17,7 +17,7 @@ Rhiannon created an interactive piece that asked participants sat around a table
 
 It's a live piece of work. "Thinking, feeling and doing are all part of the experience," Rhiannon said. This meant careful control of the pacing to "put space in there for audiences to have their own thought processes and make their own connections".
 
-![](/assets/img/portfolio/rhiannon-wide.jpg)
+![Participants gathered around a cloth-covered table with a projected seascape, pouring drinks during Rhiannon Armstrong's ritual performance](/assets/img/portfolio/rhiannon-wide.jpg)
 
 _[Rhiannon Armstrong](http://www.rhiannonarmstrong.com/) makes work under the lifelong series title Instructions for Empathetic Living. She places conversation at the centre of her practice in order to address important subjects in an accessible manner._
 

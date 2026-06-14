@@ -5,7 +5,7 @@ tags: [Case Study]
 author: robin
 excerpt_separator: <!--more-->
 ---
-![](/assets/img/everybodygone/website.jpg)
+![Everybody is Gone title over a dark satellite map of land dotted with colorful heat-mapped squares and a surveillance camera icon](/assets/img/everybodygone/website.jpg)
 
 [Everybody is Gone](https://www.everybodyisgone.org/) is an immersive art performance and research project co-created by Uyghur artist Mukaddas Mijit, U.S. journalist Jessica Batke, and The New Wild, a multidisciplinary art lab. 
 
@@ -24,7 +24,7 @@ Underpinning the entire experience is a database comprised of international repo
 
 We premiered _Everybody Is Gone_ in Berlin in 2022 and are looking to take it elsewhere in Europe in 2024.
 
-![](/assets/img/everybodygone/motherland.jpg)
+![Masked performer in pink light holding out a card reading 'motherland' to two audience members](/assets/img/everybodygone/motherland.jpg)
 <p class="caption">Photo credit: Everybody is Gone/The New Wild</p>
 
 ## How did the idea originate?
@@ -33,7 +33,7 @@ We were casting about for ways to raise awareness of the treatment of Uyghurs an
 
 The initial concept involved moving through a single Kashgar city street as it changed over the course of several years. We wanted audiences to see the outward signs of Uyghur language and culture disappearing -- and eventually, the people disappearing too. This idea, of course, would have required far too much space and material! So we eventually settled on a smaller -- though still quite expansive -- concept that centers much more on participants interacting directly with authority figures, and only gradually revealing to them where they are and what exactly they're participating in.
 
-![](/assets/img/everybodygone/hands.jpg)
+![Group of participants standing with arms raised in a red-lit room as a uniformed performer directs them](/assets/img/everybodygone/hands.jpg)
 <p class="caption">Photo credit: Everybody is Gone/The New Wild</p>
 
 ## Tell me more about how the collaboration happened or was facilitated?
@@ -64,5 +64,5 @@ Hearing from attendees that they are still thinking about the experience days or
 
 This is going to sound really simple but it really is the heart of it all: taking a distant-seeming political crisis, and turning it into a deeply personal and human story, one that audience members can connect that to their own lives -- it's really, really hard.
 
-![](/assets/img/everybodygone/screen.jpg)
+![Participants viewing a large projection of Uyghur testimony and news reporting in a red-lit room](/assets/img/everybodygone/screen.jpg)
 <p class="caption">Photo credit: Everybody is Gone/The New Wild</p>

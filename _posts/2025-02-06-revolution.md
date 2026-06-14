@@ -14,7 +14,7 @@ This was a collaboration between two people who were both trying something new. 
 In this interview, they talk about the importance of perserverence, risk taking, and what it takes to collaborate across different time zones and countries over the book's long gestation period.
 
 
-![](/assets/img/revolution/cover.jpg)
+![Cover of the graphic novel You Must Take Part in Revolution, two hands clinking Molotov cocktails against red flames](/assets/img/revolution/cover.jpg)
 
 ## What is the project about?
 
@@ -37,7 +37,7 @@ In this interview, they talk about the importance of perserverence, risk taking,
 
 **M:** This project took faith, respect, and persistence. We had to believe in this project when it was primordial. We had to commit time to it before we had literary agents or a publisher. Mutual respect was key to our working relationship that spanned so many years. I think in all that time — maybe we had two or three conversations I’d describe as testy or tense? That’s actually amazing if you think about the frequency and hours we put into this. We often spoke once every 24 hours as we worked, page by page, from narrative treatment, to script, to sketch, to the first draft of the art. Our book is more than 260 pages. And so yes — persistence is needed!
 
-![](/assets/img/revolution/Melissa.jpg)
+![Melissa Chan, arms crossed, smiling in a pink sweatshirt against a grey backdrop](/assets/img/revolution/Melissa.jpg)
 <p class="caption">Melissa Chan. Photo credit: Boaz Arad</p>
 
 ## How was it funded?
@@ -59,7 +59,7 @@ In this interview, they talk about the importance of perserverence, risk taking,
 
 **M:** There were definitely moments when I wondered whether this fictional war between the US and China might just really happen in real life before our book came out. Like when then US Speaker of the House Nancy Pelosi decided to visit Taiwan, and China responded with military exercises around the island. Or now. The US-China relationship features prominently in the new Trump administration, and it feels like it can go off the rails at any time.
 
-![](/assets/img/revolution/dystopia.jpg)
+![Graphic-novel panel of a figure climbing surveillance-filled steps lined with red Chinese-language signs](/assets/img/revolution/dystopia.jpg)
 
 ## What was the most gratifying result?
 
@@ -73,5 +73,5 @@ In this interview, they talk about the importance of perserverence, risk taking,
 
 **M:** Always try something new. I’ve been a journalist for 20 years, and a part of me felt as if I might’ve done every format under the sun in text, audio, and video. From long form features to breaking news. Different news beats. Behind the camera and in front of the camera. But the graphic novel was completely new to me. You need challenges in your creative and professional life. Producing this book has made me braver.
 
-![](/assets/img/revolution/badiucao2.jpg)
+![Badiucao, bearded and wearing round glasses and a black leather jacket, against a grey backdrop](/assets/img/revolution/badiucao2.jpg)
 <p class="caption">Badiucao. Photo credit: Benny Capp</p>

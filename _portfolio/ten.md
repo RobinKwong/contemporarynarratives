@@ -21,7 +21,7 @@ _Ten_ was the resulting work. The audience, as a group, won if exactly ten peopl
 
 > I aimed to design a game which would not in any way literally model a climate system but rather some of the experiences of agency which we have when trying to decipher actions. Not much would happen. It might be uncertain what was in play. It would require a coordination of a group. There would be a tension between individuals and the group.
 
-![](/assets/img/portfolio/tassos-wide.jpg)
+![Audience members standing among seated participants as facilitators address the room during Tassos Stevens's game Ten](/assets/img/portfolio/tassos-wide.jpg)
 
 _[Tassos Stevens](https://coneyhq.org/tassos-stevens/) is artistic director of Coney. As interactive theatre-makers, Coney create games, adventures and play where people can choose to take a meaningful part._
 

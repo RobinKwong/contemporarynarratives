@@ -37,14 +37,14 @@ The process worked as follows: first, the students and I had individual meetings
 
 The key rule that Catherine and I had was that the journalism was paramount&mdash;our motto was 'never let good drama get in the way of the facts'. The stories performed had to be as rigorously sourced as a conventionally written news story or news broadcast would have been.
 
-![](/assets/img/CAMpost/spacelaw.jpg)
+![Student performing a space-law piece over Zoom, composited against archival footage of a treaty signing](/assets/img/CAMpost/spacelaw.jpg)
 <p class="caption">Space to think: one student dramatising the complex history of space law</p>
 
 ### Opening night
 
 Experimenting with different forms took more time. Here, I was helped by two things: first a theatrical director, Leo Hatton, who generously worked with the students. And second the open-mindedness and willingness to experiment that the students themselves showed. So, for example, a student who investigated the closure of an A&E department came up with the idea of getting the audience to vote in Zoom polls on which A&E to send a patient to -- like a gameshow - but then worked with Leo to develop a soundscape that would help the audience immerse themselves in that scenario. Another student who'd looked at compassionate fashion filmed herself IGTV style in various fashion outfits. A couple of further pieces turned into verbatim theatre -- an adaptation of a feature about an NHS radiologist became a monologue, while another student, who had done an investigation into survivors of child abuse, got in contact with his interviewee, and then re-conducted the interview for the event itself.
 
-![](/assets/img/CAMpost/scenes.jpg)
+![Collage of scenes from the Up and Coming Stories Zoom event, with a title slide and students performing](/assets/img/CAMpost/scenes.jpg)
 <p class="caption">The live event: scenes from the Up and Coming Stories event</p>
 
 The event, a Zoom webinar, was planned for Welcome Week, to give our new first years a chance to feel part of the City journalism department and experience more senior students' work. We invited not only the incoming first years but the City journalism department, journalists and creative practitioners interested in this area. In between the students' scripted pieces there was a chance for the audience to ask questions. Added to that, in the 'interval' there was a live poll asking people about their media use, and at the end a 'Virtual News Café' where the audience could interact with the student journalists in a less formal and more conversational way.

@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-![](/assets/img/rewind/rewind.jpg)
+![Toronto Rewind virtual venue in the Gather app with video tiles of participants above pixel-art avatars and a starry rainbow backdrop](/assets/img/rewind/rewind.jpg)
 <p class="caption">Photo credit: Talk Media</p>
 
 Toronto Rewind was created by Talk Media, a group of Toronto-based "journalists and tinkerers experimenting with non-fiction  storytelling that brings you out of the echo chamber", with editorial partners West End Phoenix, The Local, Living Hyphen and The Town.
@@ -23,7 +23,7 @@ I remember a time when the internet wasn’t such a divisive place. Before borin
 
 We were a group of gamers, streamers, storytellers, designers and journalists, and we ended up making a 2.5 hour event, where you can have fun experiencing local Toronto based stories written by journalists. We partnered with local publications including The Local, West End Pheonix, and Living Hyphen, adapting their stories into interactive online exhibits and spaces to explore. To increase the level of immersion, we also sent a full story-telling package to participants in the mail, which included items that would connect to the stories hosted in the digital space. 
 
-![](/assets/img/rewind/rewind1.jpg)
+![Toronto Rewind mailed storytelling package with illustrated cards, a viewer box and event postcard on a yellow surface](/assets/img/rewind/rewind1.jpg)
 <p class="caption">Photo credit: Katie Swyers</p>
 
 ## How did the idea originate?
@@ -60,6 +60,6 @@ The most gratifying part was seeing audience members continue to stay in the spa
 
 One crucial step for us is to not limit the storytelling to the stage. Through developing Toronto Rewind, we realized that everything can tell a story - whether it’s the front door or the mirror in the bathroom, there’s always a way to use your space to tell a story in a new way.
 
-![](/assets/img/rewind/rewind2.JPG)
+![Adam Chen and Aurora Zboch sitting on a bench beneath two taped-up Toronto Rewind posters in Kensington Market](/assets/img/rewind/rewind2.JPG)
 <p class="caption">Talk Media team members Adam Chen and Aurora Zboch sit down in Toronto's Kensington Market (which is featured in a story by Zboch in Toronto Rewind), where they put up posters about the event at local businesses and cafes. Photo credit: Marie Lola Minimo 
 </p>

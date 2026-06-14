@@ -17,7 +17,7 @@ We will be running a pop-up newsletter during the process, to share interviews, 
 
 Some of the inspiration for the project comes from the historic [Living Newspaper](https://royalcourttheatre.com/the-origins-of-the-living-newspaper/) theatre model in the US, which was part of the Federal Theatre Project started in the 1930s, and in turn was inspired by German political theatre. Launching the careers of writers such as Orson Welles, as well as supporting the rise of Black American theatre, the project was eventually shut down for suspected “Un-American activities”. Before that, the model allowed journalism to be brought to life on stage by groups centred around particular issues - everything from agriculture to electricity generation and sexually transmitted illnesses.
 
-![](/assets/img/livingnewspaper.jpg)
+![Crowd outside the Biltmore Theatre marquee for the Living Newspaper production 'AAA Plowed Under' at night, 1936](/assets/img/livingnewspaper.jpg)
 <p class="caption">A Living Newspaper performance in New York City in 1936. Source: <a href="https://www.archives.gov/">U.S. National Archives and Records Administration</a></p>
 
 London’s Royal Court Theatre [experimented with the format](https://royalcourttheatre.com/living-newspaper/) during the Covid pandemic, using classic newspaper fixtures such as the cartoon and the agony aunt column.

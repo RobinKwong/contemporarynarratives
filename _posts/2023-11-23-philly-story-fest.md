@@ -12,7 +12,7 @@ Back Pocket Media premiered Philly Story Fest in the Bok auditorium in Philadell
 
 We spoke to Tay Glass, executive producer at Back Pocket Media about the trials and triumphs of putting together a multi-day live journalism event in collaboration with eight local newsrooms. 
 
-![](/assets/img/philly/cover.jpg)
+![Performers with marching-band drums on stage beneath a giant Philly Story Fest title screen](/assets/img/philly/cover.jpg)
 <p class="caption">Photo credit: Calibri Workshop</p>
 
 ## What is the project about?
@@ -23,7 +23,7 @@ The festival was a collaboration between [Back Pocket Media](http://backpocket.m
 
 We premiered Story Fest at the Bok building in South Philly, an abandoned vocational high school that has been turned into a hub for local art and business. October 5th was when everything culminated in our mainstage show. We were blown away by the support we received from the community - we sold out to a crowd of 600+ with another 300 on the waitlist. 
 
-![](/assets/img/philly/audience.jpg)
+![Packed auditorium of seated audience members lit in purple at the Bok building](/assets/img/philly/audience.jpg)
 <p class="caption">Photo credit: Calibri Workshop</p>
 
 
@@ -33,7 +33,7 @@ Story Fest evolved pretty naturally from our last journalism-centric project, [L
 
 So we took a step back and thought about all that we had learned. What if instead of breadth, we focused on depth? Could we bring a bunch of newsrooms from across a local news market together on one stage? What if instead of 120 people at a brewery, we brought together hundreds of people into a proper auditorium? Long story short, we wanted to have more impact and create something that would grow year over year - something that people will look forward to. That’s the dream. 
 
-![](/assets/img/philly/band.jpg)
+![Teal-clad drumline parading through a crowd, led by a drummer in a top hat, with an Elmo costume nearby](/assets/img/philly/band.jpg)
 <p class="caption">Photo credit: Calibri Workshop</p>
 
 
@@ -47,7 +47,7 @@ We had also learned from our past events that newsroom partners are invariably s
 
 We couldn’t have done this without the [Knight Foundation](https://knightfoundation.org/), who saw something in our idea and gave us the support we needed. We also received sponsorship from the Lenfest Institute and the Wyncote Foundation. And then on top of all that, we partnered with a bunch of great local orgs - restaurants, design firms, art institutions - who provided in-kind support. Those orgs include Mural Arts, Myth, First Person Arts, Martha, Braid Mill and U Arts. 
 
-![](/assets/img/philly/lobby.jpg)
+![Aerial view of guests mingling around food and drink tables in the Bok gymnasium lobby](/assets/img/philly/lobby.jpg)
 <p class="caption">Photo credit: Calibri Workshop</p>
 
 ## How long did it take to produce?
@@ -61,7 +61,7 @@ From start to finish, it took the better part of a year to get from ideation to 
 
 A question we got a lot throughout the development of Story Fest was “Why is Back Pocket Media, a group of outsiders, doing a show about Philadelphia?” It’s a fair question. Part of the answer has to do with our experience producing shows like this all over the country. And another part of the answer is that the Knight Foundation stipulated we had to produce the first Story Fest in a Knight community city. Philly quickly rose to the top of our list because of its robust media ecosystem, its celebration of the arts, and its grittiness. In the end, aligning ourselves with community partners and local newsrooms insulated our reputation and we earned trust over time, through our relationships, consistency and the final show.
 
-![](/assets/img/philly/words.jpg)
+![Lone storyteller on a darkened stage beside a projected quote about running away from home](/assets/img/philly/words.jpg)
 <p class="caption">Photo credit: Calibri Workshop</p>
 
 

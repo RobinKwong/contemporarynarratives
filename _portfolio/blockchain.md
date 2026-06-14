@@ -23,7 +23,7 @@ These questions led to the concept that Harun presented: Pose a series of questi
 
 "I was interested in a piece of work that is autonomous in its own right, rather than referential to and illustrative of a certain article," Harun said. 
 
-![](/assets/img/portfolio/harun-wide.jpg)
+![Seated audience watching a presenter beside a grid of question cards taped to the wall for Harun Morrison's prediction-market piece](/assets/img/portfolio/harun-wide.jpg)
 
 _[Harun Morrision](http://www.theyarehere.net/) is one half of They Are Here, is a collaborative practice that creates context-specific games where the entry, invitation or participation can be as significant as the game's conditions and structure. Through these games, Harun seeks to create ephemeral systems and temporary, micro-communities that offer an alternate means of engaging with a situation, history or ideology._
 

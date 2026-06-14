@@ -5,7 +5,7 @@ tags: [Project]
 author: robin
 excerpt_separator: <!--more-->
 ---
-![](/assets/img/itscriminal/stage.jpg)
+![Eight performers stand in a line on stage holding cards beneath a large projected 'It's Criminal' title](/assets/img/itscriminal/stage.jpg)
 <p class="caption">Photo/Video: Ruari Barber-Fleming</p>
 
 "Thug"
@@ -22,7 +22,7 @@ The hour-long performance depicted a day in the life of a newsroom, and featured
 
 In another, a news meeting is turned into a gameshow where reporters compete to get their story onto the front page. The losing reporter is told to "retrain to get a job in cyber, or something".
 
-![](/assets/img/itscriminal/gameshow.jpg)
+![Three performers act out a gameshow scene by two empty chairs, under a projected 'Follow the Money' marquee sign](/assets/img/itscriminal/gameshow.jpg)
 <p class="caption">Photo/Video: Ruari Barber-Fleming</p>
 
 None of the performers are professional actors. Instead, they are journalists, researchers and citizens of Glasgow. Everyone has been involved in or been affected by crime reporting in some way. _It's Criminal_ draws inspiration from the historic Living Newspaper theatre model in the US, which brought journalism to life on stage by groups centred around particular issues. It is an experiment exploring how journalism and journalists can better build trust through listening deeply to communities’ concerns, in a way that draws from restorative justice practices. ([Read more about the thinking behind the project here](https://contemporarynarratives.org/2023/02/13/its-criminal.html)).
@@ -34,7 +34,7 @@ The performance at the Tron is the culmination of a months-long participatory re
 
 "Our motivation with _It’s Criminal_ is to question the extent to which current journalism serves the public, especially people from marginalised groups or with existing experience of the criminal justice system," said Dr Cooper. "We want our audiences to be able to critique journalism as equals, and to understand how journalism is not objective but a matter of perspective. Finally with _It’s Criminal_, we aim to use theatre to show how different ways of reporting can be transformative and positively change lives and neighbourhoods."
 
-![](/assets/img/itscriminal/community.jpg)
+![Bright yellow shopfront of The Community Newsroom run by Greater Govanhill and The Ferret](/assets/img/itscriminal/community.jpg)
 <p class="caption">Photo: Angela Catlin</p>
 
 
@@ -42,7 +42,7 @@ Across three workshops, participants discussed media portrayal of crime and revi
 
 "I think the discussions [in the workshops] were really valuable and they were a very important part [of the project]," one participant said. "The show at the end was just one part of it—the public facing thing. But I think the kind of discussions and the exercise we did on creating _It's Criminal_ and brainstorming stuff is what we all learned a lot from.”
 
-![](/assets/img/itscriminal/workshop.jpg)
+![Workshop participants seated in a circle in a rehearsal room, listening as a facilitator stands and speaks](/assets/img/itscriminal/workshop.jpg)
 <p class="caption">Photo: Angela Catlin</p>
 
 Throughout this process, extra care was taken to ensure that participants were equal co-creators, felt safe in the workshop environment, and that the process would not re-traumatize them. There were clear guidelines on participation, no recording of the workshops, and nothing that was said during the workshops were used in the final performance without the participants' explicit permission.
@@ -56,7 +56,7 @@ A key part of the show came at the end, when the performers opened the floor to 
 
 A lively discussion was had around questions such as: "What do you think could be done to improve on how we report on crime?" and "What would do the most to make you trust the media at the moment?" One audience member pointed out that "without long-term relationships [between journalists and the community they cover], areas get known by their worst, by an individual crime or an individual incident." Others pointed out issues with off-shore media ownership, or how journalists and news organizations can do a better job in being upfront and honest about their biases: "I think it's impossible that someone could remove themselves completely from their biases and experiences and context."
 
-![](/assets/img/itscriminal/qna.jpg)
+![A performer addresses the audience as cast members stand behind, under a projected QR code for 'Resources for better crime reporting'](/assets/img/itscriminal/qna.jpg)
 <p class="caption">Photo/Video: Ruari Barber-Fleming</p>
 
 Both audience members and project participants thought that combining live journalism performance with audience discussion was effective. 
@@ -74,6 +74,6 @@ The show was [profiled in the Greater Govanhill magazine](https://www.greatergov
 
 _It's Criminal_ is a collaboration between Contemporary Narratives Lab, The Ferret and Greater Govanhill magazine, supported by City University of London’s Higher Education Innovation Funding Knowledge Exchange.
 
-![](/assets/img/itscriminal/poster.jpg)
+![Illustrated 'It's Criminal' show poster styled as a newspaper, with figures lined up at a police mugshot wall](/assets/img/itscriminal/poster.jpg)
 <p class="caption">Illustration: Chris Lau Manson</p>
 

@@ -35,7 +35,7 @@ This is where art and drama can help, and there are recent examples of artist/jo
 
 This desire &mdash; to convey an emotional truth, and to do so via a format that surprises and breaks through to people's consciousness &mdash; lies behind my own work in [using newsgames](/newsgames/) to tell the story of [full-time Uber drivers](https://ig.ft.com/uber-game/), or that of business owners grappling with the [US-China trade tariffs](https://ig.ft.com/trump-china-tariffs/).
 
-![](/assets/img/debalie.jpg)
+![Young man speaking into a microphone amid a seated audience at a De Balie live journalism event in Amsterdam](/assets/img/debalie.jpg)
 <p class="caption"><a href="https://debalie.nl/member/de-balie-live-journalism/">De Balie Live Journalism</a></p>
 
 <span class="firstLetter">A</span>t the De Balie cultural centre in Amsterdam, project leader Tim Wagemaker and several journalists are exploring what it means to [bring an investigation into a community space](https://debalie.nl/member/de-balie-live-journalism/) over several months. 
@@ -50,7 +50,7 @@ The whole project will culminate in a theatre performance, set in an editors' ro
 
 "So we present all our findings. Facts. Research. In a combination of ways," Tim said. "Theatre allows us to dive into societal questions around poverty: because after all it is a question to relate to for all of us: do we accept that there are people living in Amsterdam who work hard, but don't make enough money to build a future?"
 
-![](/assets/img/southafrica.jpg)
+![Participants in small groups at tables during the Creative Storytelling workshop in South Africa](/assets/img/southafrica.jpg)
 <p class="caption">Creative Storytelling South Africa workshop</p>
 
 <span class="firstLetter">B</span>ringing artist and journalists together requires new ways of working. Collaboration rarely 'just happens', and requires asking difficult questions, such as who has the final say over the resulting work?
