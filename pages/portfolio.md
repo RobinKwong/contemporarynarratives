@@ -6,6 +6,14 @@ feature-img: "assets/img/pexels/projects.jpg"
 tags: [Archive]
 ---
 
+### 2026 Creative Data Exchange with Goldsmiths Futures of Creativity Institute and Fuel Theatre Company
+
+In 2026 the Contemporary Narratives Lab is launching [Creative Data Exchange](https://creativedataexchange.com), a space for open, grounded conversations about working creatively with data and AI. It treats data not only as a technical resource but as a cultural material: something that can be interpreted, questioned and reimagined through creative practice.
+
+For its past projects, the Lab has brought artists, journalists and community members together to pioneer new narrative forms. Creative Data Exchange asks how data and AI might feed into and strengthen that work — and, in turn, how creative practice might help shape the technologies themselves. It comes at a moment when hype and uncertainty risk leaving many artists without clarity, and sets out to learn from the community what it takes to engage on their own terms and help drive that change.
+
+Creative Data Exchange is presented by the Contemporary Narratives Lab, in partnership with the [Goldsmiths Futures of Creativity Institute (FOCI)](https://www.gold.ac.uk/news/2026/foci/) and [Fuel Theatre Company](https://fueltheatre.com/). It is supported by the [Software Sustainability Institute](https://www.software.ac.uk/) via an SSI Fellowship 2026. Follow the project at [creativedataexchange.com](https://creativedataexchange.com).
+
 ### 2023 It's Criminal project with The Ferret and Greater Govanhill magazine
 
 In 2023, the Contemporary Narratives lab partnered with [The Ferret](https://theferret.scot/) and [Greater Govanhill](https://www.greatergovanhill.com/) magazine to create a new Glasgow-based participatory journalism-meets-theatre project exploring how stereotypical crime reporting can negatively impact neighbourhoods and communities, and how that can be reimagined.
