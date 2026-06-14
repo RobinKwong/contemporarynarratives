@@ -1,3 +1,4 @@
+@use 'sass:color';
 // To clear things when we float the element inside nav and ul
 .clear {
   *zoom: 1;
@@ -167,7 +168,7 @@ nav {
       text-align: center;
       font-size: 1em;
       position: relative;
-      background-color: darken($background-color, 2%);
+      background-color: color.adjust($background-color, $lightness: -2%);
 
       &:nth-of-type(4n) {
         background-color: $background-color;

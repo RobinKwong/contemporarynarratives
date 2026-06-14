@@ -1,3 +1,4 @@
+@use 'sass:color';
 // ==========================================================================
 //   Syntax highlighting
 // ==========================================================================
@@ -48,7 +49,7 @@ figure.highlight {
 code.highlighter-rouge {
   padding: 0.2em 0.4em;
   font-size: $font-size-code;
-  background-color: transparentize($base00, 0.85);
+  background-color: color.adjust($base00, $alpha: -0.85);
   color: rgb(36, 41, 46);
   border-radius: 2px;
   font-family: $monospace;
