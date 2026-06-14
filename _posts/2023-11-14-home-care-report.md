@@ -16,7 +16,7 @@ At the end of the project, which was funded by a research grant from City, Unive
 
 This report is now available as [a downloadable PDF](/assets/home_care.pdf)
 
-![](/assets/img/ConeyTBIJ/homecare.png)
+![](/assets/img/ConeyTBIJ/homecare.jpg)
 
 
 The report highlights how the intention behind the project was to employ journalistic and interactive theatre techniques to give voice to otherwise-marginalised people.   

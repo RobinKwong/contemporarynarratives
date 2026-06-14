@@ -5,7 +5,7 @@ tags: [Case Study]
 author: robin
 excerpt_separator: <!--more-->
 ---
-![](/assets/img/everybodygone/website.png)
+![](/assets/img/everybodygone/website.jpg)
 
 [Everybody is Gone](https://www.everybodyisgone.org/) is an immersive art performance and research project co-created by Uyghur artist Mukaddas Mijit, U.S. journalist Jessica Batke, and The New Wild, a multidisciplinary art lab. 
 

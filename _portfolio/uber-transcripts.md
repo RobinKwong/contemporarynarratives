@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Uber interview transcripts
-feature-img: "assets/img/portfolio/conrad.png"
-img: "assets/img/portfolio/conrad.png"
+feature-img: "assets/img/portfolio/conrad.jpg"
+img: "assets/img/portfolio/conrad.jpg"
 date: June 29, 2018
 tags: [Pilot, Portfolio]
 ---

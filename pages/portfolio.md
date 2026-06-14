@@ -24,7 +24,7 @@ In early 2021, the Contemporary Narratives Lab embarked on its second project, b
 
 Unlike our previous pilot project, this partnership between Coney and the Bureau took over a longer ten-week period to create opportunities for sustained dialogue and collaboration. Both parties aim to use the opportunity to work with the public, reporting _with_ rather than _on_ people affected by changes to home care during the pandemic.
 
-![](/assets/img/ConeyTBIJ/homecare.png)
+![](/assets/img/ConeyTBIJ/homecare.jpg)
 
 As part of their investigations, the Bureau runs "[Open Newsrooms](https://docs.google.com/document/d/1sQRM7I715kuEZJu3N6QODgDgRnRjHhYfYZHxZnKMOwg/edit)" &mdash; one-hour online events that are open to the public, sometimes led by panelists, to allow everyone to delve deeper into a topic area. For this project, Coney designed an "After-Party" experience that allowed participants to reflect on, and share with each other, what they learnt during the _Care in a Time of Crisis_ Open Newsroom.
 

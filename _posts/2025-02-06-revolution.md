@@ -59,7 +59,7 @@ In this interview, they talk about the importance of perserverence, risk taking,
 
 **M:** There were definitely moments when I wondered whether this fictional war between the US and China might just really happen in real life before our book came out. Like when then US Speaker of the House Nancy Pelosi decided to visit Taiwan, and China responded with military exercises around the island. Or now. The US-China relationship features prominently in the new Trump administration, and it feels like it can go off the rails at any time.
 
-![](/assets/img/revolution/dystopia.png)
+![](/assets/img/revolution/dystopia.jpg)
 
 ## What was the most gratifying result?
 
