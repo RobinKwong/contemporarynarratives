@@ -25,7 +25,7 @@ Andre and Conrad used rap, beatboxing and spoken-word poetry to focus the perfor
 
 {% include aligner.html images="portfolio/conrad.png,portfolio/conrad2.png" %}
 
-_[Andre Piza](http://www.peoplespalaceprojects.org.uk/en/staff/andre-piza/) is a researcher and theatre director regularly collaborating with People’s Palace Projects, an arts research centre based at Queen Mary University of London. Originally a graduate in Journalism from University of São Paulo, he has also worked with Battersea Arts Centre, Theatre Royal Stratford East and Contact Theatre (Manchester)._
+_[Andre Piza](https://www.turing.ac.uk/people/business-team/andre-piza) is a researcher and theatre director regularly collaborating with People’s Palace Projects, an arts research centre based at Queen Mary University of London. Originally a graduate in Journalism from University of São Paulo, he has also worked with Battersea Arts Centre, Theatre Royal Stratford East and Contact Theatre (Manchester)._
 
 _[Conrad Murray](https://www.conradmurray.org/) is one half of theatre company Beats & Elements and the director of the BAC Beatbox Academy. He is a writer of rap, stories and music and a hip hop theatre director since 2003._
 

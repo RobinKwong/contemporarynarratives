@@ -43,7 +43,7 @@ While an artist may be focused on their own intellectual property, recognition o
 
 Following on from that, sharing work also needs careful consideration. Monks says she tries to avoid the default of a panel. While this might be a comfortable format for academics, artists’ confidence can sit elsewhere. It can lead to the academic dominating the discussion, or perhaps patronisingly, withdrawing to give the artist space.
 
-If a panel is appropriate, both artist and academic should prepare well together in advance of their conversation in front of the public. Beware also of the inherent  hierarchy of panels, and who (both on stage and in audience) they privilege. It’s worth looking at the work of Lois Weaver and her [Public Address Systems](http://www.split-britches.com/public-address-systems) for more on this.
+If a panel is appropriate, both artist and academic should prepare well together in advance of their conversation in front of the public. Beware also of the inherent  hierarchy of panels, and who (both on stage and in audience) they privilege. It’s worth looking at the work of Lois Weaver and her [Public Address Systems](https://www.split-britches.com/public-address-systems) for more on this.
 
 ### Strong relationships bolster grant applications
 Finally, the crucial part of any partnership: money. All too often, everyone involved in such partnerships assumes someone else is paying. Universities think industry has lots of cash; artists think universities are awash with funding. Neither is true.

@@ -5,7 +5,7 @@ tags: [Case Study]
 author: robin
 excerpt_separator: <!--more-->
 ---
-[You Must Take Part in Revolution](https://www.amazon.com/You-Must-Take-Part-Revolution/dp/1951491297) is a graphic novel by Emmy-nominated journalist [Melissa Chan](http://www.melissachan.com/) and international activist artist [Badiucao](http://www.badiucao.com/). It is a story about technology, authoritarian government, and the lengths that one will go to in the fight for freedom.
+[You Must Take Part in Revolution](https://www.amazon.com/You-Must-Take-Part-Revolution/dp/1951491297) is a graphic novel by Emmy-nominated journalist [Melissa Chan](https://www.melissachan.com/) and international activist artist [Badiucao](https://www.badiucao.com/). It is a story about technology, authoritarian government, and the lengths that one will go to in the fight for freedom.
 
 <!--more-->
 

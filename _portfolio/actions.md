@@ -19,6 +19,6 @@ It's a live piece of work. "Thinking, feeling and doing are all part of the expe
 
 ![Participants gathered around a cloth-covered table with a projected seascape, pouring drinks during Rhiannon Armstrong's ritual performance](/assets/img/portfolio/rhiannon-wide.jpg)
 
-_[Rhiannon Armstrong](http://www.rhiannonarmstrong.com/) makes work under the lifelong series title Instructions for Empathetic Living. She places conversation at the centre of her practice in order to address important subjects in an accessible manner._
+_[Rhiannon Armstrong](https://www.rhiannonarmstrong.net/) makes work under the lifelong series title Instructions for Empathetic Living. She places conversation at the centre of her practice in order to address important subjects in an accessible manner._
 
 *[Emma Jacobs](https://www.ft.com/emma-jacobs) writes features and interviews across the Financial Times, including for Weekend and UK news. She has a particular focus on Business Life, exploring business culture and entrepreneurship. Her new column Working Lives takes a look at thriving and dying jobs amid the economic downturn.*
