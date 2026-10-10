@@ -1,6 +1,9 @@
 # Idea files
 .idea/*
 
+# Claude Code personal settings
+.claude/settings.local.json
+
 # Mac files
 .DS_Store
 

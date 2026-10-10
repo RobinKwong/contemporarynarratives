@@ -49,7 +49,7 @@ To accompany and build on the reporting in the article, Coney created [a digital
 
 ![Coney digital storytelling tool inviting people with experience of the home care system to leave a voice note or message](/assets/img/ConeyTBIJ/coneytool.png)
 
-At the conclusion of the project, Dr Glenda Cooper wrote a full research report on HOME/CARE. That report is available as [a downloadable PDF here.](/assets/home_care/pdf) 
+At the conclusion of the project, Dr Glenda Cooper wrote a full research report on HOME/CARE. That report is available as [a downloadable PDF here.](/assets/home_care.pdf) 
 
 
 ### 2018 pilot project with the Financial Times, People's Palace Projects and the Battersea Arts Centre
