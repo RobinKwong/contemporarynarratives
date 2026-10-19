@@ -167,6 +167,17 @@ nav {
       margin-top: 7px;
     }
   }
+}
+
+// phones: the collapsed header renders a fraction short of the body's 47px offset, leaving a hairline;
+// min-height (not height) so the opened menu can still grow
+@media screen and (max-width: $sm-break) {
+  .site-header {
+    min-height: 47px;
+  }
+}
+
+@media screen and (max-width: $break) {
 
   nav {
     height: auto;
