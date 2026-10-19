@@ -1,0 +1,44 @@
+# Creative Data Exchange microsite: navigation, footer links and partners.
+# Page URLs live here so the section can move (e.g. out from under /projects/) by editing `base`
+# and the four `permalink:` lines in projects/creative-data-exchange/.
+base: /projects/creative-data-exchange/
+
+nav:
+  - title: About
+    url: ""
+  - title: Community
+    url: community/
+  - title: Events
+    url: events/
+  - title: Resources
+    url: resources/
+
+banner: /assets/img/cde/creativedataexchange.jpg
+banner_credit: 'Photo by <a href="https://unsplash.com/@valiant_lambda">Valiant Lambda</a> on <a href="https://unsplash.com/photos/woman-in-red-skirt-in-abstract-art-installation-foVv_PyD-ZY">Unsplash</a>'
+
+join_form: https://forms.cloud.microsoft/e/37L3J91cd0
+updates_link: ""        # TODO(André): "Sign up to updates" link
+mailing_list_link: ""   # TODO(André): mailing-list sign-up, if different from the form above
+submit_resource_link: "" # TODO(André): form for suggesting a resource
+privacy_notice: https://www.gold.ac.uk/data-protection/privacy-notices/
+
+cnl_links:
+  - title: Home
+    url: /
+  - title: About CNL
+    url: /about/
+  - title: All projects
+    url: /projects/
+  - title: Contact
+    url: /contact/
+
+partners:
+  - name: Goldsmiths Futures of Creativity Institute
+    url: https://www.gold.ac.uk/news/2026/foci/
+    logo: /assets/img/cde/logo-foci.png
+  - name: Fuel
+    url: https://fueltheatre.com/
+    logo: /assets/img/cde/logo-fuel.png
+  - name: Institute for Research Software
+    url: https://www.software.ac.uk/
+    logo: /assets/img/cde/logo-irs.png

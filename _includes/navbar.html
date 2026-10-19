@@ -31,8 +31,8 @@
                     {% else %} {{ page.title }} {% endif%}
                 </a>
             </li>
-            {% endunless %}
             {% assign name_page = page.title | append: name_page %}
+            {% endunless %}
         {% endfor %}
     </ul>
 

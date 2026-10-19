@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign cde = site.data.cde %}
+<article class="cde feature-image">
+
+  <header id="main" style="background-image: url('{{ cde.banner | relative_url }}')">
+    <div class="title-padder">
+      <h1 class="title">Creative Data Exchange</h1>
+    </div>
+  </header>
+
+  <div class="cde-bar">
+    <p class="cde-credit">{{ cde.banner_credit }}</p>
+    {% include cde-nav.html %}
+  </div>
+
+  <section class="post-content">
+    {{ content }}
+  </section>
+
+  {% include cde-footer.html %}
+</article>

@@ -65,6 +65,10 @@
     <meta property="og:type" content="website" />
     {% endunless %}
     {% seo %}
+    {% if page.noindex %}
+    <!-- unlisted page: reachable by link, kept out of search engines (pair with sitemap: false) -->
+    <meta name="robots" content="noindex, nofollow">
+    {% endif %}
 
     <!-- RSS -->
     {% feed_meta %}

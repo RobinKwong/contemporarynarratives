@@ -1,0 +1,27 @@
+{% assign cde = site.data.cde %}
+<footer class="cde-footer">
+  <div class="cde-footer-cols">
+    <div>
+      <h2>Creative Data Exchange</h2>
+      <ul>
+        {% for item in cde.nav %}
+        <li><a href="{{ cde.base | append: item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+        <li><a href="{{ cde.join_form }}">Join our community</a></li>
+        <li>{% if cde.updates_link != "" %}<a href="{{ cde.updates_link }}">Sign up to updates</a>{% else %}Sign up to updates <span class="cde-todo">link to come</span>{% endif %}</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Contemporary Narratives Lab</h2>
+      <ul>
+        {% for item in cde.cnl_links %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <p class="cde-footer-small">
+    Creative Data Exchange is presented by the Contemporary Narratives Lab in partnership with Goldsmiths Futures of Creativity Institute and Fuel. It is supported by the Institute for Research Software.
+    Your data is processed according to the Goldsmiths, University of London <a href="{{ cde.privacy_notice }}">privacy notice</a>.
+  </p>
+</footer>
