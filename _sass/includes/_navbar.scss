@@ -20,10 +20,8 @@
   display: inline-block;
   float: left;
   width: 100%;
-  margin-bottom: 5px;
   position: fixed;
   top: 0px;
-  border-bottom: 5px solid white;
 
   .separator {
     user-select: none;
@@ -77,6 +75,36 @@
     font-weight: bold;
     font-family: $font-family-logo;
     font-size: 1.3em;
+  }
+
+  // Desktop: a compact bar sized by the nav text, logo and nav centred on one line
+  @media (min-width: $break) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $header-height;
+    padding: 0 2%;
+
+    .branding {
+      display: flex;
+      align-items: center;
+
+      a {
+        display: block;
+        line-height: 0;
+      }
+    }
+
+    .avatar {
+      float: none;
+      height: $header-logo-height;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul {
+      float: none;
+    }
   }
 }
 
