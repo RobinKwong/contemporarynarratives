@@ -10,7 +10,7 @@ tags: [Archive]
   {% for p in site.data.projects %}
   {% if p.public == false %}{% assign href = p.interim_url %}{% else %}{% assign href = p.url | relative_url %}{% endif %}
   <li class="project-card">
-    <a href="{{ href }}" class="project-card-image"><img src="{{ p.image | relative_url }}" alt="{{ p.alt }}"></a>
+    <a href="{{ href }}" class="project-card-image"><img src="{{ p.image | relative_url }}" alt="{{ p.alt }}"{% if p.image_position %} style="object-position: {{ p.image_position }}"{% endif %}></a>
     <div>
       <h2><a href="{{ href }}">{{ p.title }}</a></h2>
       <p class="project-card-meta">{{ p.year }}, {{ p.partners }}</p>

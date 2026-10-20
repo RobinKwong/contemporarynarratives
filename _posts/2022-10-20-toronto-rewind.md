@@ -5,7 +5,7 @@ tags: [Case Study]
 author: robin
 excerpt_separator: <!--more-->
 ---
-[Toronto Rewind](https://www.talkmedia.ca/toronto-rewind) is an interactive online festival that took place in November and December 2021. Using the Gather app, it brought participants into the heart of six unique stories that offer new perspectives on people, places and events from Toronto's past, told by local journalists and storytellers.
+[Toronto Rewind](https://web.archive.org/web/20240120175812/https://www.talkmedia.ca/toronto-rewind) is an interactive online festival that took place in November and December 2021. Using the Gather app, it brought participants into the heart of six unique stories that offer new perspectives on people, places and events from Toronto's past, told by local journalists and storytellers.
 
 <!--more-->
 

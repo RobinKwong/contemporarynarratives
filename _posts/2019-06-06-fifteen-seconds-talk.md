@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 ![Robin Kwong speaking on the Fifteen Seconds Festival media stage beside award logos](/assets/img/fifteenseconds/opening.jpg)
 
-I gave the following keynote on the media stage at the [Fifteen Seconds Festival](https://fifteenseconds.co/festival/), an interdisciplinary festival for business, innovation, and creativity, in Graz, Austria on June 6, 2019.
+I gave the following keynote on the media stage at the Fifteen Seconds Festival, an interdisciplinary festival for business, innovation, and creativity, in Graz, Austria on June 6, 2019.
 <!--more-->
 <hr>
 
@@ -51,7 +51,7 @@ And so we did.
 
 ![The Uber Game title screen with stylised San Francisco bridge and ft.com/ubergame](/assets/img/fifteenseconds/Slide7.jpeg)
 
-We made [The Uber Game](https://ft.com/ubergame/). It's available for free at ft.com/ubergame. In this game, you play as a full-time Uber driver in San Francisco, trying to make a living.
+We made [The Uber Game](https://ig.ft.com/uber-game/). It's available for free at ft.com/ubergame. In this game, you play as a full-time Uber driver in San Francisco, trying to make a living.
 
 ![Uber Game results screen showing 35 dollars fares earned after driving 2 hours](/assets/img/fifteenseconds/Slide8.jpeg)
 
@@ -135,13 +135,13 @@ So, to recap: We've turned to game designers for help to make the news experienc
 
 For this, we turned to theatre-makers and artists for help.
 
-In the summer of last year, we did [a small experiment](/cnl/) with the Battersea Arts Centre and Queen Mary University. We paired five FT journalists up with artists and theatre makers. The question we posed to our journalists was this: What is it in your beat, and what you cover, that you find really important but hard to convey to our audience through just writing traditional articles in the FT? The artists then took the answer as their prompt, and they had just a week to try to come up with something that responded to that challenge.
+In the summer of last year, we did [a small experiment](/projects/2018-pilot/) with the Battersea Arts Centre and Queen Mary University. We paired five FT journalists up with artists and theatre makers. The question we posed to our journalists was this: What is it in your beat, and what you cover, that you find really important but hard to convey to our audience through just writing traditional articles in the FT? The artists then took the answer as their prompt, and they had just a week to try to come up with something that responded to that challenge.
 
 One of the pieces was this game called Ten that is about climate change. It came about because Leslie Hook, our climate reporter, said that one of the hard things is that the important parts of climate change are all about systems - systemic issues, the dynamic in systems when, for example, countries got together for the Paris Climate Talks. But it is hard to make these systemic issues engaging because people are fundamentally drawn to stories. They want to hear about the town that will be submerged when sea level rises. 
 
 So Tassos, the artist, took that and created this game, where everyone in the room had a card, some with secret instructions on it. You and to discuss and negotiate with each other, and the game mimicked the tension between personal self-interest and collective responsibility that exists in, for example, the climate change talks.
 
-[Other pieces](/cnl-writeup/) that came out of that were: 
+[Other pieces](/projects/2018-pilot/) that came out of that were: 
 
 - We turned a set of interview transcripts and notes into a rap and spoken word performance
 - We had a piece of conceptual artwork that compared blockchain to human memory

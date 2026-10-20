@@ -23,7 +23,7 @@ Andre and Conrad used rap, beatboxing and spoken-word poetry to focus the perfor
 
 "We could have taken the material and created a play, but by working with it in different ways we can keep the audience aware that these words come from a journalist's interviews - we can keep the source material slightly visible and perhaps present it in a balanced way, similar to what the FT would do, but in a different format," Andre said.
 
-{% include aligner.html images="portfolio/conrad.png,portfolio/conrad2.png" %}
+{% include aligner.html images="portfolio/conrad.jpg,portfolio/conrad2.jpg" %}
 
 _[Andre Piza](https://www.turing.ac.uk/people/business-team/andre-piza) is a researcher and theatre director regularly collaborating with People’s Palace Projects, an arts research centre based at Queen Mary University of London. Originally a graduate in Journalism from University of São Paulo, he has also worked with Battersea Arts Centre, Theatre Royal Stratford East and Contact Theatre (Manchester)._
 

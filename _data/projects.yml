@@ -9,6 +9,7 @@
   public: false
   interim_url: https://creativedataexchange.com
   image: /assets/img/cde/creativedataexchange.jpg
+  image_position: right center # keeps the figure in the red skirt in the crop
   alt: "Person in a red skirt standing in an immersive installation of hanging black threads woven with scattered white numbers"
   summary: "A space for open, grounded conversations about working creatively with data and AI. It treats data not only as a technical resource but as a cultural material, something that can be interpreted, questioned and reimagined through creative practice."
 
@@ -25,6 +26,7 @@
   partners: "with The Bureau of Investigative Journalism and Coney"
   url: /projects/home-care/
   image: /assets/img/ConeyTBIJ/homecare.jpg
+  image_position: left center # keeps the headline text whole; the hands on the right matter less
   alt: "Bureau of Investigative Journalism headline 'Revealed: thousands more deaths in home care during pandemic' beside an elderly person's clasped hands"
   summary: "Interactive theatre-maker Coney and the Bureau Local health inequality team worked over ten weeks to report with, rather than on, people affected by changes to home care during the pandemic."
 

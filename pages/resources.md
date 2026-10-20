@@ -14,7 +14,7 @@ This page gathers together useful links to projects, organisations, articles and
 
 [De Balie - The Vaccine](https://debalie.nl/programma/the-vaccine-who-should-get-it-first-20-09-2020/) 
 
-[CreativestorytellingSA](https://creativestorytelling.co.za/ )
+CreativestorytellingSA
 
 [University of Porto - A Portrait of Elderly Loneliness](https://youtu.be/RtyeK7en_EI)
 
@@ -22,7 +22,7 @@ This page gathers together useful links to projects, organisations, articles and
 
 [FT - Newsgames](https://www.ft.com/newsgames/) 
 
-[Contra Costa Civic Theatre and The 19th - Running for my life](https://ccct.org/running-for-my-life-encore/)
+[Contra Costa Civic Theatre and The 19th - Running for my life](https://web.archive.org/web/20221128010840/https://ccct.org/running-for-my-life-encore/)
 
 [Stitched! - Ryerson/University of Toronto](https://www.stitched.live/)
 
@@ -30,7 +30,7 @@ This page gathers together useful links to projects, organisations, articles and
 
 [City University - News on Stage](https://www.city.ac.uk/news/2020/october/news-on-stage-presents-up-and-coming-stories)
 
-[City University - The News Cabaret at Wandsworth Fringe](https://www.wandsworthfringe.com/whats-on-2021//the-news-cabaret)
+[City University - The News Cabaret at Wandsworth Fringe](https://web.archive.org/web/20221005125120/https://www.wandsworthfringe.com/whats-on-2021/the-news-cabaret)
 
 ### Organisations
 
@@ -61,13 +61,13 @@ This page gathers together useful links to projects, organisations, articles and
 
 [The Financial Times to ‘experiment’ with taking its newsroom to the big stage](https://www.thedrum.com/news/2019/03/28/the-financial-times-experiment-with-taking-its-newsroom-the-big-stage) 
 
-[Wall Street Journal and National Theatre Announce Global Storytelling Partnership](https://www.dowjones.com/press-room/wall-street-journal-national-theatre-announce-global-storytelling-partnership/)
+[Wall Street Journal and National Theatre Announce Global Storytelling Partnership](https://web.archive.org/web/20250617081404/https://www.dowjones.com/press-room/wall-street-journal-national-theatre-announce-global-storytelling-partnership/)
 
 
 ### Praxis
 
 [The Bureau of Investigative Journalism - Story Circles](https://www.thebureauinvestigates.com/blog/2020-01-10/taking-a-story-full-circle)
 
-[Battersea Arts Center - What is Scratch](https://creativemuseums.bac.org.uk/content/43478/scratch/scratch) 
+[Battersea Arts Center - What is Scratch](https://web.archive.org/web/20220523173512/https://creativemuseums.bac.org.uk/content/43478/scratch/scratch) 
 
 [Ida Benedetto - Patterns of Transformation](https://patternsoftransformation.com/)

@@ -68,7 +68,7 @@ One audience member said after the show that "showing how newsrooms operate is a
 
 ## Next steps
 
-The show was [profiled in the Greater Govanhill magazine](https://www.greatergovanhill.com/latest/its-criminal-at-the-tron-theatrenbsp), and will be presented as part of panel discussions at the [2023 International Live Journalism Festival](https://livejournalismfest.com/) in Toronto. We have ambitions to bring the show to other cities in the UK, and to use the show as a starting point for changing the way crime reporting is practiced in the UK and beyond.
+The show was [profiled in the Greater Govanhill magazine](https://web.archive.org/web/20240810153012/https://www.greatergovanhill.com/latest/its-criminal-at-the-tron-theatrenbsp), and will be presented as part of panel discussions at the [2023 International Live Journalism Festival](https://livejournalismfest.com/) in Toronto. We have ambitions to bring the show to other cities in the UK, and to use the show as a starting point for changing the way crime reporting is practiced in the UK and beyond.
 
 "We see this as the beginning of an exploration of how crime reporting affects communities. This is a conversation that urgently needs to be had, and we plan to take the _It's Criminal_ process to different cities and communities. Do get in touch with us if this is something you are interested in getting involved in," said Dr Cooper.
 
