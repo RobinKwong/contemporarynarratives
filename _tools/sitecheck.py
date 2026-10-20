@@ -24,7 +24,6 @@ TOL = {"px": 1.5, "cpl": 1.5, "lh": 2, "pixels": 40}
 
 FREEZE_CSS = """
 *, *::before, *::after { transition: none !important; animation: none !important; caret-color: transparent !important; }
-#cookie-notice { display: none !important; }
 """
 
 # Runs in the page; returns every measurement for one page at one width.

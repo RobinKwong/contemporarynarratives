@@ -1,7 +1,7 @@
 # Site checks
 
 Run before and after any change to the site to see what else moved.
-Both need the local server: `PATH=/opt/homebrew/opt/ruby/bin:$PATH bundle exec jekyll serve --port 4011 --config _config.yml,_config.local.yml`
+Both need the local server: `PATH=/opt/homebrew/opt/ruby/bin:$PATH bundle exec jekyll serve --port 4011`
 
 ## Setup (once)
 
@@ -17,7 +17,7 @@ Both need the local server: `PATH=/opt/homebrew/opt/ruby/bin:$PATH bundle exec j
 
 `snapshot` crawls from the home page (plus the pages nothing links to, listed in `SEEDS` in `linkcheck.py`), and at 390, 1280, 1560 and 1920px wide records for every page:
 
-- a full-page screenshot (iframes masked, animations off, cookie notice hidden)
+- a full-page screenshot (iframes masked, animations off)
 - for each text block: font, size, line spacing, column width and characters per line
 - the vertical gap between consecutive blocks, marked when an image is on either side
 - images that are squashed, cropped or missing alt text
