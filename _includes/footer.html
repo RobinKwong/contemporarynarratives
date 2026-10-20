@@ -1,12 +1,30 @@
+{% assign cde_page = false %}{% if page.layout == "cde" %}{% assign cde_page = true %}{% endif %}
 <footer class="site-footer">
-    <p class="text">
-        {{ site.footer_text }}</p>
-            <div class="footer-icons">
-                <ul>
-                <!-- Social icons from Font Awesome, if enabled -->
-                {% include icons.html %}
-                </ul>
-            </div>
+  <div class="footer-cols">
+    {% if cde_page %}{% include cde-footer.html %}{% endif %}
+    <div>
+      <h2>Contemporary Narratives Lab</h2>
+      <ul>
+        {% for item in site.data.footer.links %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h2>Get in touch</h2>
+      <ul>
+        <li><a href="mailto:{{ site.data.social.email_address }}">{{ site.data.social.email_address }}</a></li>
+        <li><a href="{{ site.data.social.feed.path | default: 'feed.xml' | relative_url }}">Blog RSS feed</a></li>
+      </ul>
+    </div>
+  </div>
+  {% if cde_page %}
+  {% assign cde = site.data.cde %}
+  <p class="footer-small">
+    Creative Data Exchange is presented by the Contemporary Narratives Lab in partnership with Goldsmiths Futures of Creativity Institute and Fuel. It is supported by the Institute for Research Software.
+    Your data is processed according to the Goldsmiths, University of London <a href="{{ cde.privacy_notice }}">privacy notice</a>.
+  </p>
+  {% else %}
+  <p class="footer-small">{{ site.description }}.</p>
+  {% endif %}
 </footer>
-
-

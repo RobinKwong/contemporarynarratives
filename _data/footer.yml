@@ -1,0 +1,15 @@
+# Site-wide footer. On Creative Data Exchange pages the CDE column (_includes/cde-footer.html)
+# is added before these.
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /Blog/
+  - title: Resources
+    url: /resources/
+  - title: Contact
+    url: /contact/

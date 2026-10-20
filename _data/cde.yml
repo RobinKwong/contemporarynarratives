@@ -22,16 +22,6 @@ mailing_list_link: ""   # TODO(André): mailing-list sign-up, if different from 
 submit_resource_link: "" # TODO(André): form for suggesting a resource
 privacy_notice: https://www.gold.ac.uk/data-protection/privacy-notices/
 
-cnl_links:
-  - title: Home
-    url: /
-  - title: About CNL
-    url: /about/
-  - title: All projects
-    url: /projects/
-  - title: Contact
-    url: /contact/
-
 partners:
   - name: Goldsmiths Futures of Creativity Institute
     url: https://www.gold.ac.uk/news/2026/foci/

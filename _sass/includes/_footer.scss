@@ -1,26 +1,40 @@
-@use 'sass:color';
+// Site-wide footer: link columns, then a small-print line. On CDE pages
+// _includes/footer.html adds the CDE column and the CDE credit line.
 .site-footer {
   @extend %padding-post;
-  z-index: -1;
-  display: inline-block;
-  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  display: block;
+  clear: both; // pages float images (About's founder photos); without this the columns squeeze beside them
+  text-align: left;
   width: 100%;
-  color: color.adjust($text-color, $lightness: 24%);
-  font-size: 0.9em;
-  background-color: #eff4ef;
+  background-color: transparent;
+  box-shadow: none;
+  border-top: 2px solid $text-color;
 
-  .footer-icons {
-    ul {
-      list-style: none;
-      margin: 0;
+  .footer-cols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 4em;
+  }
 
-      li {
-        display: inline;
-      }
+  h2 {
+    margin: 0 0 0.5em;
+    font-size: 1em;
+  }
 
-      a:hover {
-        color: color.adjust($link-color, $lightness: -15%);
-      }
-    }
+  ul {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 0.2em 0;
+  }
+
+  .footer-small {
+    color: $meta;
+    font-size: 0.8em;
   }
 }
