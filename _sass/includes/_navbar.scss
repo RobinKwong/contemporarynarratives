@@ -1,3 +1,5 @@
+@use "base/variables";
+
 @use 'sass:color';
 // To clear things when we float the element inside nav and ul
 .clear {
@@ -26,7 +28,7 @@
 
   .separator {
     user-select: none;
-    opacity: $navbar-separator-opacity;
+    opacity: variables.$navbar-separator-opacity;
 
     &:first-child {
       display: none;
@@ -35,7 +37,7 @@
 
   a {
     background: black;
-    color: $header-link-color;
+    color: variables.$header-link-color;
     font-weight: bolder;
   }
 
@@ -74,16 +76,16 @@
   .site-title {
     float: left;
     font-weight: bold;
-    font-family: $font-family-logo;
+    font-family: variables.$font-family-logo;
     font-size: 1.3em;
   }
 
   // Desktop: a compact bar sized by the nav text, logo and nav centred on one line
-  @media (min-width: $break) {
+  @media (min-width: variables.$break) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: $header-height;
+    height: variables.$header-height;
     padding: 0 2%;
 
     .branding {
@@ -98,7 +100,7 @@
 
     .avatar {
       float: none;
-      height: $header-logo-height;
+      height: variables.$header-logo-height;
       margin: 0;
       padding: 0;
     }
@@ -122,7 +124,7 @@ nav {
     padding: 0;
     border: 0;
     background: none;
-    color: $header-link-color;
+    color: variables.$header-link-color;
     font: inherit;
     cursor: pointer;
   }
@@ -145,7 +147,7 @@ nav {
 
   a {
     &:hover {
-      color: $selection-color;
+      color: variables.$selection-color;
     }
 
 
@@ -155,13 +157,13 @@ nav {
 
 /* ---- Responsive ---- */
 
-@media (min-width: $break) {
+@media (min-width: variables.$break) {
   #pull {
     display: none;
   }
 }
 
-@media screen and (max-width: $break - 0.02) {
+@media screen and (max-width: variables.$break - 0.02) {
   .site-header {
     img.avatar {
       height: 3em;
@@ -180,16 +182,16 @@ nav {
 // below desktop: fixed padding, because the theme's percentage padding makes the header's height
 // drift with the window width and it never quite matches the body offset (a gap or an overlap);
 // min-height (not height) so the opened menu can still grow
-@media screen and (max-width: $break - 0.02) {
+@media screen and (max-width: variables.$break - 0.02) {
   .site-header {
     padding: 12px 15px 6px;
-    min-height: $header-height-mobile;
+    min-height: variables.$header-height-mobile;
   }
 }
 
-// $break - 0.02 (767.98px), not $break: at exactly 768px the desktop rule had already hidden the menu button,
+// variables.$break - 0.02 (767.98px), not $break: at exactly 768px the desktop rule had already hidden the menu button,
 // so the phone rule hid the menu with no way to open it
-@media screen and (max-width: $break - 0.02) {
+@media screen and (max-width: variables.$break - 0.02) {
 
   nav {
     height: auto;
@@ -221,10 +223,10 @@ nav {
       text-align: center;
       font-size: 1em;
       position: relative;
-      background-color: color.adjust($background-color, $lightness: -2%);
+      background-color: color.adjust(variables.$background-color, $lightness: -2%);
 
       &:nth-of-type(4n) {
-        background-color: $background-color;
+        background-color: variables.$background-color;
       }
 
       a {
@@ -244,7 +246,7 @@ nav .subnav {
   text-align: left;
 }
 
-@media (min-width: $break) {
+@media (min-width: variables.$break) {
   nav li.has-subnav {
     position: relative;
   }
@@ -269,7 +271,7 @@ nav .subnav {
     a {
       display: block;
       padding: 0.25em 1.3em;
-      color: $header-link-color;
+      color: variables.$header-link-color;
       white-space: nowrap;
     }
   }
@@ -280,7 +282,7 @@ nav .subnav {
   }
 }
 
-@media screen and (max-width: $break - 0.02) {
+@media screen and (max-width: variables.$break - 0.02) {
   nav .subnav li {
     font-size: 0.8em;
     background-color: transparent;

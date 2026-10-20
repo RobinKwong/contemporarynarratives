@@ -1,6 +1,9 @@
+@use "base/utility";
+@use "base/variables";
+
 .comments {
   @extend %padding-post;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid variables.$border-color;
   float: left;
   width: 100%;
 }
@@ -30,7 +33,7 @@ article {
     display: block;
     padding: 0;
     margin: 0; // the theme's auto margins would add to the centring shift and push a narrow image flush right
-    @include wider-than-column($image-outset);
+    @include utility.wider-than-column(variables.$image-outset);
   }
 
   .caption {
@@ -83,13 +86,6 @@ header {
   }
 }
 
-.meta {
-  color: $meta; // rgba($text-color, .65);
-  letter-spacing: 0.1em;
-  margin: 0;
-  text-transform: uppercase;
-}
-
 /* --- Post info --- */
 .post-info {
   /* For border in author
@@ -106,7 +102,7 @@ header {
     color: inherit;
 
     &:hover {
-      color: $link-color;
+      color: variables.$link-color;
     }
   }
 
@@ -134,16 +130,16 @@ header {
   }
 
   h1.title, .post-info {
-    color: $feature-image-text-color;
+    color: variables.$feature-image-text-color;
   }
 
   header {
-    color: $feature-image-text-color;
+    color: variables.$feature-image-text-color;
     margin-bottom: 0;
-    padding: $padding-large $padding-large;
+    padding: variables.$padding-large variables.$padding-large;
 
     .meta {
-      color: rgba($feature-image-text-color, .7);
+      color: rgba(variables.$feature-image-text-color, .7);
     }
   }
 
@@ -158,25 +154,25 @@ header {
   }
 
   .feature-image-padding {
-    padding: $feature-image-padding;
+    padding: variables.$feature-image-padding;
   }
 }
 
 /*-- feature-image Responsive scrolling --*/
 .feature-image header {
-  @media screen and (max-width: $break) {
-    padding: $padding-large*1.5 $padding-small;
+  @media screen and (max-width: variables.$break) {
+    padding: variables.$padding-large*1.5 variables.$padding-small;
   }
 
-  @media screen and (min-width: $break) {
+  @media screen and (min-width: variables.$break) {
     background-size: 120% auto;
   }
 
-  @media screen and (max-width: $break) {
+  @media screen and (max-width: variables.$break) {
     background-size: 200% auto;
   }
 
-  @media screen and (max-width: $sm-break) {
+  @media screen and (max-width: variables.$sm-break) {
     background-size: 400% auto;
   }
 }
