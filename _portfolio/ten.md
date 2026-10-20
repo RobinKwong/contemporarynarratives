@@ -4,9 +4,8 @@ title: Ten
 feature-img: "assets/img/portfolio/tassos.jpg"
 img: "assets/img/portfolio/tassos.jpg"
 date: June 29, 2018
-tags: [Pilot, Portfolio]
+tags: [Pilot]
 ---
-### Ten
 _Tassos Stevens / Leslie Hook_
 
 The global effort to combat climate change requires countries and individuals to make different trade-offs in order to meet their commitments. This has follow-on effects on energy and economic policy, creating a complex, interlocking set of constraints and consequences This context is difficult to convey to readers but crucial for understanding any individual piece of news about climate policy.

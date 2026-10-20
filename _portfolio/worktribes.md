@@ -4,10 +4,9 @@ title: Work Tribes
 feature-img: "assets/img/portfolio/worktribes.jpg"
 img: "assets/img/portfolio/worktribes.jpg"
 date: June 29, 2018
-tags: [Pilot, Portfolio]
+tags: [Pilot]
 ---
 
-### Work Tribes
 _Paula Varjack / Emma Jacobs and Andrew Hill_
 
 [Work Tribes](https://www.ft.com/work-tribes) is a new series in the Financial Times about the people who populate our modern workplaces, from Millennial managers and Mompreneurs to the professional conference-goer and the long-distance commuter. It's a fictional column, but the characters and workplace dynamics it describes are informed by Emma and Andrew's observations and experience in their career covering business life and management.

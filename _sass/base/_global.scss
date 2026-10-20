@@ -33,6 +33,7 @@ body {
   font-size: $font-size;
   word-wrap: break-word;
   position: absolute;
+  width: 100%; // absolute with no width, the body took its width from its content: short pages (404, Tags) shrank, and a long URL or a wide block stretched the page past the window
   top: 118px;
 
   @media (max-width: $break - 1) {
@@ -210,7 +211,7 @@ ol,
 ul,
 dl,
 .math-display {
-  line-height: 1.5;
+  line-height: 1.4; // Butterick: 120-145%
   margin-bottom: 1em;
 }
 

@@ -3,12 +3,11 @@ layout: page
 title: Resources
 permalink: /resources/
 feature-img: "assets/img/pexels/resources.jpg"
-tags: [Test, Markdown]
 ---
 This page gathers together useful links to projects, organisations, articles and practices that relate to artistic journalism. 
 
 
-### Artist-journalist collaborations examples
+## Artist-journalist collaborations examples
 
 [De Balie - Live Journalism](https://debalie.nl/live-journalism/) 
 
@@ -28,11 +27,11 @@ This page gathers together useful links to projects, organisations, articles and
 
 [The Bureau of Investigative Journalism - Refuge Women](https://www.thebureauinvestigates.com/blog/2018-06-14/were-putting-investigative-journalism-on-stage-across-the-uk)
 
-[City University - News on Stage](https://www.city.ac.uk/news/2020/october/news-on-stage-presents-up-and-coming-stories)
+[City University - News on Stage](https://web.archive.org/web/20201029011237/https://www.city.ac.uk/news/2020/october/news-on-stage-presents-up-and-coming-stories)
 
 [City University - The News Cabaret at Wandsworth Fringe](https://web.archive.org/web/20221005125120/https://www.wandsworthfringe.com/whats-on-2021/the-news-cabaret)
 
-### Organisations
+## Organisations
 
 [Pop-up Magazine](https://www.popupmagazine.com/)
 
@@ -41,7 +40,7 @@ This page gathers together useful links to projects, organisations, articles and
 [Eyebeam Center for the Future of Journalism](https://www.eyebeam.org/eyebeam-center-for-the-future-of-journalism/) 
 
 
-### Articles, podcasts, research papers
+## Articles, podcasts, research papers
 
 [Can Artists Be Journalists? A New York Non-Profit Thinks the News Industry Would Benefit From Artists’ Involvement](https://www.frieze.com/article/can-artists-be-journalists-new-york-non-profit-thinks-news-industry-would-benefit-artists)
 
@@ -64,7 +63,7 @@ This page gathers together useful links to projects, organisations, articles and
 [Wall Street Journal and National Theatre Announce Global Storytelling Partnership](https://web.archive.org/web/20250617081404/https://www.dowjones.com/press-room/wall-street-journal-national-theatre-announce-global-storytelling-partnership/)
 
 
-### Praxis
+## Praxis
 
 [The Bureau of Investigative Journalism - Story Circles](https://www.thebureauinvestigates.com/blog/2020-01-10/taking-a-story-full-circle)
 

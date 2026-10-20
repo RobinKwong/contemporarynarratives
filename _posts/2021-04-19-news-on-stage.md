@@ -15,7 +15,7 @@ But those performing that night were not conventional actors but third-year jour
 
 In February 2020, my research partner Catherine Adams of Nottingham Trent University and I were about to start a project called _News on Stage_ looking at the synergies between drama and journalism. At a time when trust in the media was falling, when local news was in crisis and when audiences seemed more distanced from news producers, we wondered whether this could be combatted by putting together journalists and audience. This would be done via events in which journalists revealed previously unpublished stories through a dramatic performance, and then directly interacted with their audience. We planned events and scoped out possible venues. And then the pandemic hit, all theatres and public spaces closed down. We couldn't have had worse timing. 
 
-### Digital possibilities 
+## Digital possibilities 
 
 But in fact, the creative possibilities online started to work to our advantage, and we began to think about how we could still use performance via online platforms such as Zoom to explore the issues we'd identified&mdash;but also work directly with students to enhance their learning and challenge their thoughts around storytelling.
 
@@ -31,7 +31,7 @@ The obstacles were clear. In 2020, our final year students had already suffered 
 
 I put out the call via the third-year group email&mdash;and five stepped forward, with little idea of what I was asking&mdash;to turn their final-year journalism project, previously written in print form, online or as a pre-recorded broadcast piece&mdash;into a short piece of live theatre. 
 
-### The process 
+## The process 
 
 The process worked as follows: first, the students and I had individual meetings talking through their project and what aspect of that might make a seven-minute scripted piece. This might&mdash;and quite often wasn't&mdash;the main focus of their original work. For example, one student who had investigated space law considered looking at the commercialisation of space travel, before focusing in on Lottie Williams, a woman who'd been hit by space junk, and how she would go around suing over this (this turned into a _How to Get Away with Murder_ style piece). 
 
@@ -40,7 +40,7 @@ The key rule that Catherine and I had was that the journalism was paramount&mdas
 ![Student performing a space-law piece over Zoom, composited against archival footage of a treaty signing](/assets/img/CAMpost/spacelaw.jpg)
 <p class="caption">Space to think: one student dramatising the complex history of space law</p>
 
-### Opening night
+## Opening night
 
 Experimenting with different forms took more time. Here, I was helped by two things: first a theatrical director, Leo Hatton, who generously worked with the students. And second the open-mindedness and willingness to experiment that the students themselves showed. So, for example, a student who investigated the closure of an A&E department came up with the idea of getting the audience to vote in Zoom polls on which A&E to send a patient to -- like a gameshow - but then worked with Leo to develop a soundscape that would help the audience immerse themselves in that scenario. Another student who'd looked at compassionate fashion filmed herself IGTV style in various fashion outfits. A couple of further pieces turned into verbatim theatre -- an adaptation of a feature about an NHS radiologist became a monologue, while another student, who had done an investigation into survivors of child abuse, got in contact with his interviewee, and then re-conducted the interview for the event itself.
 
@@ -49,7 +49,7 @@ Experimenting with different forms took more time. Here, I was helped by two thi
 
 The event, a Zoom webinar, was planned for Welcome Week, to give our new first years a chance to feel part of the City journalism department and experience more senior students' work. We invited not only the incoming first years but the City journalism department, journalists and creative practitioners interested in this area. In between the students' scripted pieces there was a chance for the audience to ask questions. Added to that, in the 'interval' there was a live poll asking people about their media use, and at the end a 'Virtual News Café' where the audience could interact with the student journalists in a less formal and more conversational way.
 
-### Reflections
+## Reflections
 
 What did we learn from it? For the students, thinking about their stories as a performative act gave them the chance to think about novel ways of storytelling which will become increasingly important as the mainstream media seeks to engage new audiences. It made them think about how every word counts when a live audience can lose interest at any time.
 
@@ -63,7 +63,7 @@ As a result, Catherine and I have gone on to work with a playwright to bring dra
 
 If you are interested in finding out more about News on Stage, want us to bring it to your university or even just fund us please go to [https://newsonstage964645559.wordpress.com/](https://newsonstage964645559.wordpress.com/). Or contact Dr Glenda Cooper (Glenda.cooper.1@city.ac.uk) or Catherine Adams (Catherine.adams@ntu.ac.uk) 
 
-#### References
+### References
 
 1. Bernbaum, J. (2010). _What they said: verbatim theatre's relationship to journalism_ (Doctoral dissertation, Carleton University).
 

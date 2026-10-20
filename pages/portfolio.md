@@ -3,7 +3,6 @@ layout: page
 title : Projects 
 permalink: /projects/
 feature-img: "assets/img/pexels/projects.jpg"
-tags: [Archive]
 ---
 
 <ul class="project-cards">

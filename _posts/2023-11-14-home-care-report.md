@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HOME &#8725; CARE Report
+title: HOME/CARE Report
 tags: [Project]
 author: robin
 excerpt_separator: <!--more-->

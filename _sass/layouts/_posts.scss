@@ -21,13 +21,23 @@ article {
     font-size: 0.9em;
   }
 
+  // Images that stand alone in a paragraph: a little wider than the text, centred.
+  // Floated images (About's founder photos) and image grids keep their own layout.
+  // CSS can't see text nodes, so an image inside a sentence also matches: in Markdown,
+  // leave a blank line between text and an image.
+  .post-content p > img:only-child:not([align]):not([style*="float"]),
+  .post-content p > a:only-child > img:only-child {
+    display: block;
+    padding: 0;
+    margin: 0; // the theme's auto margins would add to the centring shift and push a narrow image flush right
+    @include wider-than-column($image-outset);
+  }
+
   .caption {
-  font-size: 0.6em;
-    padding: 0 9%;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 0.75em;
+    text-align: center;
+    margin-top: -0.4em;
     margin-bottom: 2em;
-    margin-top: -1.5em;
   }
 
   .videowrapper {
@@ -111,6 +121,12 @@ header {
 /* --- Feature image --- */
 .feature-image {
   padding: 0;
+
+  header .title,
+  header .subtitle,
+  header .meta {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 0 16px rgba(0, 0, 0, 0.6);
+  }
 
   .post-link {
 

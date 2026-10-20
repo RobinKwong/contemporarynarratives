@@ -3,7 +3,7 @@ layout: post
 title: It&#39;s Criminal&#8212;at The Tron
 tags: [Project]
 author: robin
-excerpt_separator: <!--more-->
+excerpt: "As words normally associated with crime reporting flashed up on screen, eight performers strode onto the stage at the Tron theatre in Glasgow to kick off It's Criminal, a live journalism project exploring the impact traditional crime reporting is having on Govanhill, a Glaswegian neighbourhood whose citizens are often scapegoated or blamed for crime."
 ---
 ![Eight performers stand in a line on stage holding cards beneath a large projected 'It's Criminal' title](/assets/img/itscriminal/stage.jpg)
 <p class="caption">Photo/Video: Ruari Barber-Fleming</p>
@@ -14,7 +14,7 @@ excerpt_separator: <!--more-->
 
 "Victim"
 
-As words normally associated with crime reporting flashed up on screen, eight performers strode onto the stage at the Tron theatre in Glasgow to kick off _It's Criminal_, a live journalism project exploring the impact traditional crime reporting is having on Govanhill, an Glaswegian neighbourhood whose citizens are often scapegoated or blamed for crime.
+As words normally associated with crime reporting flashed up on screen, eight performers strode onto the stage at the Tron theatre in Glasgow to kick off _It's Criminal_, a live journalism project exploring the impact traditional crime reporting is having on Govanhill, a Glaswegian neighbourhood whose citizens are often scapegoated or blamed for crime.
 
 <!--more-->
 

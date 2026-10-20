@@ -3,12 +3,11 @@ layout: page
 title : Contact
 permalink: /contact/
 feature-img: "assets/img/pexels/contact.jpg"
-tags: [Archive]
 ---
 
 Are you a potential collaborator, or would just like to find out more about the Contemporary Narratives Lab?
 
-Get in touch via email at contemporarynarratives[at]gmail[dot]com
+Get in touch by email at [contemporarynarratives@gmail.com](mailto:contemporarynarratives@gmail.com).
 
 We are looking for:
 

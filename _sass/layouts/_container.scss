@@ -2,18 +2,8 @@
    LAYOUT/CONTAINER
    ========================================================================== */
 
+// The home page intro: same column as the posts listed under it
 .container {
-  max-width: 700px;
-  margin-right: auto;
-  margin-left: auto;
-
-  padding: $padding-x-small;
-
-  @media (max-width: $m-break) {
-    padding: $padding-x-small $padding-medium;
-  }
-  @media (max-width: $sm-break) {
-    padding: $padding-x-small $padding-small;
-  }
+  @extend %padding-post;
 }
 

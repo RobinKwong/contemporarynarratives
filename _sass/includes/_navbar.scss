@@ -161,7 +161,8 @@ nav {
       height: 3em;
       margin-top: -20px;
       margin-bottom: -5px;
-      margin-left: -25px;
+      margin-left: 0;
+      padding: 0; // the theme's 9% img padding plus a negative margin pushed the logo 10px off the left edge
     }
 
     .site-title {
