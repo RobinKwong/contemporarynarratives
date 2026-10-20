@@ -161,7 +161,7 @@ nav {
   }
 }
 
-@media screen and (max-width: $break) {
+@media screen and (max-width: $break - 1) {
   .site-header {
     img.avatar {
       height: 3em;
@@ -187,7 +187,9 @@ nav {
   }
 }
 
-@media screen and (max-width: $break) {
+// $break - 1, not $break: at exactly 768px the desktop rule had already hidden the menu button,
+// so the phone rule hid the menu with no way to open it
+@media screen and (max-width: $break - 1) {
 
   nav {
     height: auto;
@@ -278,7 +280,7 @@ nav .subnav {
   }
 }
 
-@media screen and (max-width: $break) {
+@media screen and (max-width: $break - 1) {
   nav .subnav li {
     font-size: 0.8em;
     background-color: transparent;

@@ -47,7 +47,7 @@ The pilot was watched by an audience of over 40 people, and covered in [an artic
 	alt="Andre Piza" 
 	src="/assets/img/andre.jpeg"
 	width="150"
-	height="150px"
+	height="150"
 	style="float: left; margin-right: 10px; margin-top: 10px; padding: 0;">
 
 <strong>André Piza</strong> is a community developer at heart, with a background as a creative practitioner, producer and research programme manager. For over 7 years, he has managed and coordinated research delivery of the Alan Turing Institute’s flagship Digital Humanities programmes, like <a href="https://livingwithmachines.ac.uk/" target="_blank" rel="noopener">Living with Machines</a> and the <a href="https://zenodo.org/records/15083396" target="_blank" rel="noopener">Research Software Engineering Capability Roadmap</a>. Previously, he has managed major international creative and research projects at <a href="http://www.peoplespalaceprojects.org.uk/en/" target="_blank" rel="noopener">People’s Palace Projects</a>, an arts research centre based at Queen Mary University of London where he also worked as Knowledge Exchange Manager for the Creative Industries. His work there included collaborating with arts organisations, policy institutions, and independent artists and activists. He has written about cultural exchange practice in <i><a href="https://vernonpress.com/book/493" target="_blank" rel="noopener">The Art of Cultural Exchange</a></i> (2019) and is an Organiser of the <a href="https://www.turing.ac.uk/research/interest-groups/ai-arts" target="_blank" rel="noopener">Turing’s AI&amp;Arts interest group</a>. He currently manages the <a href="https://www.costarnetwork.co.uk/labs/foresightlab" target="_blank" rel="noopener">CoSTAR Foresight Lab</a>, based at Goldsmiths University of London, and is a Software Sustainability Institute Fellow 2026. <a href="https://twitter.com/andrepiza" aria-label="André Piza on X (Twitter)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(29,161,242,1.00)" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -73,7 +73,7 @@ The pilot was watched by an audience of over 40 people, and covered in [an artic
 	alt="Glenda Cooper" 
 	src="/assets/img/glenda.jpg"
 	width="150"
-	height="150px"
+	height="150"
 	style="float: left; margin-right: 10px; margin-top: 10px; padding: 0;">
 
 <strong>Dr Glenda Cooper</strong> is a senior lecturer at City, University of London, and Director of the European Journalism Observatory. She began her academic career specialising in how social media affected coverage of humanitarian crises which informed her monograph and subsequent papers. She has also long been interested in the interaction of theatre and journalism. In 2018 her play Aid Memoir based on her PhD research was performed at the Pleasance Theatre, Islington and the ESRC Festival of Social Science, and she has presented at academic conferences on the subject.  She is the co-founder of the News on Stage project which facilitates journalists performing their own stories. She is a former staff journalist at the Washington Post, the Independent, the Sunday Times and BBC Radio 4’s World At One/PM programmes. <a href="https://twitter.com/glendacooper" aria-label="Glenda Cooper on X (Twitter)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(29,161,242,1.00)" class="bi bi-twitter" viewBox="0 0 16 16">

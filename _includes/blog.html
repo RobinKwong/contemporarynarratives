@@ -20,7 +20,7 @@
           {% if site.excerpt or site.theme_settings.excerpt %}
               <div class="excerpt">
                   {% if site.excerpt == "truncate" %}
-                     {{ post.content | strip_html | truncate: '250' }}
+                     {{ post.content | strip_html | truncatewords: 40 }}
                   {% else %}
                      {{ post.excerpt | strip_html }}
                   {% endif %}
