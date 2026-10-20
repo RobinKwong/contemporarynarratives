@@ -8,9 +8,18 @@
   clear: both; // pages float images (About's founder photos); without this the columns squeeze beside them
   text-align: left;
   width: 100%;
-  background-color: transparent;
+  margin-top: 2em;
+  background-color: black; // matches the header
+  color: #d0d0d0;
   box-shadow: none;
-  border-top: 2px solid $text-color;
+
+  a {
+    color: $header-link-color;
+
+    &:hover {
+      color: #e97aae; // the header's Blog pink; yellow is taken by the CNL heading
+    }
+  }
 
   .footer-cols {
     display: flex;
@@ -21,6 +30,16 @@
   h2 {
     margin: 0 0 0.5em;
     font-size: 1em;
+    color: $header-link-color;
+
+    // header palette: CNL in About's yellow, CDE in Projects' blue
+    &.footer-cnl {
+      color: #f8ed59;
+    }
+
+    &.footer-cde {
+      color: #5d8ac7;
+    }
   }
 
   ul {
@@ -34,7 +53,7 @@
   }
 
   .footer-small {
-    color: $meta;
+    color: #a6a6a6;
     font-size: 0.8em;
   }
 }

@@ -1,6 +1,6 @@
 {% assign cde = site.data.cde %}
 <div>
-  <h2>Creative Data Exchange</h2>
+  <h2 class="footer-cde">Creative Data Exchange</h2>
   <ul>
     {% for item in cde.nav %}
     <li><a href="{{ cde.base | append: item.url | relative_url }}">{{ item.title }}</a></li>

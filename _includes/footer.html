@@ -3,7 +3,7 @@
   <div class="footer-cols">
     {% if cde_page %}{% include cde-footer.html %}{% endif %}
     <div>
-      <h2>Contemporary Narratives Lab</h2>
+      <h2 class="footer-cnl">Contemporary Narratives Lab</h2>
       <ul>
         {% for item in site.data.footer.links %}
         <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
