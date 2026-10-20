@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 _This is an expanded version of the talk I gave at [a panel](https://www.journalismfestival.com/programme/2019/goodbye-news-hello-drama-visual-forms-and-post-news-journalism) called "Goodbye News, Hello Drama: visual forms and post-news journalism" at the 2019 Perugia International Journalism Festival. I am indebted to many for the ideas here, but especially to my fellow panelists [Hossein Derakshan](https://twitter.com/h0d3r), [Shazna Nessa](https://twitter.com/shazna) and Lucy Rohr for the conversation._
 <!--more-->
-<div class="videowrapper"><iframe width="800" height="315" src="https://www.youtube.com/embed/cXq0iSD8yow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="videowrapper"><iframe title="Goodbye news, hello drama: visual forms and post-news journalism (panel video)" width="800" height="315" src="https://www.youtube.com/embed/cXq0iSD8yow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <p></p>
 <br>
@@ -25,7 +25,7 @@ To do so, journalism needs the ability to break through people's consciousness w
 
 This is where art and drama can help, and there are recent examples of artist/journalist collaborations that show the value of this interdisciplinary work.
 
-<div class="videowrapper"><iframe width="800" height="315" src="https://www.youtube.com/embed/8cZe2ihEZO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="videowrapper"><iframe title="Brexit: a cry from the Irish border (FT Standpoint video)" width="800" height="315" src="https://www.youtube.com/embed/8cZe2ihEZO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p></p>
 <span class="firstLetter">L</span>ast October, the Financial Times commissioned Clare Dwyer Hogg, a journalist and playwright from northern Ireland, to write a poem about the Irish backstop. The actor Stephen Rea performed a reading of the poem on the border itself. The resulting 8-minute film became one of our most-viewed videos, and has since been screened at film festivals. 
 
@@ -63,7 +63,7 @@ The Creative Storytelling workshop led to two plays, a game show and an audio pr
 
 These plays, now being performed, are not just taking place in traditional theatres. They are being performed at taxi ranks, school halls and outside a military base. Often, the performances are multi-lingual and in local dialects&mdash;a result of journalists collaborating and working with local artists.
 
-<div class="videowrapper"><iframe width="800" height="315" src="https://www.youtube.com/embed/NbiX2SSes40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="videowrapper"><iframe title="Chart doctor: the mysterious music of the yield curve (FT video)" width="800" height="315" src="https://www.youtube.com/embed/NbiX2SSes40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p></p>
 <span class="firstLetter">T</span>he collaborations I highlighted are but a small selection of cases where journalism and art converge. At the Financial Times, we have recently set [the US yield curve to music](https://www.ft.com/content/80269930-40c3-11e9-b896-fe36ec32aece), and brought our journalists on stage in [a collaboration with Live Magazine](https://www.thedrum.com/news/2019/03/28/the-financial-times-experiment-with-taking-its-newsroom-the-big-stage).
 

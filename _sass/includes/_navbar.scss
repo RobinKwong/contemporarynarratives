@@ -39,19 +39,19 @@
     font-weight: bolder;
   }
 
-  a#About {
+  a.nav-about {
     color: #f8ed59;
   }
 
-  a#Blog {
+  a.nav-blog {
     color: #e97aae;
   }
 
-  a#Projects {
+  a.nav-projects {
     color: #5d8ac7;
   }
 
-  a#Resources {
+  a.nav-resources {
     color: #d0d0d0;
   }
 
@@ -114,6 +114,19 @@ nav {
   margin: 0;
   padding: 0;
 
+  // the phone menu toggle: a button, so it announces itself and doesn't jump the page to #
+  #pull {
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: $header-link-color;
+    font: inherit;
+    cursor: pointer;
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -135,14 +148,7 @@ nav {
       color: $selection-color;
     }
 
-    &#pull {
-      i {
-        margin-top: 6px;
-        margin-right: 10px;
-        float: right;
-      }
 
-    }
 
   }
 }
@@ -150,7 +156,7 @@ nav {
 /* ---- Responsive ---- */
 
 @media (min-width: $break) {
-  a#pull {
+  #pull {
     display: none;
   }
 }
@@ -195,7 +201,7 @@ nav {
       overflow: hidden;
 
       /* fade out, then shrink */
-      transition: opacity .25s 0s, font-size .25s 0s;
+      transition: opacity .25s 0s, font-size .25s 0s, visibility 0s;
       transition-delay: 0s;
 
       &.hide {
@@ -203,6 +209,8 @@ nav {
         margin: 0;
         opacity: 0;
         padding: 0;
+        visibility: hidden; // out of the tab order and the accessibility tree, not just transparent
+        transition: opacity .25s, font-size .25s, visibility 0s .25s;
       }
     }
 

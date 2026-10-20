@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   ['click', 'touch'].forEach(function (e) {
     pull.addEventListener(e, function () {
-      menu.classList.toggle('hide')
+      var open = !menu.classList.toggle('hide');
+      pull.setAttribute('aria-expanded', open);
     }, false);
   });
 
