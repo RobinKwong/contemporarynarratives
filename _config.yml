@@ -22,11 +22,6 @@ color_image: /assets/img/lineart.png                    # A bit transparent for 
 # Features
 # More in the _data folder for social icons, share buttons, author and language
 # For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
-katex: false                                             # Enable if using math markup
-mermaid: false                                           # Enable mermaid-js for sequence and diagrams
-google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
-cookie_consent: false                                   # To respect the usage of cookies
-disqus_shortname:                                       # Your discus shortname for comments
 
 # PAGINATION
 paginate: 5
@@ -40,13 +35,10 @@ collections:
 
 # BUILD SETTINGS
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-sitemap]
-# Repo housekeeping and unused vendor scripts stay off the site (mermaid and katex are off above;
-# drop their lines here if either is turned on). The private wiki/raw/outputs folders are git-excluded,
+# Repo housekeeping stays off the site. The private wiki/raw/outputs folders are git-excluded,
 # so CI never sees them, but a plain local build would publish them without these entries.
 exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules",
-          "README.md", "LICENSE", "*.gemspec", "assets/Dockerfile", "assets/gulpfile.js", "assets/package.json", "assets/css/*.less",
-          "assets/js/vendor/mermaid.min.js", "assets/js/vendor/mermaid.min.js.map",
-          "assets/js/vendor/katex.min.js", "assets/js/vendor/auto-render.min.js",
+          "README.md", "LICENSE", "*.gemspec", "assets/Dockerfile", "assets/gulpfile.js", "assets/package.json",
           "wiki", "raw", "outputs", "CLAUDE.md"]
 
 # Theme is vendored directly in this repo (_includes, _layouts, _sass).

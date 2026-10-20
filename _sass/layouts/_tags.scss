@@ -1,7 +1,9 @@
+@use "base/variables";
+
 .tag-list {
   width: 100%;
   font-size: 0.9em;
-  padding-bottom: $padding-x-small;
+  padding-bottom: variables.$padding-x-small;
 
   div.meta {
     margin-right: 0.5em;
@@ -21,13 +23,13 @@
 // h2 and h3 for the outline. The tag heading keeps the h3 size it had; the titles
 // below grew from the browser's h5 default (about 0.83em) to 1.15em, chosen for legibility
 .tag-anchor {
-  margin-bottom: $padding-x-small;
+  margin-bottom: variables.$padding-x-small;
   font-size: 1.5em;
-  @media screen and (max-width: $break) { font-size: 1em; }
-  @media screen and (max-width: $sm-break) { font-size: 0.9em; }
+  @media screen and (max-width: variables.$break - 0.02) { font-size: 1em; }
+  @media screen and (max-width: variables.$sm-break) { font-size: 0.9em; }
 
   a {
-    color: $link-color;
+    color: variables.$link-color;
 
     &:hover {
       text-decoration: none;
@@ -41,7 +43,7 @@
 
   .tag-title {
     font-size: 1.15em;
-    @media screen and (max-width: $break) { font-size: 0.85em; } // stays smaller than the tag heading above it
+    @media screen and (max-width: variables.$break - 0.02) { font-size: 0.85em; } // stays smaller than the tag heading above it
     margin-top: 0;
     margin-bottom: 0.3em;
     // title left, date right; a long title wraps beside the date instead of running under it
@@ -50,14 +52,14 @@
     align-items: baseline;
     gap: 1em;
     // a div holding the h3 and the byline (a byline inside the h3 was invalid HTML), styled as the h3 was
-    font-family: $font-family-headings;
+    font-family: variables.$font-family-headings;
     font-weight: bold;
     line-height: 1.3;
 
     h3 {
       flex: 1;
       font-size: inherit;
-      margin: 0 0 0 $padding-x-small;
+      margin: 0 0 0 variables.$padding-x-small;
     }
 
     .post-info {
@@ -73,7 +75,7 @@
   }
 }
 
-@media screen and (max-width: $sm-break) {
+@media screen and (max-width: variables.$sm-break) {
   .tag-posts .meta {
     display: none;
   }

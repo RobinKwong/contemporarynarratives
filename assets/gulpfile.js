@@ -2,15 +2,12 @@
  * Here are all of the gulp tasks you can use to help manage your blog
  * Use `npm install` to install all the dependencies located in package.json
  * If you have an issue with sharp, try: `npm rebuild`.
- * Then `gulp default` to minimize css and images.
+ * Then `gulp default` to minimise the JavaScript and images.
  */
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
-const less = require('gulp-less');
-const cleanCSS = require('gulp-clean-css');
-const replace = require('gulp-replace');
 const webp = require('gulp-webp');
 const responsive = require('gulp-responsive');
 const fs = require('fs');
@@ -105,24 +102,4 @@ gulp.task('webp', () =>
     .pipe(gulp.dest('img'))
 );
 
-gulp.task('css', function minicss() {
-  return gulp.src('css/vendor/bootstrap-iso.css')
-    .pipe(cleanCSS())
-    .on('error', (err) => {
-      console.log(err.toString())
-    })
-    .pipe(concat('bootstrap-iso.min.css'))
-    .pipe(gulp.dest('css/vendor/'));
-});
-
-gulp.task('isolate', function isolateBootstrap() {
-  return gulp.src('css/bootstrap-iso.less')
-    .pipe(less({strictMath: 'on'}))
-    .pipe(replace('.bootstrap-iso html', ''))
-    .pipe(replace('.bootstrap-iso body', ''))
-    .pipe(gulp.dest('css/vendor/'));
-});
-
-
-gulp.task("isolate-bootstrap-css", gulp.series('isolate', 'css'));
-gulp.task("default", gulp.series(gulp.parallel('js', 'css', 'img')));
+gulp.task("default", gulp.series(gulp.parallel('js', 'img')));

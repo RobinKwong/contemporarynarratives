@@ -6,7 +6,10 @@ layout: default
 
   <header id="main" style="background-image: url('{{ cde.banner | relative_url }}')">
     <div class="title-padder">
-      <h1 class="title">Creative Data Exchange</h1>
+      {%- comment -%} One banner for every CDE page; the section name ("Community") goes in the h1 for
+      screen readers and outlines, while the nav bar below shows it visually. {%- endcomment -%}
+      {% assign section = page.title | split: " — " %}
+      <h1 class="title">Creative Data Exchange{% if section.size > 1 %}<span class="sr-only">: {{ section.last }}</span>{% endif %}</h1>
     </div>
   </header>
 

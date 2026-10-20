@@ -1,3 +1,6 @@
+@use "base/utility";
+@use "base/variables";
+
 /* --- Header text feature --- */
 .call-out {
   @extend %padding-header;
@@ -6,22 +9,22 @@
   height: 100%;
   font-size: 1.2em;
   text-align: center;
-  color: $header-text-color;
-  background: no-repeat $header-background-color;
-  background-size: $feature-image-size;
-  font-family: $font-family-logo;
+  color: variables.$header-text-color;
+  background: no-repeat variables.$header-background-color;
+  background-size: variables.$feature-image-size;
+  font-family: variables.$font-family-logo;
 
 
   /* --- Responsive --- */
-  @media screen and (min-width: $break) {
+  @media screen and (min-width: variables.$break) {
     background-size: 120% auto;
   }
 
-  @media screen and (max-width: $break) {
+  @media screen and (max-width: variables.$break - 0.02) {
     background-size: 200% auto;
   }
 
-  @media screen and (max-width: $sm-break) {
+  @media screen and (max-width: variables.$sm-break) {
     background-size: 400% auto;
   }
 
@@ -41,13 +44,13 @@
   margin: 0;
   padding-top: 0; // the intro above already ends with its own padding
   padding-bottom: 0.6em;
-  font-family: $font-family-main;
+  font-family: variables.$font-family-main;
   font-size: 0.85em;
   font-weight: 600;
-  color: $meta;
+  color: variables.$meta;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid variables.$border-color;
 }
 
 .posts {
@@ -56,8 +59,8 @@
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
-    background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
+    background-size: variables.$feature-image-size;
+    border-bottom: 1px solid variables.$border-color;
 
     p a {
       @extend .body-link;
@@ -68,12 +71,12 @@
       border-radius: 10px;
       overflow: hidden;
 
-      @media (min-width: $break) {
+      @media (min-width: variables.$break) {
         height: 250px;
       }
 
       //Smaller screen
-      @media screen and (max-width: $break) {
+      @media screen and (max-width: variables.$break - 0.02) {
         height: 150px;
       }
 
@@ -107,7 +110,7 @@
     line-height: 1.4;
 
     // a div, so it missed the theme's smaller paragraph size and ran larger than the text around it
-    @media screen and (max-width: $break) {
+    @media screen and (max-width: variables.$break - 0.02) {
       font-size: 0.8em;
     }
   }
@@ -116,7 +119,7 @@
   .post-teaser-title {
     margin: 0; // as `header h1` had
     font-size: 2.3em;
-    @media screen and (max-width: $break) { font-size: 2em; }
-    @media screen and (max-width: $sm-break) { font-size: 1.5em; }
+    @media screen and (max-width: variables.$break - 0.02) { font-size: 2em; }
+    @media screen and (max-width: variables.$sm-break) { font-size: 1.5em; }
   }
 }

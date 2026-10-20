@@ -1,3 +1,7 @@
+@use "base/global"; // so the @extend below also picks up .meta's phone sizes
+@use "base/utility";
+@use "base/variables";
+
 #post-nav {
   width: 100%;
   display: inline-block;
@@ -24,7 +28,7 @@
     width: 50%;
   }
 
-  @media screen and (max-width: $sm-break) {
+  @media screen and (max-width: variables.$sm-break) {
     a, p {
       font-size: 0.8em;
     }

@@ -1,10 +1,13 @@
+@use "base/utility";
+@use "base/variables";
+
 // Projects index (pages/portfolio.md): one card per project from _data/projects.yml
 .project-cards {
   margin: 0;
   padding: 0;
   list-style: none;
-  width: $measure-wide;
-  @include wider-than-column(($measure-wide - $measure) * 0.5);
+  width: variables.$measure-wide;
+  @include utility.wider-than-column((variables.$measure-wide - variables.$measure) * 0.5);
 }
 
 .project-card {
@@ -36,10 +39,10 @@
 
   .project-card-meta {
     margin: 0 0 0.6em;
-    color: $meta;
+    color: variables.$meta;
   }
 
-  @media (max-width: $sm-break) {
+  @media (max-width: variables.$sm-break) {
     flex-direction: column;
     gap: 0.8em;
 
@@ -53,11 +56,11 @@
 // Blog-style listing of chosen posts on a project page (_includes/post_list.html)
 .post-list {
   margin: 0.5em 0 1em;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid variables.$border-color;
 
   .post-list-item {
     padding: 1.2em 0;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid variables.$border-color;
   }
 
   h3 {
@@ -65,7 +68,7 @@
   }
 
   .post-link {
-    color: $text-color;
+    color: variables.$text-color;
   }
 
   .excerpt {
@@ -82,14 +85,14 @@
   flex-wrap: wrap;
   gap: 0.4em 2em;
   align-items: baseline;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid variables.$border-color;
   font-size: 0.85em;
 
   .works-nav-label {
-    color: $meta;
+    color: variables.$meta;
   }
 
   .works-nav-sep {
-    color: $meta;
+    color: variables.$meta;
   }
 }

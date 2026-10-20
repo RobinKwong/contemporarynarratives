@@ -1,6 +1,9 @@
+@use "base/utility";
+@use "base/variables";
+
 .comments {
   @extend %padding-post;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid variables.$border-color;
   float: left;
   width: 100%;
 }
@@ -30,7 +33,7 @@ article {
     display: block;
     padding: 0;
     margin: 0; // the theme's auto margins would add to the centring shift and push a narrow image flush right
-    @include wider-than-column($image-outset);
+    @include utility.wider-than-column(variables.$image-outset);
   }
 
   .caption {
@@ -83,13 +86,6 @@ header {
   }
 }
 
-.meta {
-  color: $meta; // rgba($text-color, .65);
-  letter-spacing: 0.1em;
-  margin: 0;
-  text-transform: uppercase;
-}
-
 /* --- Post info --- */
 .post-info {
   /* For border in author
@@ -99,12 +95,18 @@ header {
   border-radius: 1em;
   padding-right: 0.5em;
   display: inline-flex;
-  
+  align-items: center;
+
+  // only the author's name is a link (it used to wrap the avatar and date too): the byline's colour,
+  // with a thin underline so it reads as a link without a hover (phones have none)
   a {
-    display: flex;
-    align-items: center;
-    img {
-      height: auto;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+
+    &:hover {
+      color: variables.$link-color;
     }
   }
 
@@ -112,7 +114,7 @@ header {
     border-radius: 1em;
     padding: 0;
     width: 1.5em;
-    height: 100%;
+    height: auto;
     margin-right: 0.5em;
   }
 }
@@ -132,16 +134,22 @@ header {
   }
 
   h1.title, .post-info {
-    color: $feature-image-text-color;
+    color: variables.$feature-image-text-color;
   }
 
   header {
-    color: $feature-image-text-color;
+    color: variables.$feature-image-text-color;
     margin-bottom: 0;
-    padding: $padding-large $padding-large;
+    padding: variables.$padding-large variables.$padding-large;
 
     .meta {
-      color: rgba($feature-image-text-color, .7);
+      color: rgba(variables.$feature-image-text-color, .7);
+    }
+
+    // the byline's blue hover would vanish into a dark photo
+    .post-info a:hover {
+      color: variables.$feature-image-text-color;
+      text-decoration: underline;
     }
   }
 
@@ -156,25 +164,25 @@ header {
   }
 
   .feature-image-padding {
-    padding: $feature-image-padding;
+    padding: variables.$feature-image-padding;
   }
 }
 
 /*-- feature-image Responsive scrolling --*/
 .feature-image header {
-  @media screen and (max-width: $break) {
-    padding: $padding-large*1.5 $padding-small;
+  @media screen and (max-width: variables.$break - 0.02) {
+    padding: variables.$padding-large*1.5 variables.$padding-small;
   }
 
-  @media screen and (min-width: $break) {
+  @media screen and (min-width: variables.$break) {
     background-size: 120% auto;
   }
 
-  @media screen and (max-width: $break) {
+  @media screen and (max-width: variables.$break - 0.02) {
     background-size: 200% auto;
   }
 
-  @media screen and (max-width: $sm-break) {
+  @media screen and (max-width: variables.$sm-break) {
     background-size: 400% auto;
   }
 }

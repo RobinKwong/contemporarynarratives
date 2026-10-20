@@ -58,7 +58,7 @@ $feature-image-size: cover; // options include "cover", "contain", "auto"
 //Search colours
 $link-shadow: color.adjust($link-color, $alpha: -0.6); //rgba(26, 188, 156, 0.6);
 $text-shadow: #3f3f3f;
-$search-color: #999;
+$search-color: #6b6b6b; // 4.9:1 on the background (WCAG AA); #999 was 2.6:1
 
 
 /*  Syntax highlighting  */

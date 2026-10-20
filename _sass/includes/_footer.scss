@@ -1,3 +1,6 @@
+@use "base/utility";
+@use "base/variables";
+
 // Site-wide footer: link columns, then a small-print line. On CDE pages
 // _includes/footer.html adds the CDE column and the CDE credit line.
 .site-footer {
@@ -14,7 +17,7 @@
   box-shadow: none;
 
   a {
-    color: $header-link-color;
+    color: variables.$header-link-color;
 
     &:hover {
       color: #e97aae; // the header's Blog pink; yellow is taken by the CNL heading
@@ -30,7 +33,7 @@
   h2 {
     margin: 0 0 0.5em;
     font-size: 1em;
-    color: $header-link-color;
+    color: variables.$header-link-color;
 
     // header palette: CNL in About's yellow, CDE in Projects' blue
     &.footer-cnl {

@@ -1,5 +1,7 @@
+@use "base/variables";
+
 .title-padder {
-  padding: $title-padding;
+  padding: variables.$title-padding;
 }
 
 h1.title {
