@@ -23,10 +23,13 @@ article {
 
   // Images that stand alone in a paragraph: a little wider than the text, centred.
   // Floated images (About's founder photos) and image grids keep their own layout.
+  // CSS can't see text nodes, so an image inside a sentence also matches: in Markdown,
+  // leave a blank line between text and an image.
   .post-content p > img:only-child:not([align]):not([style*="float"]),
   .post-content p > a:only-child > img:only-child {
     display: block;
     padding: 0;
+    margin: 0; // the theme's auto margins would add to the centring shift and push a narrow image flush right
     @include wider-than-column($image-outset);
   }
 

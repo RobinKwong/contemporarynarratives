@@ -3,12 +3,14 @@
     {% for item in site.portfolio %}
     <div class="portfolio-cell">
         <a class="portfolio-link" data-keyboard="true" href="{{ item.url | relative_url }}">
-            <div class="caption" title="{{ item.title }}">
-                <div class="caption-content">
-                    <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-            </div>
-            <img alt="" class="" src="{{ item.img | relative_url }}">
+            <span class="portfolio-thumb">
+                <span class="caption" title="{{ item.title }}">
+                    <span class="caption-content">
+                        <i class="fas fa-search-plus fa-3x"></i>
+                    </span>
+                </span>
+                <img alt="" class="" src="{{ item.img | relative_url }}">
+            </span>
             <span class="portfolio-title">{{ item.title }}</span>
         </a>
     </div>

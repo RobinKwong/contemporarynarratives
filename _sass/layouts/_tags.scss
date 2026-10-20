@@ -18,7 +18,8 @@
   }
 }
 
-// h2 and h3 for the outline, kept at the h3 and h5 sizes they had
+// h2 and h3 for the outline. The tag heading keeps the h3 size it had; the titles
+// below grew from the browser's h5 default (about 0.83em) to 1.15em, chosen for legibility
 .tag-anchor {
   margin-bottom: $padding-x-small;
   font-size: 1.5em;
