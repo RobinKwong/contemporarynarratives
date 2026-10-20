@@ -21,13 +21,20 @@ article {
     font-size: 0.9em;
   }
 
+  // Images that stand alone in a paragraph: a little wider than the text, centred.
+  // Floated images (About's founder photos) and image grids keep their own layout.
+  .post-content p > img:only-child:not([align]):not([style*="float"]),
+  .post-content p > a:only-child > img:only-child {
+    display: block;
+    padding: 0;
+    @include wider-than-column($image-outset);
+  }
+
   .caption {
-  font-size: 0.6em;
-    padding: 0 9%;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 0.75em;
+    text-align: center;
+    margin-top: -0.4em;
     margin-bottom: 2em;
-    margin-top: -1.5em;
   }
 
   .videowrapper {

@@ -14,6 +14,11 @@ $padding-x-small: 3%;
 
 // Sepcific Padding
 $title-padding: 1%;
+// Text column: a fixed measure, centred, rather than a percentage of the window (Butterick: 45-90 characters a line)
+$measure: 42.5rem;        // 34em at the 20px body size
+$measure-wide: 68.75rem;  // 1100px, for the Projects index cards
+$gutter: 1rem;            // smallest side margin, on phones
+$image-outset: 3rem;      // how far a content image may reach past the text column on each side
 $feature-image-padding: 10%;
 
 // Mobile display

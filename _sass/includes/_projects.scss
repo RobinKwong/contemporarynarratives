@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  width: $measure-wide;
+  @include wider-than-column(($measure-wide - $measure) * 0.5);
 }
 
 .project-card {
