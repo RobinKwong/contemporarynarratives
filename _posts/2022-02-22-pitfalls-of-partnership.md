@@ -15,7 +15,7 @@ Last year, as part of the Contemporary Narrative Labs network, I helped put toge
 
 It was an exciting proposal bringing together artists, journalists, researchers and the public. But I quickly realised that there were huge lessons to be learned about common (mis)understandings, milestones and principles, as well as who was paying for what and when.
 
-“Universities should be a public resource,” says [Dr Aoife Monks](https://www.qmul.ac.uk/sed/staff/monksa.html), former theatre director and now arts and culture academic lead at Queen Mary University of London. “We have space, money and funding schemes and the expertise of both academics and students. We also stand to benefit from the expertise of artists.”
+“Universities should be a public resource,” says [Dr Aoife Monks](https://www.qmul.ac.uk/arts/people/academic-and-research-staff/drama/monksa.html), former theatre director and now arts and culture academic lead at Queen Mary University of London. “We have space, money and funding schemes and the expertise of both academics and students. We also stand to benefit from the expertise of artists.”
 
 [Irini Papadimitriou](https://futureeverything.org/people/irini-papadimitriou/), the creative director of Future Everything, an innovation and culture lab in Manchester which frequently collaborates with universities and PhD students, agrees. In the arts world, she says, there is not the luxury of time or money to do research which can make such partnerships between academe and art so fruitful.
 
@@ -38,7 +38,7 @@ The space that such a collaboration inhabits may also have a huge effect on the 
 When Monks worked with the National Theatre to curate an exhibition on their costume department and write a book on it, she realised she didn’t understand their world. “I interviewed them, but then I also went and sat with them in their workplace, watching what they did, having a cup of tea with them and also working with them.”  
 
 ## Shared ownership and avoidance of hierarchies
-When creative works are being produced, it is important to think about acknowledgment of people’s ideas. As [Dr Josephine Machon](https://www.mdx.ac.uk/about-us/our-people/staff-directory/profile/machon-josephine), of Middlesex University says, it’s crucial to be transparent in crediting both sides. 
+When creative works are being produced, it is important to think about acknowledgment of people’s ideas. As [Dr Josephine Machon](https://web.archive.org/web/20220122165552/https://www.mdx.ac.uk/about-us/our-people/staff-directory/profile/machon-josephine), of Middlesex University says, it’s crucial to be transparent in crediting both sides. 
 
 While an artist may be focused on their own intellectual property, recognition of an academic’s contribution should also be made clear. "I've experienced offering ideas, and those ideas being taken forward without me,” Machon recalls. “An artist would fight for their IP but what happens when an academic shares knowledge and approach but is not acknowledged in any way?” 
 

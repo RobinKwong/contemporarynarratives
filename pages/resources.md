@@ -27,7 +27,7 @@ This page gathers together useful links to projects, organisations, articles and
 
 [The Bureau of Investigative Journalism - Refuge Women](https://www.thebureauinvestigates.com/blog/2018-06-14/were-putting-investigative-journalism-on-stage-across-the-uk)
 
-[City University - News on Stage](https://www.city.ac.uk/news/2020/october/news-on-stage-presents-up-and-coming-stories)
+[City University - News on Stage](https://web.archive.org/web/20201029011237/https://www.city.ac.uk/news/2020/october/news-on-stage-presents-up-and-coming-stories)
 
 [City University - The News Cabaret at Wandsworth Fringe](https://web.archive.org/web/20221005125120/https://www.wandsworthfringe.com/whats-on-2021/the-news-cabaret)
 
