@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 ![Robin Kwong speaking on the Fifteen Seconds Festival media stage beside award logos](/assets/img/fifteenseconds/opening.jpg)
 
-I gave the following keynote on the media stage at the Fifteen Seconds Festival, an interdisciplinary festival for business, innovation, and creativity, in Graz, Austria on June 6, 2019.
+I gave the following keynote on the media stage at the [Fifteen Seconds Festival](https://web.archive.org/web/20230609081652/https://fifteenseconds.co/festival/), an interdisciplinary festival for business, innovation, and creativity, in Graz, Austria on June 6, 2019.
 <!--more-->
 <hr>
 

@@ -55,7 +55,7 @@ The whole project will culminate in a theatre performance, set in an editors' ro
 
 <span class="firstLetter">B</span>ringing artist and journalists together requires new ways of working. Collaboration rarely 'just happens', and requires asking difficult questions, such as who has the final say over the resulting work?
 
-The Contemporary Narrative Labs experiment the Financial Times ran with the Battersea Arts Centre and Queen Mary University last year was the first step towards tackling some of those issues. This was further refined in South Africa through the Creative Storytelling workshop funded by the Open Societies Foundation.
+The Contemporary Narrative Labs experiment the Financial Times ran with the Battersea Arts Centre and Queen Mary University last year was the first step towards tackling some of those issues. This was further refined in South Africa through the [Creative Storytelling](https://web.archive.org/web/20200513131323/https://creativestorytelling.co.za/) workshop funded by the Open Societies Foundation.
 
 There, veteran playwright Mike Van Graan facilitated a workshop to pair up 6-8 journalists with theatre-makers and artists, to create works that brings investigative journalism into local communities.  
 

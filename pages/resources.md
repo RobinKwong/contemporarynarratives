@@ -14,7 +14,7 @@ This page gathers together useful links to projects, organisations, articles and
 
 [De Balie - The Vaccine](https://debalie.nl/programma/the-vaccine-who-should-get-it-first-20-09-2020/) 
 
-CreativestorytellingSA
+[CreativestorytellingSA](https://web.archive.org/web/20200513131323/https://creativestorytelling.co.za/)
 
 [University of Porto - A Portrait of Elderly Loneliness](https://youtu.be/RtyeK7en_EI)
 
