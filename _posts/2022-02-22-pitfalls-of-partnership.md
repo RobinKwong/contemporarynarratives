@@ -4,6 +4,7 @@ title: Avoiding the pitfalls of partnership
 feature-img: "assets/img/pexels/partnership.jpg"  
 tags: [Blog]
 author: glenda
+excerpt: "It was an exciting proposal bringing together artists, journalists, researchers and the public. But I quickly realised that there were huge lessons to be learned about common (mis)understandings, milestones and principles, as well as who was paying for what and when."
 ---
 
 _This post was [originally published](https://www.artsprofessional.co.uk/magazine/article/avoiding-pitfalls-partnership/) on Arts Professional. Republished with permission._

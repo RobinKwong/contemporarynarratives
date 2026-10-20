@@ -29,16 +29,16 @@ This is where art and drama can help, and there are recent examples of artist/jo
 <p></p>
 <span class="firstLetter">L</span>ast October, the Financial Times commissioned Clare Dwyer Hogg, a journalist and playwright from northern Ireland, to write a poem about the Irish backstop. The actor Stephen Rea performed a reading of the poem on the border itself. The resulting 8-minute film became one of our most-viewed videos, and has since been screened at film festivals. 
 
-"We wanted to express this feeling of the border being both there and not there &mdash; of it being hugely important but not a physical barrier, which was central to the idea," my colleague Juliet Riddell, who made the film, [told journalism.co.uk](https://www.journalism.co.uk/video/caroline-ft/s400/a728276/). 
+"We wanted to express this feeling of the border being both there and not there &mdash; of it being hugely important but not a physical barrier, which was central to the idea," my colleague Juliet Riddell, who made the film, [told journalism.co.uk](https://web.archive.org/web/20250910184609/https://www.journalism.co.uk/video/caroline-ft/s400/a728276/). 
 
 "The creative arts communicate a truth &mdash; they articulate a way that you might feel but haven't found the words for yourself."
 
-This desire &mdash; to convey an emotional truth, and to do so via a format that surprises and breaks through to people's consciousness &mdash; lies behind my own work in [using newsgames](/newsgames/) to tell the story of [full-time Uber drivers](https://ig.ft.com/uber-game/), or that of business owners grappling with the [US-China trade tariffs](https://ig.ft.com/trump-china-tariffs/).
+This desire &mdash; to convey an emotional truth, and to do so via a format that surprises and breaks through to people's consciousness &mdash; lies behind my own work in [using newsgames](https://www.ft.com/newsgames/) to tell the story of [full-time Uber drivers](https://ig.ft.com/uber-game/), or that of business owners grappling with the [US-China trade tariffs](https://ig.ft.com/trump-china-tariffs/).
 
 ![Young man speaking into a microphone amid a seated audience at a De Balie live journalism event in Amsterdam](/assets/img/debalie.jpg)
-<p class="caption"><a href="https://debalie.nl/member/de-balie-live-journalism/">De Balie Live Journalism</a></p>
+<p class="caption"><a href="https://web.archive.org/web/20191114174728/https://debalie.nl/member/de-balie-live-journalism/">De Balie Live Journalism</a></p>
 
-<span class="firstLetter">A</span>t the De Balie cultural centre in Amsterdam, project leader Tim Wagemaker and several journalists are exploring what it means to [bring an investigation into a community space](https://debalie.nl/member/de-balie-live-journalism/) over several months. 
+<span class="firstLetter">A</span>t the De Balie cultural centre in Amsterdam, project leader Tim Wagemaker and several journalists are exploring what it means to [bring an investigation into a community space](https://web.archive.org/web/20191114174728/https://debalie.nl/member/de-balie-live-journalism/) over several months. 
 
 Their first story is on the working poor in Amsterdam. There was a traditional news article on the issue in NRC Handelsblad, the national newspaper, but that was only the kicking-off point. The journalists profiled dozens of people who are among the working poor, and De Balie hosted 100 members of the community for a 'public editorial meeting' to discuss the issue. The meeting attracted on different sides of the issue, and was framed by asking the attendees: "What do you need from here?"
 
@@ -55,7 +55,7 @@ The whole project will culminate in a theatre performance, set in an editors' ro
 
 <span class="firstLetter">B</span>ringing artist and journalists together requires new ways of working. Collaboration rarely 'just happens', and requires asking difficult questions, such as who has the final say over the resulting work?
 
-The Contemporary Narrative Labs experiment the Financial Times ran with the Battersea Arts Centre and Queen Mary University last year was the first step towards tackling some of those issues. This was further refined in South Africa through the [Creative Storytelling](https://creativestorytelling.co.za/) workshop funded by the Open Societies Foundation.
+The Contemporary Narrative Labs experiment the Financial Times ran with the Battersea Arts Centre and Queen Mary University last year was the first step towards tackling some of those issues. This was further refined in South Africa through the [Creative Storytelling](https://web.archive.org/web/20200513131323/https://creativestorytelling.co.za/) workshop funded by the Open Societies Foundation.
 
 There, veteran playwright Mike Van Graan facilitated a workshop to pair up 6-8 journalists with theatre-makers and artists, to create works that brings investigative journalism into local communities.  
 

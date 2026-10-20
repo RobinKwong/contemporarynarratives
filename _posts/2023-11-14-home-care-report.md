@@ -4,6 +4,7 @@ title: HOME &#8725; CARE Report
 tags: [Project]
 author: robin
 excerpt_separator: <!--more-->
+excerpt: "At the end of the project, which was funded by a research grant from City, University of London, Dr Glenda Cooper wrote a full report detailing the issues the project sought to address, the events and activities that took place, and our learnings from it."
 ---
 
 In early 2021, the Contemporary Narratives Lab embarked on its second project, bringing together interactive theatre-maker [Coney](https://www.coneyhq.org/) and the Health Inequality team at Bureau Local, part of the [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/). 

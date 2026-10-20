@@ -22,6 +22,7 @@
   width: 100%;
   position: fixed;
   top: 0px;
+  z-index: 100; // without it, positioned page content (the portfolio grid tiles) scrolls over the header
 
   .separator {
     user-select: none;
@@ -222,5 +223,55 @@ nav {
       }
 
     }
+  }
+}
+
+// Projects dropdown (_includes/navbar.html, items from _data/projects.yml).
+// Desktop: opens under "Projects" on hover or keyboard focus. Below $break: listed under it in the open menu.
+nav .subnav {
+  float: none;
+  text-align: left;
+}
+
+@media (min-width: $break) {
+  nav li.has-subnav {
+    position: relative;
+  }
+
+  nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -1em;
+    z-index: 10;
+    min-width: 14em;
+    padding: 0.5em 0 0.6em;
+    background: black;
+    font-size: 0.75em;
+
+    li {
+      float: none;
+      display: block;
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      padding: 0.25em 1.3em;
+      color: $header-link-color;
+      white-space: nowrap;
+    }
+  }
+
+  nav li.has-subnav:hover .subnav,
+  nav li.has-subnav:focus-within .subnav {
+    display: block;
+  }
+}
+
+@media screen and (max-width: $break) {
+  nav .subnav li {
+    font-size: 0.8em;
+    background-color: transparent;
   }
 }

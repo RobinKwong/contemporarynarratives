@@ -1,0 +1,21 @@
+{% comment %}
+  Blog-style listing of chosen posts, for project pages.
+  Usage: {% include post_list.html urls="/2023/02/13/its-criminal.html,/2023/09/20/its-criminal-tron.html" %}
+  Posts appear in the order given.
+{% endcomment %}
+{% assign wanted = include.urls | split: "," %}
+<div class="post-list">
+  {% for url in wanted %}
+  {% assign post = site.posts | where: "url", url | first %}
+  {% if post %}
+  <div class="post-list-item">
+    <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    {% include post_info.html author=post.author date=post.date %}
+    {% comment %} drop image captions, which otherwise lead the excerpt {% endcomment %}
+    {% assign parts = post.excerpt | split: '<p class="caption">' %}
+    {% capture excerpt %}{{ parts[0] }}{% for part in parts offset: 1 %}{% assign rest = part | split: '</p>' %}{% for r in rest offset: 1 %}{{ r }} {% endfor %}{% endfor %}{% endcapture %}
+    <p class="excerpt">{{ excerpt | strip_html | normalize_whitespace }}</p>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>

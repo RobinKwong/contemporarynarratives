@@ -23,6 +23,6 @@ _Ten_ was the resulting work. The audience, as a group, won if exactly ten peopl
 
 ![Audience members standing among seated participants as facilitators address the room during Tassos Stevens's game Ten](/assets/img/portfolio/tassos-wide.jpg)
 
-_[Tassos Stevens](https://coneyhq.org/tassos-stevens/) is artistic director of Coney. As interactive theatre-makers, Coney create games, adventures and play where people can choose to take a meaningful part._
+_[Tassos Stevens](https://web.archive.org/web/20260521074648/http://coneyhq.org/tassos-stevens/) is artistic director of Coney. As interactive theatre-makers, Coney create games, adventures and play where people can choose to take a meaningful part._
 
 _[Leslie Hook](https://www.ft.com/leslie-hook) reports from ​London on carbon, the environment and the renewable energy transition worldwide. ​Her previous roles at the FT include San​ ​Francisco correspondent, Lex writer and Beijing correspondent. Prior to that she was at the Wall Street Journal._

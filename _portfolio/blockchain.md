@@ -25,6 +25,6 @@ These questions led to the concept that Harun presented: Pose a series of questi
 
 ![Seated audience watching a presenter beside a grid of question cards taped to the wall for Harun Morrison's prediction-market piece](/assets/img/portfolio/harun-wide.jpg)
 
-_[Harun Morrision](http://www.theyarehere.net/) is one half of They Are Here, is a collaborative practice that creates context-specific games where the entry, invitation or participation can be as significant as the game's conditions and structure. Through these games, Harun seeks to create ephemeral systems and temporary, micro-communities that offer an alternate means of engaging with a situation, history or ideology._
+_[Harun Morrision](https://web.archive.org/web/20260607203950/http://theyarehere.net/) is one half of They Are Here, is a collaborative practice that creates context-specific games where the entry, invitation or participation can be as significant as the game's conditions and structure. Through these games, Harun seeks to create ephemeral systems and temporary, micro-communities that offer an alternate means of engaging with a situation, history or ideology._
 
 _[Chloe Cornish](https://www.ft.com/chloe-cornish) is a Financial Times graduate trainee reporter, currently covering European capital markets from London. She previously covered a variety of technologies, including cryptocurrencies, for the FT in San Francisco._ 

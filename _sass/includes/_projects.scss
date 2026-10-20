@@ -1,0 +1,93 @@
+// Projects index (pages/portfolio.md): one card per project from _data/projects.yml
+.project-cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-card {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+  margin: 0 0 2.5em;
+
+  .project-card-image {
+    flex: 0 0 38%;
+    line-height: 0;
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    margin: 0;
+    padding: 0; // the theme pads every img by 9% of its container
+  }
+
+  h2 {
+    margin: 0 0 0.2em;
+  }
+
+  p {
+    display: block; // the theme sets `li p { display: inline }`
+  }
+
+  .project-card-meta {
+    margin: 0 0 0.6em;
+    color: $meta;
+  }
+
+  @media (max-width: $sm-break) {
+    flex-direction: column;
+    gap: 0.8em;
+
+    .project-card-image {
+      flex-basis: auto;
+      width: 100%;
+    }
+  }
+}
+
+// Blog-style listing of chosen posts on a project page (_includes/post_list.html)
+.post-list {
+  margin: 0.5em 0 1em;
+  border-top: 1px solid $border-color;
+
+  .post-list-item {
+    padding: 1.2em 0;
+    border-bottom: 1px solid $border-color;
+  }
+
+  h3 {
+    margin: 0 0 0.3em;
+  }
+
+  .post-link {
+    color: $text-color;
+  }
+
+  .excerpt {
+    margin: 0.6em 0 0;
+  }
+}
+
+// Thin strip on each 2018 pilot work (_includes/works_nav.html): back to the project, then the other works
+.works-nav {
+  @extend %padding-post;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 2em;
+  align-items: baseline;
+  border-top: 1px solid $border-color;
+  font-size: 0.85em;
+
+  .works-nav-label {
+    color: $meta;
+  }
+
+  .works-nav-sep {
+    color: $meta;
+  }
+}
