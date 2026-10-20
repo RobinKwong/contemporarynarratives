@@ -14,13 +14,7 @@ layout: default
   </header>
 
   <section class="post-content">
-  {% if page.bootstrap %}
-    <div class="bootstrap-iso">
-    {% endif %}
       {{ content }}
-    {% if page.bootstrap %}
-    </div>
-  {% endif %}
   </section>
 
 <!--
@@ -35,8 +29,7 @@ layout: default
 </article>
 
 <!-- Disqus -->
-{% if site.disqus_shortname or site.theme_settings.disqus_shortname %}
-{% include disqus.html %}{% endif %}
+
 
 <!-- Post navigation -->
 {% if page.collection == "portfolio" %}

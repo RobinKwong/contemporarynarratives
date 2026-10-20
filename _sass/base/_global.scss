@@ -209,16 +209,9 @@ dd {
 p,
 ol,
 ul,
-dl,
-.math-display {
+dl {
   line-height: 1.4; // Butterick: 120-145%
   margin-bottom: 1em;
-}
-
-// KaTeX math display
-.math-display {
-  display: inline-block;
-  width: 100%;
 }
 
 // Lists within lists
