@@ -97,9 +97,13 @@ header {
   display: inline-flex;
   align-items: center;
 
-  // only the author's name is a link (it used to wrap the avatar and date too), in the byline's own colour
+  // only the author's name is a link (it used to wrap the avatar and date too): the byline's colour,
+  // with a thin underline so it reads as a link without a hover (phones have none)
   a {
     color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
 
     &:hover {
       color: variables.$link-color;
