@@ -67,7 +67,7 @@ def crawl():
         pages[url] = st; ids[url] = p.ids
         for tag, attr, v in p.links:
             if v.startswith(("mailto:", "tel:", "javascript:", "data:")) or v == "#": continue
-            absu = urljoin(url, v)
+            absu = urljoin(final, v)   # after a redirect (/about to /about/), relative links resolve against where we landed
             refs.append({"page": url[len(BASE)-1:], "tag": tag, "raw": v, "url": absu})
             nofrag, _ = urldefrag(absu)
             if nofrag.startswith(BASE) and tag == "a" and nofrag not in seen and not re.search(r"\.(pdf|png|jpe?g|gif|xml|zip|svg|ico)$", nofrag, re.I):

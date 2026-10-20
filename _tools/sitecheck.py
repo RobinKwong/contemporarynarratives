@@ -195,18 +195,19 @@ def first_line(e):
 async def capture(browser, url, wname, outdir, sem):
     async with sem:
         w = WIDTHS[wname]
-        ctx = await browser.new_context(viewport={"width": w, "height": VIEW_H.get(wname, 900)},
-                                        device_scale_factor=1, reduced_motion="reduce",
-                                        is_mobile=(wname == "phone"), has_touch=(wname == "phone"))
-        page = await ctx.new_page()
-        errors = []
-        page.on("console", lambda m: m.type == "error" and errors.append({"kind": "console", "text": m.text[:300]}))
-        page.on("pageerror", lambda e: errors.append({"kind": "pageerror", "text": str(e)[:300]}))
-        page.on("requestfailed", lambda r: errors.append({"kind": "requestfailed", "text": r.url[:200]}))
-        page.on("response", lambda r: r.status >= 400 and r.url.startswith(linkcheck.BASE) and
-                errors.append({"kind": f"http {r.status}", "text": r.url[:200]}))
         name = f"{slug(url)}@{wname}"
+        ctx = None
         try:
+            ctx = await browser.new_context(viewport={"width": w, "height": VIEW_H.get(wname, 900)},
+                                            device_scale_factor=1, reduced_motion="reduce",
+                                            is_mobile=(wname == "phone"), has_touch=(wname == "phone"))
+            page = await ctx.new_page()
+            errors = []
+            page.on("console", lambda m: m.type == "error" and errors.append({"kind": "console", "text": m.text[:300]}))
+            page.on("pageerror", lambda e: errors.append({"kind": "pageerror", "text": str(e)[:300]}))
+            page.on("requestfailed", lambda r: errors.append({"kind": "requestfailed", "text": r.url[:200]}))
+            page.on("response", lambda r: r.status >= 400 and r.url.startswith(linkcheck.BASE) and
+                    errors.append({"kind": f"http {r.status}", "text": r.url[:200]}))
             await page.goto(url, wait_until="load", timeout=45000)   # failing here fails the capture
             try:
                 await page.wait_for_load_state("networkidle", timeout=8000)
@@ -219,7 +220,7 @@ async def capture(browser, url, wname, outdir, sem):
             return name, None
         finally:
             try:
-                await ctx.close()
+                if ctx: await ctx.close()
             except Exception:
                 pass   # a crashed renderer can fail to close; that mustn't end the run
 
