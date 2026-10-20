@@ -4,6 +4,7 @@ title: When Journalism Meets Theatre
 feature-img: "assets/img/pexels/journalism-meets-theatre.jpg"  
 tags: [Blog]
 author: glenda
+excerpt: "So what's the point of putting journalists together with a theatre company, when one seems to deal in fact and the other in fiction?"
 ---
 
 _This post was [originally published](https://web.archive.org/web/20211202055113/https://theculturecapitalexchange.co.uk/2021/04/29/when-journalism-meets-theatre/) on The Culture Capital Exchange blog. Republished with permission._

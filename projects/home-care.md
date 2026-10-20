@@ -24,3 +24,7 @@ To accompany and build on the reporting in the article, Coney created [a digital
 ![Coney digital storytelling tool inviting people with experience of the home care system to leave a voice note or message](/assets/img/ConeyTBIJ/coneytool.png)
 
 At the conclusion of the project, Dr Glenda Cooper wrote a full research report on HOME/CARE. That report is available as [a downloadable PDF here.](/assets/home_care.pdf)
+
+### From the blog
+
+{% include post_list.html urls="/2021/04/29/journalism-meets-theatre.html,/2022/02/22/pitfalls-of-partnership.html,/2023/11/14/home-care-report.html" %}
