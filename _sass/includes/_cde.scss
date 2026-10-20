@@ -1,18 +1,20 @@
 // Creative Data Exchange microsite (layout: cde)
+
+// Placeholders for copy still to come from André; visible on purpose until filled.
+// Unscoped because the site footer, outside .cde, carries one too.
+.cde-todo {
+  padding: 0 0.3em;
+  background: $selection-color;
+  color: $text-color;
+  font-size: 0.8em;
+}
+
 .cde {
   .cde-credit {
     margin: 0.4em 0 0;
     color: $meta;
     font-size: 0.6em;
     text-align: right;
-  }
-
-  // Placeholders for copy still to come from André; visible on purpose until filled.
-  .cde-todo {
-    padding: 0 0.3em;
-    background: $selection-color;
-    color: $text-color;
-    font-size: 0.8em;
   }
 
   .post-content {
@@ -155,39 +157,5 @@
     max-height: 60px;
     margin: 0;
     padding: 0; // the theme pads every img by 9% of its container
-  }
-}
-
-// .cde prefix outranks the theme's `.feature-image footer { padding-top: 0 }`
-.cde .cde-footer {
-  margin-top: 3em;
-  padding-top: 1.5em;
-  border-top: 2px solid $text-color;
-  text-align: left;
-
-  .cde-footer-cols {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em 4em;
-  }
-
-  h2 {
-    margin: 0 0 0.5em;
-    font-size: 1em;
-  }
-
-  ul {
-    margin: 0 0 1em;
-    padding: 0;
-    list-style: none;
-  }
-
-  li {
-    margin: 0.2em 0;
-  }
-
-  .cde-footer-small {
-    color: $meta;
-    font-size: 0.8em;
   }
 }
