@@ -31,13 +31,13 @@ FREEZE_CSS = """
 MEASURE_JS = r"""
 async () => {
   const vw = document.documentElement.clientWidth, vh = window.innerHeight;
+  // Keys match an element across two runs by what it is and says, not by its position,
+  // so inserting one paragraph doesn't renumber every later one. Path: tag.class, no sibling index.
   const path = el => {
     const parts = [];
     for (; el && el !== document.body && el.nodeType === 1; el = el.parentElement) {
       if (el.id) { parts.unshift('#' + el.id); break; }
-      let i = 1, s = el;
-      while ((s = s.previousElementSibling)) if (s.tagName === el.tagName) i++;
-      parts.unshift(el.tagName.toLowerCase() + ':' + i);
+      parts.unshift(el.tagName.toLowerCase() + (el.classList[0] ? '.' + el.classList[0] : ''));
     }
     return parts.join('>');
   };
@@ -48,7 +48,14 @@ async () => {
   };
   const box = el => { const r = el.getBoundingClientRect(); return {x: Math.round(r.left + scrollX), y: Math.round(r.top + scrollY), w: Math.round(r.width), h: Math.round(r.height)}; };
   const text = el => (el.innerText || '').replace(/\s+/g, ' ').trim();
-  const key = el => path(el) + '|' + hash(text(el).slice(0, 80));
+  const keys = new WeakMap(), seen = {};
+  const key = el => {
+    if (keys.has(el)) return keys.get(el);
+    let k = path(el) + '|' + hash(text(el).slice(0, 80) || el.getAttribute('src') || '');
+    seen[k] = (seen[k] || 0) + 1;
+    if (seen[k] > 1) k += '#' + seen[k];   // same path and text: fall back to order
+    keys.set(el, k); return k;
+  };
   const header = document.querySelector('.site-header');
   const inHeader = el => header && header.contains(el);
   const inFooter = el => !!el.closest('footer');
@@ -194,30 +201,44 @@ async def capture(browser, url, wname, outdir, sem):
         page.on("requestfailed", lambda r: errors.append({"kind": "requestfailed", "text": r.url[:200]}))
         page.on("response", lambda r: r.status >= 400 and r.url.startswith(linkcheck.BASE) and
                 errors.append({"kind": f"http {r.status}", "text": r.url[:200]}))
-        try:
-            await page.goto(url, wait_until="load", timeout=45000)
-            await page.wait_for_load_state("networkidle", timeout=8000)
-        except Exception as e:
-            if "networkidle" not in str(e) and "Timeout 8000" not in str(e):
-                errors.append({"kind": "goto", "text": str(e)[:300]})
-        await page.add_style_tag(content=FREEZE_CSS)
-        # Load lazy images, then come back to the top.
-        await page.evaluate("""async () => {
-            document.querySelectorAll('img[loading=lazy]').forEach(i => i.loading = 'eager');
-            for (let y = 0; y < document.documentElement.scrollHeight; y += 600) { scrollTo(0, y); await new Promise(r => setTimeout(r, 20)); }
-            scrollTo(0, 0); await document.fonts.ready;
-            await Promise.all([...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; })));
-        }""")
-        await page.wait_for_timeout(200)
-        m = await page.evaluate(MEASURE_JS)
-        m["errors"] = errors
-        m["url"] = url
         name = f"{slug(url)}@{wname}"
-        await page.screenshot(path=str(outdir / "shots" / f"{name}.png"), full_page=True,
-                              mask=[page.locator("iframe")], animations="disabled")
-        (outdir / "data" / f"{name}.json").write_text(json.dumps(m))
-        await ctx.close()
-        return name, m
+        try:
+            try:
+                await page.goto(url, wait_until="load", timeout=45000)
+            except Exception as e:
+                # still measure what loaded, but say so: the page may be partial
+                errors.append({"kind": "goto", "text": str(e).splitlines()[0][:300]})
+            try:
+                await page.wait_for_load_state("networkidle", timeout=8000)
+            except Exception:
+                pass   # third-party embeds often never go idle
+            return await measure(page, url, name, outdir, errors)
+        except Exception as e:
+            print(f"  capture failed: {name}: {str(e).splitlines()[0][:200]}", file=sys.stderr)
+            return name, None
+        finally:
+            await ctx.close()
+
+async def measure(page, url, name, outdir, errors):
+    """Freeze, load lazy images, measure and screenshot one loaded page."""
+    await page.add_style_tag(content=FREEZE_CSS)
+    # Load lazy images, then come back to the top.
+    await page.evaluate("""async () => {
+        document.querySelectorAll('img[loading=lazy]').forEach(i => i.loading = 'eager');
+        for (let y = 0; y < document.documentElement.scrollHeight; y += 600) { scrollTo(0, y); await new Promise(r => setTimeout(r, 20)); }
+        scrollTo(0, 0); await document.fonts.ready;
+        const settled = i => new Promise(r => { i.addEventListener('load', r, {once: true}); i.addEventListener('error', r, {once: true}); });
+        await Promise.race([Promise.all([...document.images].filter(i => !i.complete).map(settled)),
+                            new Promise(r => setTimeout(r, 10000))]);   // a stalled image can't hang the run
+    }""")
+    await page.wait_for_timeout(200)
+    m = await page.evaluate(MEASURE_JS)
+    m["errors"] = errors
+    m["url"] = url
+    await page.screenshot(path=str(outdir / "shots" / f"{name}.png"), full_page=True,
+                          mask=[page.locator("iframe")], animations="disabled")
+    (outdir / "data" / f"{name}.json").write_text(json.dumps(m))
+    return name, m
 
 def issues(m):
     """Problems present on one page at one width, keyed so two runs can be compared."""
@@ -238,14 +259,19 @@ def issues(m):
         out[f'{e["kind"]}: {t[:120]}'] = ""
     return out
 
+def run_name(name):
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", name) or ".." in name:
+        sys.exit(f"run name {name!r}: use letters, digits, dot, dash or underscore")
+    return name
+
 async def snapshot(name):
-    outdir = RUNS / name
+    outdir = RUNS / run_name(name)
     if outdir.exists(): shutil.rmtree(outdir)
     (outdir / "shots").mkdir(parents=True); (outdir / "data").mkdir()
     pages, ids, refs = linkcheck.crawl()
     urls = {}
     for u in sorted(pages, key=len, reverse=True):   # prefer the trailing-slash form
-        if pages[u] in (200, 404): urls.setdefault(slug(u), u)
+        if pages[u] == 200: urls.setdefault(slug(u), u)   # crawl() keeps only pages that answered with HTML
     urls = sorted(urls.values())
     links = linkcheck.check_links(pages, ids, refs)
     (outdir / "links.json").write_text(json.dumps(links, indent=1))
@@ -255,10 +281,13 @@ async def snapshot(name):
         results = await asyncio.gather(*[capture(browser, u, w, outdir, sem) for u in urls for w in WIDTHS])
         await browser.close()
     (outdir / "pages.json").write_text(json.dumps(urls, indent=1))
+    failed = [n for n, m in results if m is None]
+    results = [(n, m) for n, m in results if m is not None]
     n_issues = sum(len(issues(m)) for _, m in results)
     n = lambda c: sum(r["class"] == c for r in links["bad"])
     print(f"snapshot {name}: {len(urls)} pages x {len(WIDTHS)} widths = {len(results)} captures; "
-          f"{n_issues} layout/console issues; links: {links['refs']} references, {n('bad')} broken, {n('unverified')} unverified")
+          f"{n_issues} layout/console issues; links: {links['refs']} references, {n('bad')} broken, {n('unverified')} unverified"
+          + (f"; {len(failed)} captures FAILED (shown as 'only in one run' in a diff)" if failed else ""))
 
 # ---------------------------------------------------------------- diff
 
@@ -301,11 +330,11 @@ def measure_diff(ma, mb):
         if f == "style":
             summary = f'{len(pairs)} blocks, e.g. "{pairs[0][0]["text"][:40]}"'
         else:
-            src = "box" if f == "w" else None
             get = (lambda b: b["box"]["w"]) if f == "w" else (lambda b: b[f])
             summary = f'{len(pairs)} blocks, median {med([get(a) for a, _ in pairs])} → {med([get(b) for _, b in pairs])}'
-        ch.append((label[f], summary, [(a["text"], a.get(f) if f not in ("w", "style") else a["box"]["w"],
-                                         b.get(f) if f not in ("w", "style") else b["box"]["w"]) for a, b in pairs[:30]]))
+        val = {"w": lambda x: x["box"]["w"],
+               "style": lambda x: f'{x["font"].split(",")[0]} {x["weight"]} {x["color"]}'}.get(f, lambda x: x[f])
+        ch.append((label[f], summary, [(a["text"], val(a), val(b)) for a, b in pairs[:30]]))
     ga, gb = index(ma["gaps"]), index(mb["gaps"])
     moved = [(k, ga[k], gb[k]) for k in ga.keys() & gb.keys() if abs(ga[k]["gap"] - gb[k]["gap"]) > TOL["px"]]
     if moved:
@@ -329,7 +358,9 @@ def measure_diff(ma, mb):
 def esc(s): return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 def diff(old, new):
-    A, B = RUNS / old, RUNS / new
+    A, B = RUNS / run_name(old), RUNS / run_name(new)
+    for r in (A, B):
+        if not (r / "pages.json").exists(): sys.exit(f"{r.name}: no finished snapshot there")
     out = RUNS / f"diff-{old}-{new}"
     if out.exists(): shutil.rmtree(out)
     (out / "px").mkdir(parents=True)

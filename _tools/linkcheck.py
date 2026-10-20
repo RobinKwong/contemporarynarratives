@@ -4,7 +4,7 @@ sitecheck.py imports crawl() and check_links() from here."""
 import json, re, sys, concurrent.futures as cf
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urldefrag, urlparse
-import urllib.request, urllib.error, ssl
+import urllib.request, urllib.error, ssl, socket
 
 BASE = "http://localhost:4011/"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
@@ -27,6 +27,15 @@ class P(HTMLParser):
             if v and tag in ("a", "img", "iframe", "script", "link", "source", "video", "audio"):
                 s.links.append((tag, attr, v.strip()))
 
+def dead(e):
+    """'dns', 'refused' or 'ssl' when the failure means the site is gone or broken for everyone,
+    not just refusing a bot; None for timeouts and resets, which bot walls also cause."""
+    r = getattr(e, "reason", e)
+    if isinstance(r, socket.gaierror): return "dns"
+    if isinstance(r, ConnectionRefusedError): return "refused"
+    if isinstance(r, ssl.SSLCertVerificationError): return "ssl"
+    return None
+
 def fetch(url, method="GET"):
     req = urllib.request.Request(url, method=method, headers={"User-Agent": UA, "Accept": "*/*"})
     try:
@@ -36,7 +45,7 @@ def fetch(url, method="GET"):
     except urllib.error.HTTPError as e:
         return e.code, url, b"", ""
     except Exception as e:
-        return f"ERR {type(e).__name__}: {str(e)[:80]}", url, b"", ""
+        return f"ERR {dead(e) or type(e).__name__}: {str(e)[:80]}", url, b"", ""
 
 def crawl():
     """Return (pages {url: status}, ids {url: set}, refs [dict]) for every HTML page reachable from BASE and SEEDS."""
@@ -71,6 +80,7 @@ def classify(r):
     """'ok', 'unverified' (an external site refusing bots or timing out) or 'bad'."""
     st = r["status"]
     if isinstance(st, int) and 200 <= st < 300: return "ok"
+    if str(st).startswith(("ERR dns", "ERR refused", "ERR ssl")): return "bad"   # a dead domain, not a bot wall
     if not r["url"].startswith(BASE) and (st in UNVERIFIED or str(st).startswith("ERR")): return "unverified"
     return "bad"
 

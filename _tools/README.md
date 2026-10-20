@@ -23,9 +23,13 @@ Both need the local server: `PATH=/opt/homebrew/opt/ruby/bin:$PATH bundle exec j
 - images that are squashed, cropped or missing alt text
 - elements squeezed to zero width, horizontal overflow, and content drawn over the fixed header
 - the heading outline, console errors and failed requests
-- every link and asset (`linkcheck.py`); sites that block bots are reported as "unverified", not broken
+- every link and asset (`linkcheck.py`). Sites that block bots or time out are reported as "unverified"; a domain that no longer resolves, refuses connections or has an invalid certificate is reported as broken
 
 `diff` lists only what changed, page by page and width by width, with before, after and a highlighted difference side by side, opened at the first changed row. Tolerances are in `TOL` in `sitecheck.py`.
+
+Elements are matched between runs by their place in the page structure and their text (or an image's `src`), not by position, so adding a paragraph shows as one added block rather than renumbering everything after it. Runs taken before this change (20 October 2026) used positional keys: diffing one of those against a newer run lists every block as added and removed, so take a fresh baseline.
+
+If a page fails to load or measure, the snapshot carries on, names the failed captures in its summary line, and a diff lists them as "only in one run". Run names are limited to letters, digits, dot, dash and underscore.
 
 `linkcheck.py` also runs alone with system Python: `python3 _tools/linkcheck.py`.
 
