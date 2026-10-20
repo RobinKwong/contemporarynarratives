@@ -2,7 +2,7 @@
 several widths, then diff two runs and report only what moved.
 
   .venv/bin/python sitecheck.py snapshot NAME        # -> runs/NAME/
-  .venv/bin/python sitecheck.py diff OLD NEW         # -> runs/diff-OLD-NEW/report.html
+  .venv/bin/python sitecheck.py diff OLD NEW         # -> runs/diffs/OLD..NEW/report.html
 
 Needs the local Jekyll server on localhost:4011. Prints counts only; detail goes to files."""
 import asyncio, hashlib, json, re, sys, shutil
@@ -51,11 +51,13 @@ async () => {
   const keys = new WeakMap(), seen = {};
   const key = el => {
     if (keys.has(el)) return keys.get(el);
-    let k = path(el) + '|' + hash(text(el).slice(0, 80) || el.getAttribute('src') || '');
+    let k = path(el) + '|' + hash((el.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 80) || el.getAttribute('src') || '');
     seen[k] = (seen[k] || 0) + 1;
     if (seen[k] > 1) k += '#' + seen[k];   // same path and text: fall back to order
     keys.set(el, k); return k;
   };
+  // Number duplicates in document order, not in the order the sections below happen to meet them.
+  document.querySelectorAll('body *').forEach(key);
   const header = document.querySelector('.site-header');
   const inHeader = el => header && header.contains(el);
   const inFooter = el => !!el.closest('footer');
@@ -188,6 +190,9 @@ def slug(url):
     p = urlparse(url).path.strip("/") or "home"
     return re.sub(r"[^a-z0-9]+", "-", p.lower()).strip("-")
 
+def first_line(e):
+    return (str(e).splitlines() or [type(e).__name__])[0]
+
 async def capture(browser, url, wname, outdir, sem):
     async with sem:
         w = WIDTHS[wname]
@@ -203,21 +208,21 @@ async def capture(browser, url, wname, outdir, sem):
                 errors.append({"kind": f"http {r.status}", "text": r.url[:200]}))
         name = f"{slug(url)}@{wname}"
         try:
-            try:
-                await page.goto(url, wait_until="load", timeout=45000)
-            except Exception as e:
-                # still measure what loaded, but say so: the page may be partial
-                errors.append({"kind": "goto", "text": str(e).splitlines()[0][:300]})
+            await page.goto(url, wait_until="load", timeout=45000)   # failing here fails the capture
             try:
                 await page.wait_for_load_state("networkidle", timeout=8000)
-            except Exception:
-                pass   # third-party embeds often never go idle
+            except Exception as e:
+                if "Timeout" not in str(e):   # third-party embeds often never go idle; anything else is news
+                    errors.append({"kind": "networkidle", "text": first_line(e)[:300]})
             return await measure(page, url, name, outdir, errors)
         except Exception as e:
-            print(f"  capture failed: {name}: {str(e).splitlines()[0][:200]}", file=sys.stderr)
+            print(f"  capture failed: {name}: {first_line(e)[:200]}", file=sys.stderr)
             return name, None
         finally:
-            await ctx.close()
+            try:
+                await ctx.close()
+            except Exception:
+                pass   # a crashed renderer can fail to close; that mustn't end the run
 
 async def measure(page, url, name, outdir, errors):
     """Freeze, load lazy images, measure and screenshot one loaded page."""
@@ -260,7 +265,7 @@ def issues(m):
     return out
 
 def run_name(name):
-    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", name) or ".." in name:
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", name) or ".." in name or name == "diffs":
         sys.exit(f"run name {name!r}: use letters, digits, dot, dash or underscore")
     return name
 
@@ -271,7 +276,8 @@ async def snapshot(name):
     pages, ids, refs = linkcheck.crawl()
     urls = {}
     for u in sorted(pages, key=len, reverse=True):   # prefer the trailing-slash form
-        if pages[u] == 200: urls.setdefault(slug(u), u)   # crawl() keeps only pages that answered with HTML
+        if pages[u] == 200: urls.setdefault(slug(u), u)
+        else: print(f"  skipped {u}: HTTP {pages[u]}", file=sys.stderr)
     urls = sorted(urls.values())
     links = linkcheck.check_links(pages, ids, refs)
     (outdir / "links.json").write_text(json.dumps(links, indent=1))
@@ -309,15 +315,29 @@ def pixel_diff(a_path, b_path, out_path):
 def index(items, field="key"):
     return {i[field]: i for i in items}
 
+def pair_edited(xa, xb):
+    """Pair items left unmatched because their text (and so their key) changed: same structural
+    path, taken in page order. Returns {key in A: key in B}."""
+    path = lambda k: k.split("|")[0]
+    left_a = sorted((x for k, x in xa.items() if k not in xb), key=lambda x: (x["box"]["y"], x["box"]["x"]))
+    left_b = sorted((x for k, x in xb.items() if k not in xa), key=lambda x: (x["box"]["y"], x["box"]["x"]))
+    pairs, by_path = {}, {}
+    for x in left_b: by_path.setdefault(path(x["key"]), []).append(x)
+    for x in left_a:
+        cands = by_path.get(path(x["key"]))
+        if cands: pairs[x["key"]] = cands.pop(0)["key"]
+    return pairs
+
 def measure_diff(ma, mb):
     """Measurement changes between two captures of the same page and width."""
     ch = []
     if abs(ma["doc"]["height"] - mb["doc"]["height"]) > TOL["px"]:
         ch.append(("page height", f'{ma["doc"]["height"]} → {mb["doc"]["height"]}px', None))
     ba, bb = index(ma["blocks"]), index(mb["blocks"])
+    edited = pair_edited(ba, bb)
     groups = {}
-    for k in ba.keys() & bb.keys():
-        x, y = ba[k], bb[k]
+    for ka, kb in [(k, k) for k in ba.keys() & bb.keys()] + list(edited.items()):
+        x, y = ba[ka], bb[kb]
         for f, tol, unit in (("fs", .2, "px"), ("lh", TOL["lh"], "%"), ("cpl", TOL["cpl"], " chars")):
             if x[f] is not None and y[f] is not None and abs(x[f] - y[f]) > tol:
                 groups.setdefault(f, []).append((x, y))
@@ -333,7 +353,7 @@ def measure_diff(ma, mb):
             get = (lambda b: b["box"]["w"]) if f == "w" else (lambda b: b[f])
             summary = f'{len(pairs)} blocks, median {med([get(a) for a, _ in pairs])} → {med([get(b) for _, b in pairs])}'
         val = {"w": lambda x: x["box"]["w"],
-               "style": lambda x: f'{x["font"].split(",")[0]} {x["weight"]} {x["color"]}'}.get(f, lambda x: x[f])
+               "style": lambda x: f'{x["font"]} {x["weight"]} {x["color"]}'}.get(f, lambda x: x[f])
         ch.append((label[f], summary, [(a["text"], val(a), val(b)) for a, b in pairs[:30]]))
     ga, gb = index(ma["gaps"]), index(mb["gaps"])
     moved = [(k, ga[k], gb[k]) for k in ga.keys() & gb.keys() if abs(ga[k]["gap"] - gb[k]["gap"]) > TOL["px"]]
@@ -342,12 +362,14 @@ def measure_diff(ma, mb):
         ch.append(("gaps between blocks", f'{len(moved)} changed ({len(img)} next to an image)',
                    [(f'{a["kinds"]} at y={b["y"]}: {k.split(" -> ")[0].split("|")[0][-40:]}', a["gap"], b["gap"])
                     for k, a, b in sorted(moved, key=lambda x: ("img" not in x[1]["kinds"], x[2]["y"]))[:30]]))
-    added, removed = len(bb.keys() - ba.keys()), len(ba.keys() - bb.keys())
+    added, removed = len(bb.keys() - ba.keys()) - len(edited), len(ba.keys() - bb.keys()) - len(edited)
+    if edited:
+        ch.append(("text edited", f'{len(edited)} blocks', [(ba[a]["text"], ba[a]["text"], bb[b]["text"]) for a, b in list(edited.items())[:30]]))
     if added or removed:
         ch.append(("text blocks added/removed", f'+{added} / -{removed}', None))
     ia, ib = index(ma["images"]), index(mb["images"])
-    for k in ia.keys() & ib.keys():
-        x, y = ia[k], ib[k]
+    for ka, kb in [(k, k) for k in ia.keys() & ib.keys()] + list(pair_edited(ia, ib).items()):
+        x, y = ia[ka], ib[kb]
         if abs(x["box"]["w"] - y["box"]["w"]) > TOL["px"] or abs(x["box"]["h"] - y["box"]["h"]) > TOL["px"] or x["cropped"] != y["cropped"]:
             ch.append(("image size/crop", f'{x["src"]}: {x["box"]["w"]}x{x["box"]["h"]} crop {x["cropped"]}% → '
                        f'{y["box"]["w"]}x{y["box"]["h"]} crop {y["cropped"]}%', None))
@@ -361,7 +383,7 @@ def diff(old, new):
     A, B = RUNS / run_name(old), RUNS / run_name(new)
     for r in (A, B):
         if not (r / "pages.json").exists(): sys.exit(f"{r.name}: no finished snapshot there")
-    out = RUNS / f"diff-{old}-{new}"
+    out = RUNS / "diffs" / f"{old}..{new}"
     if out.exists(): shutil.rmtree(out)
     (out / "px").mkdir(parents=True)
     names = sorted({p.stem for p in (A / "data").glob("*.json")} | {p.stem for p in (B / "data").glob("*.json")})
@@ -387,6 +409,7 @@ def diff(old, new):
     lk = lambda l: {(r["page"], r["url"]): r for r in l["bad"]}
     lka, lkb = lk(la), lk(lb)
     link_new = [lkb[k] for k in lkb.keys() - lka.keys()]
+    link_new += [lkb[k] for k in lkb.keys() & lka.keys() if lka[k]["class"] == "unverified" and lkb[k]["class"] == "bad"]
     link_fixed = [lka[k] for k in lka.keys() - lkb.keys()]
     write_report(out, old, new, rows, counts, link_new, link_fixed, lb)
     print(f"diff {old} → {new}: {len(names)} captures, {counts['changed']} changed, {counts['unchanged']} unchanged, "
@@ -395,7 +418,7 @@ def diff(old, new):
     print(f"report: {out / 'report.html'}")
 
 def write_report(out, old, new, rows, counts, link_new, link_fixed, links_now):
-    rel = lambda run, name: f"../{run}/shots/{name}.png"
+    rel = lambda run, name: f"../../{run}/shots/{name}.png"
     h = [f"""<!doctype html><meta charset=utf-8><title>sitecheck {old} → {new}</title>
 <style>
 body{{font:15px/1.45 -apple-system,system-ui,sans-serif;margin:24px;color:#111;background:#fff}}

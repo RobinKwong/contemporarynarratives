@@ -1,7 +1,7 @@
 """Crawl the local Jekyll site, then check every link and asset it references.
 Writes results to linkcheck.json beside this script; prints counts only.
 sitecheck.py imports crawl() and check_links() from here."""
-import json, re, sys, concurrent.futures as cf
+import json, re, sys, time, concurrent.futures as cf
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urldefrag, urlparse
 import urllib.request, urllib.error, ssl, socket
@@ -27,11 +27,13 @@ class P(HTMLParser):
             if v and tag in ("a", "img", "iframe", "script", "link", "source", "video", "audio"):
                 s.links.append((tag, attr, v.strip()))
 
+ONLINE = True   # set by check_links: offline, every DNS lookup fails and nothing is provably dead
+
 def dead(e):
     """'dns', 'refused' or 'ssl' when the failure means the site is gone or broken for everyone,
     not just refusing a bot; None for timeouts and resets, which bot walls also cause."""
     r = getattr(e, "reason", e)
-    if isinstance(r, socket.gaierror): return "dns"
+    if isinstance(r, socket.gaierror): return "dns" if ONLINE else None
     if isinstance(r, ConnectionRefusedError): return "refused"
     if isinstance(r, ssl.SSLCertVerificationError): return "ssl"
     return None
@@ -55,7 +57,11 @@ def crawl():
     while queue:
         url = queue.pop()
         st, final, body, ctype = fetch(url)
-        if "html" not in ctype: continue
+        if st != 200 and not url.endswith("404.html"):   # the server may be mid-rebuild: try once more
+            time.sleep(2); st, final, body, ctype = fetch(url)
+        if "html" not in ctype:
+            if st != 200: print(f"  crawl: {url} gave {st}", file=sys.stderr)
+            continue
         p = P(); p.feed(body.decode("utf-8", "replace"))
         pages[url] = st; ids[url] = p.ids
         for tag, attr, v in p.links:
@@ -85,6 +91,10 @@ def classify(r):
     return "bad"
 
 def check_links(pages, ids, refs):
+    global ONLINE
+    try: socket.getaddrinfo("example.com", 443); ONLINE = True
+    except OSError:
+        ONLINE = False; print("  DNS lookups failing (offline?): unreachable sites count as unverified, not broken", file=sys.stderr)
     targets = sorted({urldefrag(r["url"])[0] for r in refs})
     with cf.ThreadPoolExecutor(16) as ex:
         status = dict(ex.map(check, targets))
