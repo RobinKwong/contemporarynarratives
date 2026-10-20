@@ -1,3 +1,4 @@
+@use "base/global"; // so the @extend below also picks up .meta's phone sizes
 @use "base/utility";
 @use "base/variables";
 
@@ -14,9 +15,6 @@
 
   p {
     @extend .meta;
-    // the phone sizes .meta gets in base/global, which @extend can't reach across modules
-    @media screen and (max-width: variables.$break) { font-size: 0.9em; }
-    @media screen and (max-width: variables.$sm-break) { font-size: 0.85em; }
   }
 
   #previous-post {

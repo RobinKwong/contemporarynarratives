@@ -35,7 +35,11 @@
     opacity: 1;
   }
 
-  &:-ms-input-placeholder,
+  // each in its own rule: a browser drops a whole rule over one selector it doesn't know
+  &::placeholder {
+    color: variables.$search-color;
+  }
+
   &::-webkit-input-placeholder {
     color: variables.$search-color;
   }

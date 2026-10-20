@@ -170,7 +170,7 @@ header {
 
 /*-- feature-image Responsive scrolling --*/
 .feature-image header {
-  @media screen and (max-width: variables.$break) {
+  @media screen and (max-width: variables.$break - 0.02) {
     padding: variables.$padding-large*1.5 variables.$padding-small;
   }
 
@@ -178,7 +178,7 @@ header {
     background-size: 120% auto;
   }
 
-  @media screen and (max-width: variables.$break) {
+  @media screen and (max-width: variables.$break - 0.02) {
     background-size: 200% auto;
   }
 

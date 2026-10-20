@@ -111,7 +111,7 @@ img[align=right] {
 
 /* ---- Responsive ---- */
 
-@media screen and (max-width: variables.$break) {
+@media screen and (max-width: variables.$break - 0.02) {
   h1 {
     font-size: 2em;
   }

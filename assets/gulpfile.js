@@ -2,7 +2,7 @@
  * Here are all of the gulp tasks you can use to help manage your blog
  * Use `npm install` to install all the dependencies located in package.json
  * If you have an issue with sharp, try: `npm rebuild`.
- * Then `gulp default` to minimize css and images.
+ * Then `gulp default` to minimise the JavaScript and images.
  */
 const gulp = require('gulp');
 const concat = require('gulp-concat');

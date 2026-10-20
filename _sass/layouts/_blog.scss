@@ -20,7 +20,7 @@
     background-size: 120% auto;
   }
 
-  @media screen and (max-width: variables.$break) {
+  @media screen and (max-width: variables.$break - 0.02) {
     background-size: 200% auto;
   }
 
@@ -76,7 +76,7 @@
       }
 
       //Smaller screen
-      @media screen and (max-width: variables.$break) {
+      @media screen and (max-width: variables.$break - 0.02) {
         height: 150px;
       }
 
@@ -110,7 +110,7 @@
     line-height: 1.4;
 
     // a div, so it missed the theme's smaller paragraph size and ran larger than the text around it
-    @media screen and (max-width: variables.$break) {
+    @media screen and (max-width: variables.$break - 0.02) {
       font-size: 0.8em;
     }
   }
@@ -119,7 +119,7 @@
   .post-teaser-title {
     margin: 0; // as `header h1` had
     font-size: 2.3em;
-    @media screen and (max-width: variables.$break) { font-size: 2em; }
+    @media screen and (max-width: variables.$break - 0.02) { font-size: 2em; }
     @media screen and (max-width: variables.$sm-break) { font-size: 1.5em; }
   }
 }

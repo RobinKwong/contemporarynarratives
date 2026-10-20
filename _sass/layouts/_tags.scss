@@ -25,7 +25,7 @@
 .tag-anchor {
   margin-bottom: variables.$padding-x-small;
   font-size: 1.5em;
-  @media screen and (max-width: variables.$break) { font-size: 1em; }
+  @media screen and (max-width: variables.$break - 0.02) { font-size: 1em; }
   @media screen and (max-width: variables.$sm-break) { font-size: 0.9em; }
 
   a {
@@ -43,7 +43,7 @@
 
   .tag-title {
     font-size: 1.15em;
-    @media screen and (max-width: variables.$break) { font-size: 0.85em; } // stays smaller than the tag heading above it
+    @media screen and (max-width: variables.$break - 0.02) { font-size: 0.85em; } // stays smaller than the tag heading above it
     margin-top: 0;
     margin-bottom: 0.3em;
     // title left, date right; a long title wraps beside the date instead of running under it
