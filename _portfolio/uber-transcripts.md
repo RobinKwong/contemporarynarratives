@@ -4,10 +4,8 @@ title: Uber interview transcripts
 feature-img: "assets/img/portfolio/conrad.jpg"
 img: "assets/img/portfolio/conrad.jpg"
 date: June 29, 2018
-tags: [Pilot, Portfolio]
+tags: [Pilot]
 ---
-
-### Uber interview transcripts
 
 _Andre Piza and Conrad Murray / Leslie Hook_
 

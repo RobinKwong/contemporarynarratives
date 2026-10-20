@@ -89,5 +89,19 @@
 
   .excerpt {
     margin-top: 1em;
+    line-height: 1.4;
+
+    // a div, so it missed the theme's smaller paragraph size and ran larger than the text around it
+    @media screen and (max-width: $break) {
+      font-size: 0.8em;
+    }
+  }
+
+  // h2 for the outline (the page has one h1), sized as the h1 it used to be
+  .post-teaser-title {
+    margin: 0; // as `header h1` had
+    font-size: 2.3em;
+    @media screen and (max-width: $break) { font-size: 2em; }
+    @media screen and (max-width: $sm-break) { font-size: 1.5em; }
   }
 }

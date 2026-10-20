@@ -43,11 +43,20 @@
 .portfolio-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-
+  justify-content: center; // the last row of two sits centred under the three, not spread apart
+  gap: 1.5em 2%;
 }
 
 .portfolio-cell {
   flex: 0 0 32%;
-  margin-bottom: 10px;
+}
+
+// The work's title under its thumbnail, so the link has a name and visitors can see which work it is
+.portfolio-title {
+  display: block;
+  margin-top: 0.4em;
+  font-size: 0.8em;
+  line-height: 1.3;
+  text-align: center;
+  color: $text-color;
 }

@@ -119,6 +119,12 @@ header {
 .feature-image {
   padding: 0;
 
+  header .title,
+  header .subtitle,
+  header .meta {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 0 16px rgba(0, 0, 0, 0.6);
+  }
+
   .post-link {
 
   }

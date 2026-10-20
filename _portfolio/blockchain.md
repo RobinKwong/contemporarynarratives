@@ -4,10 +4,9 @@ title: Blockchain as memory
 feature-img: "assets/img/portfolio/harun.jpg"
 img: "assets/img/portfolio/harun.jpg"
 date: June 29, 2018
-tags: [Pilot, Portfolio]
+tags: [Pilot]
 ---
 
-### Blockchain as memory
 _Harun Morrison / Chloe Cornish_
 
 Reporters have to learn about their beats before they can explain and analyse the news to readers. To do so, they construct mental models of their areas of coverage. These mental models are usually hidden from readers but are hugely important because they inform and underpin the reporter's articles. When Chloe first started covering blockchain and cryptocurrencies, the metaphor of Blockchain as Memory stuck in her mind as a way of understanding this complex subject. Thinking about the ways in which the two are similar, and where they differed, helped Chloe make sense of blockchain technology.

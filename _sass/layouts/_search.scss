@@ -23,6 +23,11 @@
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px $link-shadow;
   }
 
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
+  }
+
   &::-moz-placeholder {
     color: $search-color;
     opacity: 1;

@@ -3,14 +3,13 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/about.jpg"
-tags: [About, Archive]
 ---
 
 **The Contemporary Narratives Lab** is a network of storytellers who have come from different disciplines to explore how innovative approaches to storytelling can break down complex issues, illuminate truths, and hold open spaces for civic discussion.
 
 We seek to tell stories based on research and reporting that address contentious social issues. The Lab is a space for artists, journalists, researchers and wider communities to share practice and collaborate on new ways of discovering information, formulating stories and engaging the wider public.
 
-### Our History
+## Our History
 
 The Contemporary Narratives Lab began in June 2018 with a pilot project that commissioned five groups of artists and journalists to create new pieces that emerge from the journalists' reporting notes and articles.
 
@@ -29,7 +28,7 @@ Each of the 10-minute pieces explored how theatre, performance and journalism ca
 The pilot was watched by an audience of over 40 people, and covered in [an article in journalism.co.uk](https://www.journalism.co.uk/news/the-financial-times-experiments-mixing-journalism-with-performance-to-engage-wider-audiences/s2/a724520/). It also inspired similar projects elsewhere. The Open Society Foundations modelled #CreativeStorytellingSA, which funded seven full productions of new theatre, radio and visual arts projects in South Africa, after the Contemporary Narratives Lab pilot. The De Balie Arts Centre in Amsterdam embarked on a year-long Live Journalism project, in part drawing on lessons learnt from the pilot. The Financial Times further developed one of pilot projects for its 2019 Weekend FT Festival.
 
 
-### Our Beliefs
+## Our Beliefs
 
 * Art and Journalism can both learn from each other to further their respective practices. 
 
@@ -41,7 +40,7 @@ The pilot was watched by an audience of over 40 people, and covered in [an artic
 
 * Societal information problems such as radicalisation, misinformation and polarisation are storytelling problems as much as  technology and governance problems.
 
-### Our Founders
+## Our Founders
 
 <p>
 	<img 

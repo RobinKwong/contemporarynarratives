@@ -4,9 +4,8 @@ title: Actions from the afterlife
 feature-img: "assets/img/portfolio/rhiannon.jpg"
 img: "assets/img/portfolio/rhiannon.jpg"
 date: June 29, 2018
-tags: [Pilot, Portfolio]
+tags: [Pilot]
 ---
-### Actions from the afterlife
 _Rhiannon Armstrong / Emma Jacobs_
 
 Rhiannon chose to work Emma Jacobs' story on 'grief tech', or [How technology is changing the way we grieve](https://www.ft.com/content/95dc5584-1c12-11e8-aaca-4574d7dabfb6). In her piece, Emma wrote about technology such as AI chatbots and digital monuments that sought to help people communicate their loss and process their grief.
