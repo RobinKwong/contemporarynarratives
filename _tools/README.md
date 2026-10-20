@@ -23,7 +23,7 @@ Both need the local server: `PATH=/opt/homebrew/opt/ruby/bin:$PATH bundle exec j
 - images that are squashed, cropped or missing alt text
 - elements squeezed to zero width, horizontal overflow, and content drawn over the fixed header
 - the heading outline, console errors and failed requests
-- every link and asset (`linkcheck.py`). Sites that block bots or time out are reported as "unverified"; a domain that no longer resolves, refuses connections or has an invalid certificate is reported as broken
+- every link and asset (`linkcheck.py`), including links whose case doesn't match the file: the Mac serves `/Blog/` for `blog/`, GitHub Pages doesn't. Sites that block bots or time out are reported as "unverified"; a domain that no longer resolves, refuses connections or has an invalid certificate is reported as broken
 
 `diff` lists only what changed, page by page and width by width, with before, after and a highlighted difference side by side, opened at the first changed row. Tolerances are in `TOL` in `sitecheck.py`.
 

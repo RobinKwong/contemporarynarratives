@@ -1,14 +1,15 @@
 """Crawl the local Jekyll site, then check every link and asset it references.
 Writes results to linkcheck.json beside this script; prints counts only.
 sitecheck.py imports crawl() and check_links() from here."""
-import json, re, sys, time, concurrent.futures as cf
+import json, os, re, sys, time, concurrent.futures as cf
 from html.parser import HTMLParser
-from urllib.parse import urljoin, urldefrag, urlparse
+from urllib.parse import urljoin, urldefrag, urlparse, unquote
 import urllib.request, urllib.error, ssl, socket
 
 BASE = "http://localhost:4011/"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
 OUT = __file__.rsplit("/", 1)[0] + "/linkcheck.json"
+SITE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "_site")   # what jekyll serve is serving
 # Pages nothing links to, so the crawl would never reach them.
 SEEDS = ["404.html", "tags/", "search/", "projects/creative-data-exchange/"]
 # Sites that answer automated requests with these codes even when the page exists.
@@ -73,9 +74,24 @@ def crawl():
                 seen.add(nofrag); queue.append(nofrag)
     return pages, ids, refs
 
+def wrong_case(u):
+    """The first path segment whose case differs from the file in _site, else None. The Mac's disk
+    ignores case, so the local server answers /Blog/ for blog/; GitHub Pages doesn't."""
+    d = SITE
+    for seg in [unquote(x) for x in urlparse(u).path.split("/") if x]:
+        try: names = os.listdir(d)
+        except OSError: return None
+        if seg in names or seg + ".html" in names:
+            d = os.path.join(d, seg); continue
+        match = [n for n in names if n.lower() in (seg.lower(), seg.lower() + ".html")]
+        return f"{seg} (file is {match[0]})" if match else None
+    return None
+
 def check(u):
     if u.startswith(BASE):
-        return u, fetch(u)[0]
+        st = fetch(u)[0]
+        if st == 200 and (w := wrong_case(u)): st = f"wrong case: {w}"
+        return u, st
     st = fetch(u, "HEAD")[0]
     if st != 200:
         st2 = fetch(u, "GET")
