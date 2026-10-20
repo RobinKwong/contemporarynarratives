@@ -1,0 +1,9 @@
+<!-- For the 2018 pilot's works (_portfolio): back to the project, and the other works. Replaces the blog's previous/next post links. -->
+<nav class="works-nav" aria-label="2018 pilot works">
+  <a class="works-nav-back" href="{{ '/projects/2018-pilot/' | relative_url }}">&larr; 2018 pilot</a>
+  <span class="works-nav-others">
+    <span class="works-nav-label">Other works:</span>
+    {% assign others = site.portfolio | where_exp: "w", "w.url != page.url" %}
+    {% for w in others %}<a href="{{ w.url | relative_url }}">{{ w.title }}</a>{% unless forloop.last %}<span class="works-nav-sep" aria-hidden="true"> · </span>{% endunless %}{% endfor %}
+  </span>
+</nav>

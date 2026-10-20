@@ -70,3 +70,24 @@
     margin: 0.6em 0 0;
   }
 }
+
+// Thin strip on each 2018 pilot work (_includes/works_nav.html): back to the project, then the other works
+.works-nav {
+  @extend %padding-post;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 2em;
+  align-items: baseline;
+  border-top: 1px solid $border-color;
+  font-size: 0.85em;
+
+  .works-nav-label {
+    color: $meta;
+  }
+
+  .works-nav-sep {
+    color: $meta;
+  }
+}
