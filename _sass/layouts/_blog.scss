@@ -35,6 +35,21 @@
 }
 
 /* --- Post listing --- */
+// Home: a quiet label between the intro and the posts, styled like the bylines
+.posts-label {
+  @extend %padding-post;
+  margin: 0;
+  padding-top: 0; // the intro above already ends with its own padding
+  padding-bottom: 0.6em;
+  font-family: $font-family-main;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: $meta;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid $border-color;
+}
+
 .posts {
   .post-teaser {
     @extend %padding-post;
@@ -97,7 +112,7 @@
     }
   }
 
-  // h2 for the outline (the page has one h1), sized as the h1 it used to be
+  // h3 under the "Latest from the Lab" h2, sized as the h1 it used to be
   .post-teaser-title {
     margin: 0; // as `header h1` had
     font-size: 2.3em;

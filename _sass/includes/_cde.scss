@@ -147,8 +147,12 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 1.5em 2.5em;
   margin: 1.5em 0 2em;
+  // logos aren't text, so they can run past the measure and keep to one line
+  width: $measure-wide;
+  @include wider-than-column(($measure-wide - $measure) * 0.5);
 
   img {
     display: block;
