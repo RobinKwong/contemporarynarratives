@@ -39,7 +39,7 @@ body {
   top: 118px;
 
   @media (max-width: variables.$break - 0.02) {
-    top: $header-height-mobile;
+    top: variables.$header-height-mobile;
   }
 
   @media (min-width: variables.$break) {
