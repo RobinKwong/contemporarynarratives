@@ -33,3 +33,9 @@ jekyll-theme-type-on-strap.gemspec
 test/*
 assets/package-lock.json
 */.jekyll-cache/*
+
+# Site check tooling: outputs and environment
+_tools/runs/
+_tools/.venv/
+_tools/linkcheck.json
+__pycache__/
