@@ -141,6 +141,12 @@ header {
     .meta {
       color: rgba(variables.$feature-image-text-color, .7);
     }
+
+    // the byline's blue hover would vanish into a dark photo
+    .post-info a:hover {
+      color: variables.$feature-image-text-color;
+      text-decoration: underline;
+    }
   }
 
   .post-content {

@@ -189,7 +189,7 @@ nav {
   }
 }
 
-// variables.$break - 0.02 (767.98px), not $break: at exactly 768px the desktop rule had already hidden the menu button,
+// $break - 0.02 (767.98px), not $break: at exactly 768px the desktop rule had already hidden the menu button,
 // so the phone rule hid the menu with no way to open it
 @media screen and (max-width: variables.$break - 0.02) {
 

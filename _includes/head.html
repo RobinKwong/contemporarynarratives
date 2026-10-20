@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
 
-    <!-- Main JS (navbar.js, masonry_init.js and the cookie/analytics code)-->
+    <!-- Main JS (navbar.js and masonry_init.js) -->
     <script defer src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
     
     <!-- CSS -->
@@ -11,12 +11,6 @@
     <!--Favicon-->
     <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
 
-    <!-- Read by the cookie/analytics code bundled in main.min.js; both are off in _config.yml -->
-    <script>
-      const cookieName = 'cookie-notice-dismissed-{{ site.url }}';
-      const isCookieConsent = '{{ site.cookie_consent }}';
-      const analyticsName = '{{ site.google_analytics }}';
-    </script>
 
 
     <!-- seo tags -->
