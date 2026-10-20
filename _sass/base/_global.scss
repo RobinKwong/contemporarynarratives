@@ -36,7 +36,7 @@ body {
   width: 100%; // absolute with no width, the body took its width from its content: short pages (404, Tags) shrank, and a long URL or a wide block stretched the page past the window
   top: 118px;
 
-  @media (max-width: $break - 1) {
+  @media (max-width: $break - 0.02) {
     top: $header-height-mobile;
   }
 

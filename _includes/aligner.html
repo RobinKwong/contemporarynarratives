@@ -1,4 +1,6 @@
 {% assign images = include.images | split: ',' %}
+{% comment %} alts: one description per image, separated by |. Without it the images get alt="" (decorative). {% endcomment %}
+{% assign alts = include.alts | split: '|' %}
 
 {% if include.column == "auto" %}
 {% assign column = 100.0 | divided_by: images.size %}
@@ -11,7 +13,7 @@
     <div {% if column %} style="flex: {{ column }}%" {% else %} class="column" {% endif %}  >
         <img {% if images.size == 1 %}class="single"{% endif %}
              src="{{ image | prepend: 'assets/img/' | relative_url }}"
-             alt="{{ image | prepend: '/' | split: '/' | last }}">
+             alt="{{ alts[forloop.index0] | escape }}">
     </div>
     {% endfor %}
 </div>

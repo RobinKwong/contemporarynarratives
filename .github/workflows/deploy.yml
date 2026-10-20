@@ -7,11 +7,10 @@ on:
   # Allow manually triggering a deploy from the Actions tab
   workflow_dispatch:
 
-# Least-privilege permissions needed to deploy to GitHub Pages
+# Least privilege: the build job (which installs third-party gems) gets read access only;
+# the deploy credentials go to the deploy job alone
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 # Allow one concurrent deployment; don't cancel an in-progress one
 concurrency:
@@ -21,6 +20,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read # configure-pages reads the site's Pages settings
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -45,6 +47,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

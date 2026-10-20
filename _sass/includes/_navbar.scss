@@ -39,19 +39,19 @@
     font-weight: bolder;
   }
 
-  a#About {
+  a.nav-about {
     color: #f8ed59;
   }
 
-  a#Blog {
+  a.nav-blog {
     color: #e97aae;
   }
 
-  a#Projects {
+  a.nav-projects {
     color: #5d8ac7;
   }
 
-  a#Resources {
+  a.nav-resources {
     color: #d0d0d0;
   }
 
@@ -114,6 +114,19 @@ nav {
   margin: 0;
   padding: 0;
 
+  // the phone menu toggle: a button, so it announces itself and doesn't jump the page to #
+  #pull {
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: $header-link-color;
+    font: inherit;
+    cursor: pointer;
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -135,14 +148,7 @@ nav {
       color: $selection-color;
     }
 
-    &#pull {
-      i {
-        margin-top: 6px;
-        margin-right: 10px;
-        float: right;
-      }
 
-    }
 
   }
 }
@@ -150,12 +156,12 @@ nav {
 /* ---- Responsive ---- */
 
 @media (min-width: $break) {
-  a#pull {
+  #pull {
     display: none;
   }
 }
 
-@media screen and (max-width: $break) {
+@media screen and (max-width: $break - 0.02) {
   .site-header {
     img.avatar {
       height: 3em;
@@ -174,14 +180,16 @@ nav {
 // below desktop: fixed padding, because the theme's percentage padding makes the header's height
 // drift with the window width and it never quite matches the body offset (a gap or an overlap);
 // min-height (not height) so the opened menu can still grow
-@media screen and (max-width: $break - 1) {
+@media screen and (max-width: $break - 0.02) {
   .site-header {
     padding: 12px 15px 6px;
     min-height: $header-height-mobile;
   }
 }
 
-@media screen and (max-width: $break) {
+// $break - 0.02 (767.98px), not $break: at exactly 768px the desktop rule had already hidden the menu button,
+// so the phone rule hid the menu with no way to open it
+@media screen and (max-width: $break - 0.02) {
 
   nav {
     height: auto;
@@ -195,7 +203,7 @@ nav {
       overflow: hidden;
 
       /* fade out, then shrink */
-      transition: opacity .25s 0s, font-size .25s 0s;
+      transition: opacity .25s 0s, font-size .25s 0s, visibility 0s;
       transition-delay: 0s;
 
       &.hide {
@@ -203,6 +211,8 @@ nav {
         margin: 0;
         opacity: 0;
         padding: 0;
+        visibility: hidden; // out of the tab order and the accessibility tree, not just transparent
+        transition: opacity .25s, font-size .25s, visibility 0s .25s;
       }
     }
 
@@ -270,7 +280,7 @@ nav .subnav {
   }
 }
 
-@media screen and (max-width: $break) {
+@media screen and (max-width: $break - 0.02) {
   nav .subnav li {
     font-size: 0.8em;
     background-color: transparent;

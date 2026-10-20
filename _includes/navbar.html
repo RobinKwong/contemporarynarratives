@@ -4,7 +4,7 @@
 	<div class="branding">
         {% if site.avatar %}
 		<a href="{{ '/' | relative_url }}">
-			<img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" />
+			<img alt="Contemporary Narratives Lab home" class="avatar" src="{{ site.avatar | relative_url }}" />
 		</a>
         {% endif %}
 <!--         <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
@@ -14,19 +14,19 @@
 
     <!-- Toggle menu -->
     <nav class="clear">
-    <a aria-label="pull" id="pull" class="toggle" href="#">
-    <i class="fas fa-bars fa-lg"></i>
-    </a>
+    <button id="pull" class="toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-menu">
+    <i class="fas fa-bars fa-lg" aria-hidden="true"></i>
+    </button>
 
     <!-- Menu -->
-    <ul class="hide">
+    <ul id="site-menu" class="hide">
         {% assign name_page = "" %}
 
         {% for page in site.pages %}
             {% unless page.title == null or page.hide or name_page contains page.title %}
             <li class="separator"> | </li>
             <li{% if page.url == "/projects/" %} class="has-subnav"{% endif %}>
-                <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" id="{{ page.title }}" href="{{ page.url | relative_url }}">
+                <a class="clear nav-{{ page.title | slugify }}" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
                     {% if page.icon %} <i class="{{ page.icon }}" aria-hidden="true"></i>
                     {% else %} {{ page.title }} {% endif%}
                 </a>

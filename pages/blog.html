@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-permalink: /Blog/
+permalink: /blog/
 feature-img: "assets/img/pexels/typewriter.jpg"
 ---
 <article class="feature-image">
@@ -10,7 +10,7 @@ feature-img: "assets/img/pexels/typewriter.jpg"
       {% if page.hide_title %}
         <div class="feature-image-padding"></div>
       {% else %}
-        <h1 id="{{ page.title | default: "" | cgi_escape }}" class="title" > {{ page.title }}</h1>
+        <h1 class="title"> {{ page.title }}</h1>
         {% if page.subtitle %}
         <h2 class="subtitle">{{ page.subtitle }}</h2>
         {% endif %}
@@ -29,7 +29,7 @@ feature-img: "assets/img/pexels/typewriter.jpg"
             </a>
         </div>
         {% endif %}
-        <span>
+        <div class="post-teaser-text">
           <header>
             <h2 class="post-teaser-title">
               <a aria-label="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
@@ -41,13 +41,13 @@ feature-img: "assets/img/pexels/typewriter.jpg"
           {% if site.excerpt or site.theme_settings.excerpt %}
               <div class="excerpt">
                   {% if site.excerpt == "truncate" %}
-                     {{ post.content | strip_html | truncate: '250' | escape }}
+                     {{ post.content | strip_html | truncatewords: 40 }}
                   {% else %}
-                     {{ post.excerpt | strip_html | escape }}
+                     {{ post.excerpt | strip_html }}
                   {% endif %}
               </div>
           {% endif %}
-      </span>
+      </div>
     </div>
     {% endfor %}
 </div>

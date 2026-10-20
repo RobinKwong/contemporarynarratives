@@ -125,7 +125,7 @@ In short, probably something quite abstract. But of course the Irish border is a
 
 We tried to convey this depth of feeling, and this sense of emotional understanding, to our audience - and now to you - through this:
 
-<div class="videowrapper"><iframe width="800" height="315" src="https://www.youtube.com/embed/8cZe2ihEZO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="videowrapper"><iframe title="Brexit: a cry from the Irish border (FT Standpoint video)" width="800" height="315" src="https://www.youtube.com/embed/8cZe2ihEZO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 This video was filmed, directed and masterminded by my colleague Juliet Riddell. We commissioned Clare Dwyer Hogg, an Irish poet, to write an original poem about Brexit and the Irish backstop, based off of articles that we have written in the FT. We asked the Irish actor Stephen Rea to perform a reading of it on location at the actual border, which Juliet turned into this beautiful film.
 

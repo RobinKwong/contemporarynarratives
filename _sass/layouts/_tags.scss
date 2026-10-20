@@ -49,9 +49,15 @@
     justify-content: space-between;
     align-items: baseline;
     gap: 1em;
+    // a div holding the h3 and the byline (a byline inside the h3 was invalid HTML), styled as the h3 was
+    font-family: $font-family-headings;
+    font-weight: bold;
+    line-height: 1.3;
 
-    a {
-      margin-left: $padding-x-small;
+    h3 {
+      flex: 1;
+      font-size: inherit;
+      margin: 0 0 0 $padding-x-small;
     }
 
     .post-info {

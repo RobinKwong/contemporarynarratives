@@ -15,7 +15,7 @@ social_image: assets/img/CNL_Twitter.jpg
 footer_text: " "
 
 # Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+excerpt: true                                           # Or "truncate" (first 40 words), "false" to disable
 post_navigation: true
 color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
@@ -40,7 +40,14 @@ collections:
 
 # BUILD SETTINGS
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-sitemap]
-exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules"]
+# Repo housekeeping and unused vendor scripts stay off the site (mermaid and katex are off above;
+# drop their lines here if either is turned on). The private wiki/raw/outputs folders are git-excluded,
+# so CI never sees them, but a plain local build would publish them without these entries.
+exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules",
+          "README.md", "LICENSE", "*.gemspec", "assets/Dockerfile", "assets/gulpfile.js", "assets/package.json", "assets/css/*.less",
+          "assets/js/vendor/mermaid.min.js", "assets/js/vendor/mermaid.min.js.map",
+          "assets/js/vendor/katex.min.js", "assets/js/vendor/auto-render.min.js",
+          "wiki", "raw", "outputs", "CLAUDE.md"]
 
 # Theme is vendored directly in this repo (_includes, _layouts, _sass).
 # No `theme:` or `remote_theme:` — Jekyll uses the local theme files as-is.
