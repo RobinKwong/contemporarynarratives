@@ -8,7 +8,7 @@
             </a>
         </div>
         {% endif %}
-        <span>
+        <div class="post-teaser-text">
           <header>
             <h3 class="post-teaser-title">
               <a aria-label="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
@@ -20,13 +20,13 @@
           {% if site.excerpt or site.theme_settings.excerpt %}
               <div class="excerpt">
                   {% if site.excerpt == "truncate" %}
-                     {{ post.content | strip_html | truncate: '250' | escape }}
+                     {{ post.content | strip_html | truncate: '250' }}
                   {% else %}
-                     {{ post.excerpt | strip_html | escape }}
+                     {{ post.excerpt | strip_html }}
                   {% endif %}
               </div>
           {% endif %}
-      </span>
+      </div>
     </div>
     {% endfor %}
 </div>
