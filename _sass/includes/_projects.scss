@@ -47,3 +47,26 @@
     }
   }
 }
+
+// Blog-style listing of chosen posts on a project page (_includes/post_list.html)
+.post-list {
+  margin: 0.5em 0 1em;
+  border-top: 1px solid $border-color;
+
+  .post-list-item {
+    padding: 1.2em 0;
+    border-bottom: 1px solid $border-color;
+  }
+
+  h3 {
+    margin: 0 0 0.3em;
+  }
+
+  .post-link {
+    color: $text-color;
+  }
+
+  .excerpt {
+    margin: 0.6em 0 0;
+  }
+}

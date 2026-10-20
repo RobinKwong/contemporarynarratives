@@ -13,4 +13,6 @@ The project is led by [Rachel Hamada](https://twitter.com/rachelhamada) and brou
 
 This project is supported by [City University of London](https://www.city.ac.uk/)’s Higher Education Innovation Funding Knowledge Exchange.
 
-Read more about [the intention behind the project](https://contemporarynarratives.org/2023/02/13/its-criminal.html), and [a summary of the performance](https://contemporarynarratives.org/2023/09/20/its-criminal-tron.html).
+### From the blog
+
+{% include post_list.html urls="/2023/02/13/its-criminal.html,/2023/09/20/its-criminal-tron.html" %}

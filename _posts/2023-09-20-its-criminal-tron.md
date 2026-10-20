@@ -1,6 +1,6 @@
 ---
 layout: post
-title: It&#39;s Criminal&#8212at The Tron 
+title: It&#39;s Criminal&#8212;at The Tron
 tags: [Project]
 author: robin
 excerpt_separator: <!--more-->
