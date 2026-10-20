@@ -15,7 +15,7 @@ social_image: assets/img/CNL_Twitter.jpg
 footer_text: " "
 
 # Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+excerpt: true                                           # Or "truncate" (first 40 words), "false" to disable
 post_navigation: true
 color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
@@ -44,7 +44,7 @@ plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-sitemap]
 # drop their lines here if either is turned on). The private wiki/raw/outputs folders are git-excluded,
 # so CI never sees them, but a plain local build would publish them without these entries.
 exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules",
-          "README.md", "LICENSE", "*.gemspec", "assets/Dockerfile", "assets/gulpfile.js", "assets/css/*.less",
+          "README.md", "LICENSE", "*.gemspec", "assets/Dockerfile", "assets/gulpfile.js", "assets/package.json", "assets/css/*.less",
           "assets/js/vendor/mermaid.min.js", "assets/js/vendor/mermaid.min.js.map",
           "assets/js/vendor/katex.min.js", "assets/js/vendor/auto-render.min.js",
           "wiki", "raw", "outputs", "CLAUDE.md"]

@@ -1,5 +1,6 @@
-# The blog moved from /Blog/ to /blog/, where its later pages already were (/blog/page2/).
-# This writes a redirect at the old address, in production builds only: macOS ignores case,
+# The all-posts page moved from /Blog/ to /blog/: on the live (case-sensitive) server /blog/ was a
+# 404, though /blog/page2/ etc. existed (those are later pages of the home page's paginated list,
+# not of /Blog/). This writes a redirect at the old address, in production builds only: macOS ignores case,
 # so a local build would write it over /blog/index.html and /blog/ would redirect to itself.
 module BlogRedirect
   class Generator < Jekyll::Generator
