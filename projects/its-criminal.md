@@ -3,7 +3,7 @@ layout: page
 title: "It's Criminal"
 subtitle: "2023, with The Ferret and Greater Govanhill magazine"
 permalink: /projects/its-criminal/
-feature-img: "assets/img/itscriminal/stage.jpg"
+feature-img: "assets/img/itscriminal/stage-banner.jpg"
 hide: true
 ---
 
