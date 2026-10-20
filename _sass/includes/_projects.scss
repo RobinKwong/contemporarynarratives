@@ -1,0 +1,49 @@
+// Projects index (pages/portfolio.md): one card per project from _data/projects.yml
+.project-cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-card {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+  margin: 0 0 2.5em;
+
+  .project-card-image {
+    flex: 0 0 38%;
+    line-height: 0;
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    margin: 0;
+    padding: 0; // the theme pads every img by 9% of its container
+  }
+
+  h2 {
+    margin: 0 0 0.2em;
+  }
+
+  p {
+    display: block; // the theme sets `li p { display: inline }`
+  }
+
+  .project-card-meta {
+    margin: 0 0 0.6em;
+    color: $meta;
+  }
+
+  @media (max-width: $sm-break) {
+    flex-direction: column;
+    gap: 0.8em;
+
+    .project-card-image {
+      flex-basis: auto;
+      width: 100%;
+    }
+  }
+}

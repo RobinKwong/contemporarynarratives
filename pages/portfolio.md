@@ -6,60 +6,16 @@ feature-img: "assets/img/pexels/projects.jpg"
 tags: [Archive]
 ---
 
-### 2026 Creative Data Exchange with Goldsmiths Futures of Creativity Institute and Fuel
-
-![Person in a red skirt standing in an immersive installation of hanging black threads woven with scattered white numbers](/assets/img/cde/creativedataexchange.jpg)
-<p class="caption">Photo by <a href="https://unsplash.com/@valiant_lambda">Valiant Lambda</a> on <a href="https://unsplash.com/photos/woman-in-red-skirt-in-abstract-art-installation-foVv_PyD-ZY">Unsplash</a></p>
-
-In 2026 the Contemporary Narratives Lab is launching [Creative Data Exchange](https://creativedataexchange.com), a space for open, grounded conversations about working creatively with data and AI. It treats data not only as a technical resource but as a cultural material: something that can be interpreted, questioned and reimagined through creative practice.
-
-In its past projects, the Lab has brought artists, journalists and community members together to pioneer new narrative forms. With Creative Data Exchange, we are asking how data and AI might feed into and strengthen that work — and, in turn, how creative practice might help shape the technologies themselves. We plan to do this by convening an international community interested in working in the intersection of art and data and assembling a programme of discussions and workshops.
-
-Creative Data Exchange is presented by the Contemporary Narratives Lab, in partnership with the [Goldsmiths Futures of Creativity Institute (FOCI)](https://www.gold.ac.uk/news/2026/foci/) and [Fuel](https://fueltheatre.com/). It is supported by the [Software Sustainability Institute](https://www.software.ac.uk/) via an SSI Fellowship 2026.
-
-Follow the project at [creativedataexchange.com](https://creativedataexchange.com).
-
-### 2023 It's Criminal project with The Ferret and Greater Govanhill magazine
-
-In 2023, the Contemporary Narratives lab partnered with [The Ferret](https://theferret.scot/) and [Greater Govanhill](https://www.greatergovanhill.com/) magazine to create a new Glasgow-based participatory journalism-meets-theatre project exploring how stereotypical crime reporting can negatively impact neighbourhoods and communities, and how that can be reimagined.
-
-The project is led by [Rachel Hamada](https://twitter.com/rachelhamada) and brought together a group of people with direct experience of the criminal justice system and with people from communities often scapegoated or blamed for crime. In the summer, It’s Criminal participants put on [a live collaborative journalism show at The Tron theatre](https://contemporarynarratives.org/2023/09/20/its-criminal-tron.html) in Glasgow to present their findings. The Greater Govanhill magazine also [ran a piece](https://www.greatergovanhill.com/latest/its-criminal-at-the-tron-theatre) exploring the issues.
-
-
-This project is supported by [City University of London](https://www.city.ac.uk/)’s Higher Education Innovation Funding Knowledge Exchange.
-
-Read more about [the intention behind the project]((https://contemporarynarratives.org/2023/02/13/its-criminal.html)), and [a summary of the performance](https://contemporarynarratives.org/2023/09/20/its-criminal-tron.html).
-
-
-### 2021 HOME/CARE project with The Bureau of Investigative Journalism and Coney
-
-In early 2021, the Contemporary Narratives Lab embarked on its second project, bringing together interactive theatre-maker [Coney](https://www.youhavefoundconey.net/) and the Health Inequality team at Bureau Local, part of the [Bureau of Investigative Journalism](https://www.thebureauinvestigates.com/). The project is funded by a research grant from City, University of London. 
-
-Unlike our previous pilot project, this partnership between Coney and the Bureau took over a longer ten-week period to create opportunities for sustained dialogue and collaboration. Both parties aim to use the opportunity to work with the public, reporting _with_ rather than _on_ people affected by changes to home care during the pandemic.
-
-![Bureau of Investigative Journalism headline 'Revealed: thousands more deaths in home care during pandemic' beside an elderly person's clasped hands](/assets/img/ConeyTBIJ/homecare.jpg)
-
-As part of their investigations, the Bureau runs "[Open Newsrooms](https://docs.google.com/document/d/1sQRM7I715kuEZJu3N6QODgDgRnRjHhYfYZHxZnKMOwg/edit)" &mdash; one-hour online events that are open to the public, sometimes led by panelists, to allow everyone to delve deeper into a topic area. For this project, Coney designed an "After-Party" experience that allowed participants to reflect on, and share with each other, what they learnt during the _Care in a Time of Crisis_ Open Newsroom.
-
-![Coney Zoom Bar After-Party screen with buttons linking to PDFs for each round of conversation](/assets/img/ConeyTBIJ/afterparty.png)
-
-The investigation has already yielded [an exclusive story](https://www.thebureauinvestigates.com/stories/2021-05-10/revealed-thousands-of-pandemic-deaths-in-home-care) delving into the true number of deaths amongst home care recipients in England and Scotland during the pandemic.
-
-To accompany and build on the reporting in the article, Coney created [a digital storytelling tool](https://www.youhavefoundconey.net/bureaulocal/) to help people document their perspective and circumstances. We hope this might form the beginning of a self-sustaining community, and for individuals and the families of those who receive assistance, who believe they’re invisible, to feel acknowledged.
-
-![Coney digital storytelling tool inviting people with experience of the home care system to leave a voice note or message](/assets/img/ConeyTBIJ/coneytool.png)
-
-At the conclusion of the project, Dr Glenda Cooper wrote a full research report on HOME/CARE. That report is available as [a downloadable PDF here.](/assets/home_care.pdf) 
-
-
-### 2018 pilot project with the Financial Times, People's Palace Projects and the Battersea Arts Centre
-
-In June 2018, The Contemporary Narratives Lab carried out a pilot project that commissioned five groups of artists and journalists to work on stories emerging from the journalists' investigations and articles.
-
-The project was a partnership between the Financial Times, People’s Palace Projects, Queen Mary University of London, and the Battersea Arts Centre to explore the future of storytelling through digital and performance means. It was funded by a research grant from Queen Mary University’s Humanities and Social Science collaboration fund.
-
-After just four days of development and rehearsal, the five sets of artists presented their works-in-progress, which all explored how theatre, performance and journalism can come together to spark curiosity and create meaningful experiences, to a live audience of 40 people at the Battersea Arts Centre. 
-
-Click below for more information about each of the works:
-
-{% include portfolio.html %}
+<ul class="project-cards">
+  {% for p in site.data.projects %}
+  {% if p.public == false %}{% assign href = p.interim_url %}{% else %}{% assign href = p.url | relative_url %}{% endif %}
+  <li class="project-card">
+    <a href="{{ href }}" class="project-card-image"><img src="{{ p.image | relative_url }}" alt="{{ p.alt }}"></a>
+    <div>
+      <h2><a href="{{ href }}">{{ p.title }}</a></h2>
+      <p class="project-card-meta">{{ p.year }}, {{ p.partners }}</p>
+      <p>{{ p.summary }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

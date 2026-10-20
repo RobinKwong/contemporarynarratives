@@ -1,0 +1,37 @@
+# Projects, newest first. Drives the /projects/ index cards and the Projects dropdown in the header.
+# `public: false` keeps a project's own pages unlisted: its card and menu item link to `interim_url` instead.
+# To launch Creative Data Exchange: set public: true here, and remove `sitemap: false` / `noindex: true`
+# from the four pages in projects/creative-data-exchange/.
+- title: Creative Data Exchange
+  year: 2026
+  partners: "with Goldsmiths Futures of Creativity Institute and Fuel"
+  url: /projects/creative-data-exchange/
+  public: false
+  interim_url: https://creativedataexchange.com
+  image: /assets/img/cde/creativedataexchange.jpg
+  alt: "Person in a red skirt standing in an immersive installation of hanging black threads woven with scattered white numbers"
+  summary: "A space for open, grounded conversations about working creatively with data and AI. It treats data not only as a technical resource but as a cultural material, something that can be interpreted, questioned and reimagined through creative practice."
+
+- title: It's Criminal
+  year: 2023
+  partners: "with The Ferret and Greater Govanhill magazine"
+  url: /projects/its-criminal/
+  image: /assets/img/itscriminal/stage.jpg
+  alt: "Eight performers stand in a line on stage holding cards beneath a large projected 'It's Criminal' title"
+  summary: "A Glasgow-based participatory journalism-meets-theatre project exploring how stereotypical crime reporting can negatively impact neighbourhoods and communities, and how that can be reimagined."
+
+- title: HOME/CARE
+  year: 2021
+  partners: "with The Bureau of Investigative Journalism and Coney"
+  url: /projects/home-care/
+  image: /assets/img/ConeyTBIJ/homecare.jpg
+  alt: "Bureau of Investigative Journalism headline 'Revealed: thousands more deaths in home care during pandemic' beside an elderly person's clasped hands"
+  summary: "Interactive theatre-maker Coney and the Bureau Local health inequality team worked over ten weeks to report with, rather than on, people affected by changes to home care during the pandemic."
+
+- title: 2018 pilot
+  year: 2018
+  partners: "with the Financial Times, People's Palace Projects and the Battersea Arts Centre"
+  url: /projects/2018-pilot/
+  image: /assets/img/portfolio/tassos-wide.jpg
+  alt: "People standing to speak among a seated audience in a high-ceilinged performance space"
+  summary: "Five groups of artists and journalists worked on stories emerging from the journalists' investigations, and presented works-in-progress to a live audience after just four days of development and rehearsal."

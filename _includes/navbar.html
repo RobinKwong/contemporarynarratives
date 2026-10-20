@@ -25,11 +25,20 @@
         {% for page in site.pages %}
             {% unless page.title == null or page.hide or name_page contains page.title %}
             <li class="separator"> | </li>
-            <li>
+            <li{% if page.url == "/projects/" %} class="has-subnav"{% endif %}>
                 <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" id="{{ page.title }}" href="{{ page.url | relative_url }}">
                     {% if page.icon %} <i class="{{ page.icon }}" aria-hidden="true"></i>
                     {% else %} {{ page.title }} {% endif%}
                 </a>
+                {% if page.url == "/projects/" %}
+                <!-- Projects dropdown, from _data/projects.yml -->
+                <ul class="subnav">
+                    {% for p in site.data.projects %}
+                    {% if p.public == false %}{% assign href = p.interim_url %}{% else %}{% assign href = p.url | relative_url %}{% endif %}
+                    <li><a href="{{ href }}">{{ p.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
             </li>
             {% assign name_page = page.title | append: name_page %}
             {% endunless %}
