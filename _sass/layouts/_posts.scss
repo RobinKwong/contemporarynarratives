@@ -99,12 +99,14 @@ header {
   border-radius: 1em;
   padding-right: 0.5em;
   display: inline-flex;
-  
+  align-items: center;
+
+  // only the author's name is a link (it used to wrap the avatar and date too), in the byline's own colour
   a {
-    display: flex;
-    align-items: center;
-    img {
-      height: auto;
+    color: inherit;
+
+    &:hover {
+      color: $link-color;
     }
   }
 
@@ -112,7 +114,7 @@ header {
     border-radius: 1em;
     padding: 0;
     width: 1.5em;
-    height: 100%;
+    height: auto;
     margin-right: 0.5em;
   }
 }

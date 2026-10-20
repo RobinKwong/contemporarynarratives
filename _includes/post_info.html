@@ -2,14 +2,12 @@
 {% assign date = include.date | default: "today" | date: "%B %-d, %Y" %}
 
 <div class="post-info">
-  {%- if author.url -%}<a href="{{ author.url | relative_url }}" target="_blank">{%- endif -%}
     {% if author.avatar  %}
-      <img alt="Author's avatar" src="{{ author.avatar | relative_url }}">
+      <img alt="" src="{{ author.avatar | relative_url }}">
     {% endif %}
     <p class="meta">
-      {% if author.name %}{{ author.name }} · {% endif %}
+      {% if author.name %}{% if author.url %}<a href="{{ author.url | relative_url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %} · {% endif %}
       {% assign x = date | date: "%m" | minus: 1 %}
       {{ site.data.language.str_months[x] | default: date | date: "%B" }} {{ date | date: "%-d, %Y" }}
     </p>
-  {%- if author.url -%}</a>{%- endif -%}
 </div>
