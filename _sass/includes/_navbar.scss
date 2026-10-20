@@ -169,11 +169,13 @@ nav {
   }
 }
 
-// phones: the collapsed header renders a fraction short of the body's 47px offset, leaving a hairline;
+// below desktop: fixed padding, because the theme's percentage padding makes the header's height
+// drift with the window width and it never quite matches the body offset (a gap or an overlap);
 // min-height (not height) so the opened menu can still grow
-@media screen and (max-width: $sm-break) {
+@media screen and (max-width: $break - 1) {
   .site-header {
-    min-height: 47px;
+    padding: 12px 15px 6px;
+    min-height: $header-height-mobile;
   }
 }
 

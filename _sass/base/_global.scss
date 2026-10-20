@@ -35,6 +35,10 @@ body {
   position: absolute;
   top: 118px;
 
+  @media (max-width: $break - 1) {
+    top: $header-height-mobile;
+  }
+
   @media (min-width: $break) {
     top: $header-height;
   }
@@ -132,9 +136,6 @@ img[align=right] {
 }
 
 @media screen and (max-width: $sm-break) {
-  body {
-    top: 47px;
-  }
   h1 {
     font-size: 1.5em;
   }

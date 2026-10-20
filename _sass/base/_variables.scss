@@ -40,6 +40,7 @@ $blockquote-color: #EEF7FA; // $background-color;
 // Header
 $header-height: 96px;      // desktop header, exact; body is offset by the same amount because the header is position: fixed
 $header-logo-height: 84px; // desktop logo; leaves 6px of black above and below
+$header-height-mobile: 53px; // collapsed header below $break; body is offset by the same amount
 $header-background-color: color.scale($theme-color, $lightness: -100%); // Only used when no header image
 $header-text-color: #fff;
 $header-link-color: white;
