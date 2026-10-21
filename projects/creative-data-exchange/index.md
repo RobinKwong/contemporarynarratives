@@ -3,9 +3,6 @@ layout: cde
 title: Creative Data Exchange
 permalink: /projects/creative-data-exchange/
 hide: true
-# unlisted preview: remove these two lines when CDE is linked from Projects
-sitemap: false
-noindex: true
 description: "A knowledge exchange project and community of practice for creative projects driven by data investigations."
 ---
 

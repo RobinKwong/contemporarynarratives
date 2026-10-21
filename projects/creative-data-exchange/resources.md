@@ -3,9 +3,6 @@ layout: cde
 title: Creative Data Exchange — Resources
 permalink: /projects/creative-data-exchange/resources/
 hide: true
-# unlisted preview: remove these two lines when CDE is linked from Projects
-sitemap: false
-noindex: true
 ---
 
 This section collects the resources that Creative Data Exchange has been showcasing in our events and community activities. We are forming a library of resources that support creative uses of data, software and creative practice.

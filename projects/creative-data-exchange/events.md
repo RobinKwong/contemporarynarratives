@@ -3,9 +3,6 @@ layout: cde
 title: Creative Data Exchange — Events
 permalink: /projects/creative-data-exchange/events/
 hide: true
-# unlisted preview: remove these two lines when CDE is linked from Projects
-sitemap: false
-noindex: true
 ---
 {% assign base = site.data.cde.base %}
 
