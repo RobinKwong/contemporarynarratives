@@ -3,6 +3,7 @@ layout: cde
 title: Creative Data Exchange — Events
 permalink: /projects/creative-data-exchange/events/
 hide: true
+description: "Creative Data Exchange events, and a recap of our September 2026 Community Call."
 ---
 {% assign base = site.data.cde.base %}
 

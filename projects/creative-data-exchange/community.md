@@ -3,6 +3,7 @@ layout: cde
 title: Creative Data Exchange — Community
 permalink: /projects/creative-data-exchange/community/
 hide: true
+description: "Join a community of artists, creatives, Research Software Engineers and digital research technical professionals working creatively with data."
 ---
 
 We are forming a community of interested artists, creatives, Research Software Engineers and a wide range of digital research technical professionals to exchange expertise, resources and opportunities.
