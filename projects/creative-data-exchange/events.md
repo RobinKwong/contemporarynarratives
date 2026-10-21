@@ -30,4 +30,8 @@ Chaired by **André Piza**, we heard presentations from:
 - **Lydia France**, presenting *Marker*, an AI-based app that supports the creative writer's process rather than writing for them or getting in the way of their creativity. She also showed her research project capturing and analysing bird flight data as Schmidt AI in Science Research Fellow at the University of Oxford.
 - **Kaspar Beelen**, analysing historical newspaper data, finding micro histories from industrial accidents to investigating AI's "moral compass" with digital heritage collections.
 
+#### About the speakers
+
+**Bea Taylor Searle** is a cultural producer and co-founder of Peckham Digital CIC, a Community Interest Company dedicated to widening access to creative technology within the arts. Through its annual festival and year-round programming, it platforms emerging computational artists, champions open-source tools, and builds inclusive spaces for communities to engage with digital art. She is currently pursuing a PhD at London South Bank University, exploring how computational arts can expand digital literacy.
+
 Read more about André, Rosie, Lydia and Kaspar on our [About page]({{ base | append: '#who-we-are' | relative_url }}).

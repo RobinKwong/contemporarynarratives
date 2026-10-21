@@ -9,8 +9,6 @@ noindex: true
 description: "A knowledge exchange project and community of practice for creative projects driven by data investigations."
 ---
 
-## TL;DR
-
 **Creative Data Exchange** is a knowledge exchange project based on the development of a community of practice working on creative projects driven by data investigations. It is designed for those with a research-first approach to data and/or creative practice. Community members come from many different backgrounds; they could be creative practitioners, research professionals, technologists and everything in between. What they have in common is an investigative mind, an interest in working with data, software and creative processes. They could be experienced in an area of creative practice and only curious about data, or very experienced in data research and only curious about creative practice. The purpose of the community is to help bring creativity and digital research expertise together, whatever the level of experience members have on either side of the spectrum.
 
 ## Why it matters
