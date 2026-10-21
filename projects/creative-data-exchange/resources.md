@@ -8,7 +8,7 @@ sitemap: false
 noindex: true
 ---
 
-This section collects the resources that Creative Data Exchange has been showcasing in our events and community activities. We are forming a library of resources that support creative uses of data, software and creative practice. If you would like to submit content to our library, get in touch via {% if site.data.cde.submit_resource_link != "" %}[this form]({{ site.data.cde.submit_resource_link }}).{% else %}this form. <span class="cde-todo">form link to come</span>{% endif %}
+This section collects the resources that Creative Data Exchange has been showcasing in our events and community activities. We are forming a library of resources that support creative uses of data, software and creative practice.
 
 <div class="cde-toc" markdown="1">
 On this page
