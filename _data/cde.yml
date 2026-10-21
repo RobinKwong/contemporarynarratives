@@ -4,7 +4,7 @@
 base: /projects/creative-data-exchange/
 
 nav:
-  - title: About
+  - title: About CDE
     url: ""
   - title: Community
     url: community/
@@ -17,9 +17,7 @@ banner: /assets/img/cde/creativedataexchange.jpg
 banner_credit: 'Photo by <a href="https://unsplash.com/@valiant_lambda">Valiant Lambda</a> on <a href="https://unsplash.com/photos/woman-in-red-skirt-in-abstract-art-installation-foVv_PyD-ZY">Unsplash</a>'
 
 join_form: https://forms.cloud.microsoft/e/37L3J91cd0
-updates_link: ""        # TODO(André): "Sign up to updates" link
-mailing_list_link: ""   # TODO(André): mailing-list sign-up, if different from the form above
-submit_resource_link: "" # TODO(André): form for suggesting a resource
+mailing_list: https://forms.cloud.microsoft/e/u51nZjaAsc   # email updates only, without joining the community
 privacy_notice: https://www.gold.ac.uk/data-protection/privacy-notices/
 
 partners:

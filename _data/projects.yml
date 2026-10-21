@@ -1,13 +1,9 @@
 # Projects, newest first. Drives the /projects/ index cards and the Projects dropdown in the header.
 # `public: false` keeps a project's own pages unlisted: its card and menu item link to `interim_url` instead.
-# To launch Creative Data Exchange: set public: true here, and remove `sitemap: false` / `noindex: true`
-# from the four pages in projects/creative-data-exchange/.
 - title: Creative Data Exchange
   year: 2026
   partners: "with Goldsmiths Futures of Creativity Institute and Fuel"
   url: /projects/creative-data-exchange/
-  public: false
-  interim_url: https://creativedataexchange.com
   image: /assets/img/cde/creativedataexchange.jpg
   image_position: right center # keeps the figure in the red skirt in the crop
   alt: "Person in a red skirt standing in an immersive installation of hanging black threads woven with scattered white numbers"

@@ -6,6 +6,6 @@
     <li><a href="{{ cde.base | append: item.url | relative_url }}">{{ item.title }}</a></li>
     {% endfor %}
     <li><a href="{{ cde.join_form }}">Join our community</a></li>
-    <li>{% if cde.updates_link != "" %}<a href="{{ cde.updates_link }}">Sign up to updates</a>{% else %}Sign up to updates <span class="cde-todo">link to come</span>{% endif %}</li>
+    <li><a href="{{ cde.mailing_list }}">Sign up to updates</a></li>
   </ul>
 </div>
