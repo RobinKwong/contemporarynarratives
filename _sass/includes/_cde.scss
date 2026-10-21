@@ -17,7 +17,8 @@
 
   // Clear the sticky site header when jumping to an anchor
   .post-content h2,
-  .post-content h3 {
+  .post-content h3,
+  .post-content h4 {
     scroll-margin-top: 120px;
   }
 
