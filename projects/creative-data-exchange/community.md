@@ -8,7 +8,7 @@ sitemap: false
 noindex: true
 ---
 
-We are forming a community of interested artists, creatives, Research Software Engineers and a wide range of Digital Technical Professionals to exchange expertise, resources and opportunities.
+We are forming a community of interested artists, creatives, Research Software Engineers and a wide range of digital research technical professionals to exchange expertise, resources and opportunities.
 
 We will deliver workshops in 2026 and 2027 bringing together creatives and data investigators (our way to refer to Research Software Engineers and the whole spectrum of digital research technical professionals, or dRTPs) to exchange their practice and make progress on data-driven creative projects.
 
