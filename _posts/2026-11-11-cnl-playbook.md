@@ -21,7 +21,7 @@ The Playbook draws on two of our projects: [HOME/CARE](/projects/home-care/) (20
 
 It follows a project through three phases: deciding whether it should happen at all; listening, devising and performing the work with the community; and reflecting on its impact and what carries on afterwards. Along the way, it takes up practical questions such work raises: who owns the finished work, how to keep participants emotionally safe, what the project will really cost, and how to show its impact. It answers them with worked examples and two real project budgets.
 
-This Playbook is not a recipe: readers can take guidance and inspiration from it based on the phase they're in, and leave what doesn't apply.
+This Playbook is not a recipe: readers can take guidance based on the phase they're in, and leave what doesn't apply.
 
 The companion workbook has twelve fill-in sheets, starting with a community map.
 
