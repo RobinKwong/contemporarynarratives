@@ -23,7 +23,7 @@ It follows a project through three phases: deciding whether it should happen at 
 
 This Playbook is not a recipe: readers can take guidance based on the phase they're in, and leave what doesn't apply.
 
-The companion workbook has twelve fill-in sheets, starting with a community map.
+It also comes with a companion workbook of twelve fill-in sheets, starting with a community map to help you understand who is in the community you're working with, and how it is divided.
 
 ## Credits
 
