@@ -19,7 +19,7 @@ The Contemporary Narratives Lab brings artists, journalists, researchers and com
 
 The Playbook draws on two of our projects: [HOME/CARE](/projects/home-care/) (2021), made with the Bureau of Investigative Journalism and the theatre company Coney about home care during the pandemic, and [It's Criminal](/projects/its-criminal/) (2023), made with The Ferret and residents of Govanhill in Glasgow about how crime reporting affects communities. It also draws on feedback from a June 2026 roundtable of journalists, artists, community participants and academics.
 
-It follows a project through three phases: deciding whether it should happen at all; listening, devising and performing the work with the community; and reflecting on its impact and what carries on afterwards. Along the way it takes up the practical questions such work raises: who owns the finished work, how to keep participants emotionally safe, what the project will really cost, and how to show its impact. It answers them with worked examples and two real project budgets.
+It follows a project through three phases: deciding whether it should happen at all; listening, devising and performing the work with the community; and reflecting on its impact and what carries on afterwards. Along the way, it takes up practical questions such work raises: who owns the finished work, how to keep participants emotionally safe, what the project will really cost, and how to show its impact. It answers them with worked examples and two real project budgets.
 
 It is not a recipe: readers can take the phase they are in and leave what doesn't apply.
 
